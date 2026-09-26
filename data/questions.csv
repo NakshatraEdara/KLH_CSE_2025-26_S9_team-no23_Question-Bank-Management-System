@@ -1,0 +1,115 @@
+# QUESTION BANK DATASET - lines starting with # are notes and are ignored by the program
+# Every data row has 7 columns separated by the | symbol:
+#   id         = unique question number (whole number, must never repeat)
+#   subject    = the course the question belongs to (e.g. Data Structures)
+#   topic      = the main topic inside that subject (e.g. Stack)
+#   difficulty = Easy, Medium or Hard
+#   marks      = marks given for the question (a number: Easy 2, Medium 5, Hard 10)
+#   tags       = ALL topics the question covers, separated by ; (used by the bitmask DP)
+#   text       = the actual question (must not contain the | symbol)
+id|subject|topic|difficulty|marks|tags|text
+1|Data Structures|Stack|Easy|2|Stack|What is a stack and where is it used?
+2|Data Structures|Stack|Easy|2|Stack|Explain what is a stack and where is it used in real applications.
+3|Data Structures|Stack|Medium|5|Stack;LinkedList|Explain how a stack can be implemented using a linked list and state the time complexity of each operation.
+4|Data Structures|Stack|Hard|10|Stack|Evaluate a postfix expression using a stack and write the algorithm with its time complexity.
+5|Data Structures|Queue|Easy|2|Queue;Stack|What is a queue and how does it differ from a stack?
+6|Data Structures|Queue|Medium|5|Queue|Explain a circular queue and why it avoids wasted space in an array implementation.
+7|Data Structures|Queue|Medium|5|Queue;Stack|Implement a queue using two stacks and analyse the time complexity of enqueue and dequeue.
+8|Data Structures|LinkedList|Easy|2|LinkedList|Define a singly linked list and list its advantages over an array.
+9|Data Structures|LinkedList|Medium|5|LinkedList|Write an algorithm to reverse a singly linked list.
+10|Data Structures|LinkedList|Hard|10|LinkedList|Explain how to detect a cycle in a linked list using Floyd's algorithm and find the starting node of the cycle.
+11|Data Structures|Tree|Easy|2|Tree|Define a binary tree and explain the terms height, depth and leaf node.
+12|Data Structures|Tree|Medium|5|Tree|Explain inorder, preorder and postorder traversal of a binary tree with an example.
+13|Data Structures|Tree|Hard|10|Tree;Stack|Write a non recursive inorder traversal of a binary tree using a stack and give its time complexity.
+14|Data Structures|BST|Easy|2|BST;Tree|What is a binary search tree and what property does it maintain?
+15|Data Structures|BST|Medium|5|BST|Write the algorithm to insert a key into a binary search tree.
+16|Data Structures|BST|Hard|10|BST|Explain deletion of a node with two children in a binary search tree and analyse the time complexity.
+17|Data Structures|Heap|Easy|2|Heap;Tree|What is a max heap and how is it stored in an array?
+18|Data Structures|Heap|Medium|5|Heap|Explain the heapify operation and the time complexity of building a heap.
+19|Data Structures|Heap|Hard|10|Heap;Queue|Explain how a priority queue is implemented using a heap and analyse the time complexity of its operations.
+20|Data Structures|Hashing|Medium|5|Hashing|What is hashing and how does chaining resolve collisions?
+21|Data Structures|Hashing|Hard|10|Hashing|Compare linear probing and double hashing and explain the average time complexity of search in a hash table.
+22|Algorithms|Sorting|Easy|2|Sorting|What is a stable sorting algorithm? Give one example.
+23|Algorithms|Sorting|Medium|5|Sorting|Compare bubble sort, selection sort and insertion sort in terms of time complexity.
+24|Algorithms|Sorting|Hard|10|Sorting|Prove that any comparison based sorting algorithm needs at least n log n comparisons in the worst case.
+25|Algorithms|MergeSort|Easy|2|MergeSort;Sorting|What is the divide and conquer strategy used in merge sort?
+26|Algorithms|MergeSort|Medium|5|MergeSort|Explain merge sort and derive its time complexity using a recurrence relation.
+27|Algorithms|MergeSort|Hard|10|MergeSort|Modify merge sort to count the number of inversions in an array and analyse the time complexity.
+28|Algorithms|QuickSort|Easy|2|QuickSort|What is the role of the pivot element in quick sort?
+29|Algorithms|QuickSort|Medium|5|QuickSort;Sorting|Compare the best case and worst case time complexity of quick sort and explain how a randomised pivot helps.
+30|Algorithms|QuickSort|Hard|10|QuickSort|Solve the recurrence for the average case of quick sort and show that it is O of n log n.
+31|Algorithms|DynamicProgramming|Easy|2|DynamicProgramming|What is dynamic programming and what are overlapping subproblems?
+32|Algorithms|DynamicProgramming|Medium|5|DynamicProgramming|Write the dynamic programming solution for the 0/1 knapsack problem.
+33|Algorithms|DynamicProgramming|Medium|5|DynamicProgramming|Find the longest common subsequence of two strings using dynamic programming.
+34|Algorithms|DynamicProgramming|Hard|10|DynamicProgramming|Explain matrix chain multiplication using dynamic programming and give the recurrence and time complexity.
+35|Algorithms|DynamicProgramming|Hard|10|DynamicProgramming;Greedy|Explain the difference between greedy method and dynamic programming with examples.
+36|Algorithms|Greedy|Easy|2|Greedy|What is a greedy algorithm and when does it give an optimal solution?
+37|Algorithms|Greedy|Medium|5|Greedy|Write the greedy algorithm for the activity selection problem.
+38|Algorithms|Greedy|Medium|5|Greedy|Explain Huffman coding with an example and analyse the time complexity.
+39|Algorithms|Greedy|Hard|10|Greedy;DynamicProgramming|State the difference between greedy method and dynamic programming with an example.
+40|Algorithms|StringMatching|Easy|2|StringMatching|What is the naive string matching algorithm and what is its time complexity?
+41|Algorithms|StringMatching|Medium|5|StringMatching|Explain how the KMP algorithm uses the prefix function to avoid rechecking characters in string matching.
+42|Algorithms|StringMatching|Hard|10|StringMatching|Explain the Rabin Karp algorithm with a rolling hash and discuss its expected and worst case time complexity.
+43|DBMS|Normalization|Easy|2|Normalization|What is normalization and why is it needed in a database?
+44|DBMS|Normalization|Easy|2|Normalization|Explain what is normalization and why is it needed in a relational database.
+45|DBMS|Normalization|Medium|5|Normalization|Explain first, second and third normal form with examples.
+46|DBMS|Normalization|Medium|5|Normalization|What is a functional dependency and how is a candidate key found using it?
+47|DBMS|Normalization|Hard|10|Normalization|Decompose a given relation into third normal form and check that the decomposition is lossless and dependency preserving.
+48|DBMS|BCNF|Medium|5|BCNF;Normalization|How does Boyce Codd normal form differ from third normal form?
+49|DBMS|BCNF|Hard|10|BCNF|Give an example of a relation that is in third normal form but not in BCNF and decompose it.
+50|DBMS|SQL|Easy|2|SQL|What is the difference between DDL and DML commands in SQL?
+51|DBMS|SQL|Easy|2|SQL|Write an SQL query to display all employees whose salary is greater than 50000.
+52|DBMS|SQL|Medium|5|SQL|Explain the different types of joins in SQL with examples.
+53|DBMS|SQL|Medium|5|SQL;Indexing|Write an SQL query using GROUP BY and HAVING and explain how an index can speed it up.
+54|DBMS|SQL|Medium|5|SQL|What is a subquery and how is it different from a join?
+55|DBMS|SQL|Hard|10|SQL|Write a nested SQL query to find the second highest salary in each department.
+56|DBMS|Transactions|Easy|2|Transactions|What are the ACID properties of a transaction?
+57|DBMS|Transactions|Medium|5|Transactions|Explain conflict serializability and how a precedence graph is used to test it.
+58|DBMS|Transactions|Hard|10|Transactions|Explain two phase locking and show how it can lead to a deadlock.
+59|DBMS|Transactions|Hard|10|Transactions|Explain the recovery of a database using the write ahead log after a system crash.
+60|DBMS|Indexing|Easy|2|Indexing|What is an index in a database and why does it speed up search?
+61|DBMS|Indexing|Medium|5|Indexing|Explain the structure of a B plus tree and how a search is performed in it.
+62|DBMS|Indexing|Hard|10|Indexing|Compare a B tree and a B plus tree and analyse the time complexity of insertion.
+63|DBMS|Indexing|Medium|5|Indexing;Hashing|Compare ordered indexing and hash based indexing for equality and range queries.
+64|Operating Systems|Scheduling|Easy|2|Scheduling|What is CPU scheduling and why is it needed?
+65|Operating Systems|Scheduling|Easy|2|Scheduling|Define turnaround time, waiting time and response time.
+66|Operating Systems|Scheduling|Medium|5|Scheduling|Explain the round robin scheduling algorithm and the effect of the time quantum.
+67|Operating Systems|Scheduling|Medium|5|Scheduling|Compare first come first served and shortest job first scheduling with an example.
+68|Operating Systems|Scheduling|Hard|10|Scheduling|Calculate the average waiting time for a set of processes using preemptive priority scheduling and explain starvation.
+69|Operating Systems|Deadlock|Easy|2|Deadlock|What is a deadlock and what are the four necessary conditions for deadlock?
+70|Operating Systems|Deadlock|Easy|2|Deadlock|Explain what is a deadlock and what are the four necessary conditions for it.
+71|Operating Systems|Deadlock|Medium|5|Deadlock|Explain deadlock prevention and deadlock avoidance.
+72|Operating Systems|Deadlock|Hard|10|Deadlock|Explain the bankers algorithm with an example and check whether a system is in a safe state.
+73|Operating Systems|Memory|Easy|2|Memory|What is the difference between internal fragmentation and external fragmentation?
+74|Operating Systems|Memory|Medium|5|Memory|Explain first fit, best fit and worst fit memory allocation.
+75|Operating Systems|Memory|Hard|10|Memory;Paging|Explain how virtual memory works and why it allows a program larger than physical memory to run.
+76|Operating Systems|Paging|Easy|2|Paging;Memory|What is paging and how is a logical address translated into a physical address?
+77|Operating Systems|Paging|Medium|5|Paging|Explain the page table and the role of the translation lookaside buffer.
+78|Operating Systems|Paging|Medium|5|Paging|Explain the FIFO and LRU page replacement algorithms with an example.
+79|Operating Systems|Paging|Hard|10|Paging|Explain Belady's anomaly and show it with a reference string using FIFO page replacement.
+80|Operating Systems|Synchronization|Easy|2|Synchronization|What is a race condition and what is the critical section problem?
+81|Operating Systems|Synchronization|Medium|5|Synchronization;Deadlock|Explain semaphores and show how misuse of semaphores can cause a deadlock.
+82|Operating Systems|Synchronization|Medium|5|Synchronization|Write the solution of the producer consumer problem using semaphores.
+83|Operating Systems|Synchronization|Hard|10|Synchronization|Explain the dining philosophers problem and give a solution that avoids deadlock and starvation.
+84|Operating Systems|Synchronization|Hard|10|Synchronization|Explain monitors and compare them with semaphores.
+85|Computer Networks|OSI|Easy|2|OSI|What are the seven layers of the OSI model?
+86|Computer Networks|OSI|Easy|2|OSI|Differentiate between the OSI model and the TCP IP model.
+87|Computer Networks|OSI|Medium|5|OSI|Explain the functions of the data link layer and the network layer.
+88|Computer Networks|OSI|Hard|10|OSI;Routing|Explain how a packet travels from a source host to a destination host through the layers of the OSI model and routers.
+89|Computer Networks|TCP|Easy|2|TCP|Explain the three way handshake used in TCP connection establishment.
+90|Computer Networks|TCP|Easy|2|TCP|Describe the three way handshake used in TCP connection establishment.
+91|Computer Networks|TCP|Medium|5|TCP|Differentiate between TCP and UDP with examples of applications.
+92|Computer Networks|TCP|Hard|10|TCP|Explain flow control in TCP using the sliding window protocol.
+93|Computer Networks|Routing|Medium|5|Routing|Explain the distance vector routing algorithm and the count to infinity problem.
+94|Computer Networks|Routing|Medium|5|Routing|Explain link state routing and how Dijkstra's algorithm is used in it.
+95|Computer Networks|Routing|Hard|10|Routing|Compare distance vector and link state routing in terms of convergence and message overhead.
+96|Computer Networks|Routing|Easy|2|Routing|What is a routing table and what does it contain?
+97|Computer Networks|Routing|Hard|10|Routing|Explain the working of the border gateway protocol and the difference between interior and exterior routing protocols.
+98|Computer Networks|Congestion|Medium|5|Congestion;TCP|Explain TCP congestion control including slow start and congestion avoidance.
+99|Computer Networks|Congestion|Hard|10|Congestion|Explain the leaky bucket and token bucket algorithms for congestion control.
+100|Computer Networks|Congestion|Easy|2|Congestion|What is network congestion and what are its causes?
+101|Computer Networks|IP|Easy|2|IP|What is an IP address and how is it divided into a network part and a host part?
+102|Computer Networks|IP|Medium|5|IP|Explain classless addressing and subnetting with an example.
+103|Computer Networks|IP|Medium|5|IP|Divide the network 192.168.1.0/24 into four equal subnets and list the address range of each.
+104|Computer Networks|IP|Hard|10|IP|Explain IPv4 header fields and how fragmentation is performed on a large packet.
+105|Computer Networks|IP|Medium|5|IP|Compare IPv4 and IPv6 addressing.
