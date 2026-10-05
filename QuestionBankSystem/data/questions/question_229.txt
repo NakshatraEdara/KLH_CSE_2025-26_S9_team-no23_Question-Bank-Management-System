@@ -1,0 +1,21 @@
+Question ID: 229
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How can the KMP LPS array be used to find the length of the smallest repeating substring unit that can generate a string s of length n?
+
+Options:
+A. If n % (n - lps[n - 1]) == 0 and lps[n - 1] > 0, the smallest period length is n - lps[n - 1]
+B. The period length is always lps[n - 1]
+C. The period length is n / 2
+D. Periodicity cannot be determined using the LPS array
+
+Correct Answer: A
+
+Explanation:
+If a string is periodic, the border length k = lps[n - 1] leaves period p = n - k. If p divides n evenly, the prefix of length p is the minimal generating unit.
+
+Marks: 10

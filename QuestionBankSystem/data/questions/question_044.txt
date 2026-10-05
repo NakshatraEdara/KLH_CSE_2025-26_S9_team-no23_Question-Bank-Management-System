@@ -1,0 +1,21 @@
+Question ID: 44
+Subject: Data Structures and Algorithms
+Topic: Binary Search Tree
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the worst-case time complexity of searching for a key in an unbalanced Binary Search Tree with n nodes?
+
+Options:
+A. O(n)
+B. O(log n)
+C. O(1)
+D. O(n log n)
+
+Correct Answer: A
+
+Explanation:
+When keys are inserted in sorted order, an unbalanced BST degenerates into a linear linked list of height n, making search O(n) in the worst case.
+
+Marks: 5

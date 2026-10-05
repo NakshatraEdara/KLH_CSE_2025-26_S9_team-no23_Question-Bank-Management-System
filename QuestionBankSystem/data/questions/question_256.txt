@@ -1,0 +1,21 @@
+Question ID: 256
+Subject: Data Structures and Algorithms
+Topic: Suffix Arrays
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+Why is a Suffix Array often preferred over a Suffix Tree in production software and memory-constrained systems?
+
+Options:
+A. Suffix Arrays require 4 to 8 times less memory than Suffix Trees and have excellent CPU cache locality due to flat array layout
+B. Suffix Trees cannot perform pattern matching
+C. Suffix Trees only work on binary strings
+D. Suffix Arrays do not require building algorithms
+
+Correct Answer: A
+
+Explanation:
+Suffix trees have heavy node pointer overhead (often 20-40 bytes per character). Suffix arrays use a single integer array of 4-8 bytes per character, providing dramatic memory savings and superior cache performance.
+
+Marks: 5

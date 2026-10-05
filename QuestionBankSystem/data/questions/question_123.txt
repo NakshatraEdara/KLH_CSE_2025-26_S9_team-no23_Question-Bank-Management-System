@@ -1,0 +1,21 @@
+Question ID: 123
+Subject: Data Structures and Algorithms
+Topic: Graphs
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How does Tarjan's Strongly Connected Components (SCC) algorithm identify SCCs in a directed graph in a single DFS pass?
+
+Options:
+A. By maintaining discovery time (disc) and lowest reachable discovery time (low) on a DFS stack; root of an SCC has disc[u] == low[u]
+B. By running Dijkstra from every vertex
+C. By squaring the adjacency matrix
+D. By performing 2^V randomized BFS traversals
+
+Correct Answer: A
+
+Explanation:
+Tarjan's algorithm uses disc and low values computed in DFS. When backtracking finds low[u] == disc[u], node u is the root of an SCC, and popping the DFS stack down to u yields the SCC in O(V + E) time.
+
+Marks: 10

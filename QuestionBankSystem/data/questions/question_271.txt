@@ -1,0 +1,21 @@
+Question ID: 271
+Subject: Data Structures and Algorithms
+Topic: Sequence Alignment
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+In sequence alignment, what is an Affine Gap Penalty, and why is it biologically realistic?
+
+Options:
+A. Penalty = gap_open + (k - 1) * gap_extend; opening a gap is penalized heavily, but extending an existing gap costs less
+B. Penalty is proportional to k^2
+C. Gaps have zero penalty
+D. Only gaps of size 1 are allowed
+
+Correct Answer: A
+
+Explanation:
+Biological insertions and deletions often occur in multi-nucleotide blocks. Penalizing gap opening more than gap extension (Gotoh's algorithm) mirrors natural evolutionary mutation patterns.
+
+Marks: 10

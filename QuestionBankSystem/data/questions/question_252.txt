@@ -1,0 +1,21 @@
+Question ID: 252
+Subject: Data Structures and Algorithms
+Topic: LCP Array
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How does an LCP array allow counting the total number of distinct substrings in a string of length n in O(n) time?
+
+Options:
+A. Total distinct substrings = n*(n + 1)/2 - sum(LCP[i] for i = 1 to n-1)
+B. Total distinct substrings = sum(LCP[i])
+C. Total distinct substrings = n * LCP[0]
+D. Total distinct substrings = 2^n - sum(LCP[i])
+
+Correct Answer: A
+
+Explanation:
+A string of length n has n*(n+1)/2 total substrings. Each adjacent pair in the sorted suffix array shares LCP[i] duplicate prefixes, so subtracting sum(LCP) removes all duplicates.
+
+Marks: 5

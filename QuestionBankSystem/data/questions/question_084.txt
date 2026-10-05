@@ -1,0 +1,21 @@
+Question ID: 84
+Subject: Data Structures and Algorithms
+Topic: Fenwick Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+How much auxiliary space is required by a standard 1D Fenwick Tree for an array of size n?
+
+Options:
+A. O(n)
+B. O(n log n)
+C. O(n^2)
+D. O(1)
+
+Correct Answer: A
+
+Explanation:
+A Fenwick Tree requires a single linear array of size n + 1, achieving compact O(n) space without explicit pointer overhead.
+
+Marks: 2

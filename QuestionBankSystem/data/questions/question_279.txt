@@ -1,0 +1,21 @@
+Question ID: 279
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What are the two fundamental constraints every valid network flow f must satisfy for all edges (u, v) and internal vertices?
+
+Options:
+A. Capacity Constraint (0 <= f(u, v) <= c(u, v)) and Flow Conservation (inflow = outflow for all vertices except source and sink)
+B. Cycle Constraint and Negative Flow Constraint
+C. Degree Constraint and Coloring Constraint
+D. All edges must carry equal flow
+
+Correct Answer: A
+
+Explanation:
+Capacity constraint ensures flow does not exceed pipe capacity. Conservation of flow guarantees that no flow is created or destroyed at any intermediate vertex.
+
+Marks: 2

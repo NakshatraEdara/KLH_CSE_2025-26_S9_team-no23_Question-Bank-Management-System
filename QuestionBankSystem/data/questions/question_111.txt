@@ -1,0 +1,21 @@
+Question ID: 111
+Subject: Data Structures and Algorithms
+Topic: B-Trees
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is a 2-3-4 Tree, and what binary search tree is directly isomorphic to it?
+
+Options:
+A. A B-Tree of order 4, isomorphic to a Red-Black Tree
+B. An AVL tree with balance factor 4
+C. A Splay tree
+D. A Trie of depth 4
+
+Correct Answer: A
+
+Explanation:
+A 2-3-4 tree (order 4 B-tree) has a 1-to-1 structural correspondence with Red-Black trees, where 3-nodes and 4-nodes are represented by clusters of red-linked nodes.
+
+Marks: 5

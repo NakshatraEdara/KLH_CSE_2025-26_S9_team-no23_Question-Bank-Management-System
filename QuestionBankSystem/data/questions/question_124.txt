@@ -1,0 +1,21 @@
+Question ID: 124
+Subject: Data Structures and Algorithms
+Topic: Graphs
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What are the two passes of Kosaraju's algorithm for finding Strongly Connected Components?
+
+Options:
+A. Pass 1: standard DFS on graph G to order vertices by exit (finish) times; Pass 2: DFS on reversed graph G^T in decreasing order of finish times
+B. Pass 1: BFS from vertex 0; Pass 2: BFS from vertex V-1
+C. Pass 1: Prim's algorithm; Pass 2: Kruskal's algorithm
+D. Pass 1: Sort edges; Pass 2: Binary search on paths
+
+Correct Answer: A
+
+Explanation:
+Kosaraju's algorithm computes finish order on G using DFS, then traverses the transposed graph G^T in reverse finish order so SCCs are isolated without bleeding into downstream components.
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 65
+Subject: Data Structures and Algorithms
+Topic: Hashing
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the primary objective of a good hash function?
+
+Options:
+A. Distribute keys uniformly across the hash table slots to minimize collisions
+B. Sort all keys in ascending order during hashing
+C. Ensure every key hashes to the same slot
+D. Guarantee that the hash table size never exceeds 10 elements
+
+Correct Answer: A
+
+Explanation:
+A good hash function satisfies the uniform hashing assumption: each key is equally likely to hash into any of the available m slots, minimizing collisions.
+
+Marks: 2

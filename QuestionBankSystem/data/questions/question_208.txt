@@ -1,0 +1,21 @@
+Question ID: 208
+Subject: Data Structures and Algorithms
+Topic: Dynamic Programming
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is Tree DP (Dynamic Programming on Trees)?
+
+Options:
+A. Computing subproblem states for each node based on the aggregated states of its children using post-order DFS traversal
+B. Storing trees inside an AVL tree
+C. Converting a graph to a Segment Tree
+D. Sorting tree vertices in alphabetical order
+
+Correct Answer: A
+
+Explanation:
+Tree DP solves optimization problems (e.g., maximum independent set or tree diameter) by running post-order DFS so that a node's DP value is computed from its children's already-computed DP values.
+
+Marks: 10

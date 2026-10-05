@@ -1,0 +1,21 @@
+Question ID: 17
+Subject: Data Structures and Algorithms
+Topic: Stacks
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Which of the following problems is most naturally solved using a stack?
+
+Options:
+A. Balanced parentheses checking in a compiler
+B. Breadth-First Search on a graph
+C. Shortest path in an unweighted graph
+D. Round-robin CPU scheduling
+
+Correct Answer: A
+
+Explanation:
+Checking balanced parentheses requires matching the most recent opening bracket with the current closing bracket, which is a textbook LIFO application.
+
+Marks: 2

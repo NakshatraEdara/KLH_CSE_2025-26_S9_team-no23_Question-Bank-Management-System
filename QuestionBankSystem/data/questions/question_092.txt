@@ -1,0 +1,21 @@
+Question ID: 92
+Subject: Data Structures and Algorithms
+Topic: Segment Tree
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is a Persistent Segment Tree, and how does it retain access to previous versions of the tree after updates?
+
+Options:
+A. It creates only O(log n) new nodes along the modification path (path copying) while sharing unchanged subtrees with earlier versions
+B. It saves every version to a disk file using serialization
+C. It rebuilds the entire segment tree from scratch on every update
+D. It uses an array of size O(n^2) to copy all data
+
+Correct Answer: A
+
+Explanation:
+Persistent segment trees use node sharing: each update creates new nodes only along the modified root-to-leaf path (O(log n) nodes), preserving pointer access to previous tree roots.
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 97
+Subject: Data Structures and Algorithms
+Topic: Segment Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+In an iterative (bottom-up) Segment Tree of size n with leaves stored at indices [n, 2n - 1], what are the left and right children of node p?
+
+Options:
+A. Left: 2 * p, Right: 2 * p + 1
+B. Left: p - 1, Right: p + 1
+C. Left: p / 2, Right: p / 2 + 1
+D. Left: p + n, Right: p + n + 1
+
+Correct Answer: A
+
+Explanation:
+In an iterative segment tree, node p has left child at 2*p, right child at 2*p + 1, and parent at p >> 1, eliminating recursion and pointer overhead.
+
+Marks: 2

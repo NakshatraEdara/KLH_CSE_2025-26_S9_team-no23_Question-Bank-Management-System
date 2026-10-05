@@ -1,0 +1,21 @@
+Question ID: 223
+Subject: Data Structures and Algorithms
+Topic: Backtracking
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the base case condition in a recursive backtracking function for generating subsets of an array of length n?
+
+Options:
+A. When the recursion index reaches n
+B. When the array is sorted
+C. When index equals 0
+D. When the sum is negative
+
+Correct Answer: A
+
+Explanation:
+When the index reaches n, decisions for all elements in the input array have been made. The current accumulated subset is added to the results and the function returns.
+
+Marks: 2

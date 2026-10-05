@@ -1,0 +1,21 @@
+Question ID: 110
+Subject: Data Structures and Algorithms
+Topic: B-Trees
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is a 2-3 Tree in relation to general B-Trees?
+
+Options:
+A. A B-Tree of order 3, where every internal node has either 2 children (1 key) or 3 children (2 keys)
+B. A binary tree with depth 2 or 3
+C. A heap with two roots
+D. A tree with 2 leaves and 3 roots
+
+Correct Answer: A
+
+Explanation:
+A 2-3 tree is a B-tree of order 3. Each internal node is either a 2-node (1 key, 2 children) or a 3-node (2 keys, 3 children).
+
+Marks: 5

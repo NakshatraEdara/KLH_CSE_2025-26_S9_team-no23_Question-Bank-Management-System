@@ -1,0 +1,21 @@
+Question ID: 83
+Subject: Data Structures and Algorithms
+Topic: Fenwick Tree
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of computing a prefix sum query and performing a point update in a Fenwick tree of size n?
+
+Options:
+A. O(log n) for both query and update
+B. O(1) for query and O(n) for update
+C. O(n) for query and O(1) for update
+D. O(log n) for query and O(1) for update
+
+Correct Answer: A
+
+Explanation:
+Both prefix sum computation and point updates traverse the tree by adding or subtracting the lowest set bit, hopping through at most log2(n) states in O(log n) time.
+
+Marks: 5

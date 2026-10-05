@@ -1,0 +1,21 @@
+Question ID: 144
+Subject: Data Structures and Algorithms
+Topic: Minimum Spanning Tree
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What does the Cut Property of Minimum Spanning Trees state?
+
+Options:
+A. For any cut in the graph, the minimum-weight edge crossing the cut belongs to every MST (if weights are unique)
+B. The heaviest edge in any cut must always be in the MST
+C. A cut can have at most one edge
+D. Every vertex in a cut has degree 2
+
+Correct Answer: A
+
+Explanation:
+The Cut Property states that for any partition of vertices into sets S and V\S, the edge with the strictly minimum weight crossing between S and V\S is part of the MST.
+
+Marks: 10

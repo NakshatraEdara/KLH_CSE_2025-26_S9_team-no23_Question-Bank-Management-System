@@ -1,0 +1,21 @@
+Question ID: 257
+Subject: Data Structures and Algorithms
+Topic: Suffix Arrays
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the Burrows-Wheeler Transform (BWT), and how can it be constructed directly from a Suffix Array SA of text T of length n?
+
+Options:
+A. BWT[i] = T[(SA[i] - 1 + n) % n], taking the character immediately preceding each sorted suffix
+B. BWT[i] = T[SA[i]]
+C. BWT[i] = reverse(T)[SA[i]]
+D. BWT is constructed only via Huffman coding
+
+Correct Answer: A
+
+Explanation:
+The BWT is the last column of the sorted matrix of cyclic rotations of T. This corresponds exactly to the character preceding each suffix in the suffix array: T[(SA[i] - 1 + n) % n].
+
+Marks: 10

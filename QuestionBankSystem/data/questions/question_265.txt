@@ -1,0 +1,21 @@
+Question ID: 265
+Subject: Data Structures and Algorithms
+Topic: Edit Distance
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the standard dynamic programming recurrence for Levenshtein distance dp[i][j] (where cost of substitute is 1 if s1[i-1] != s2[j-1] else 0)?
+
+Options:
+A. dp[i][j] = min(dp[i-1][j] + 1, dp[i][j-1] + 1, dp[i-1][j-1] + cost)
+B. dp[i][j] = dp[i-1][j-1] + dp[i-1][j]
+C. dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+D. dp[i][j] = dp[i-1][j] * dp[i][j-1]
+
+Correct Answer: A
+
+Explanation:
+dp[i-1][j] + 1 corresponds to deletion, dp[i][j-1] + 1 corresponds to insertion, and dp[i-1][j-1] + cost corresponds to matching or substitution.
+
+Marks: 5

@@ -1,0 +1,21 @@
+Question ID: 59
+Subject: Data Structures and Algorithms
+Topic: Binary Search Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Where is the minimum key located in any non-empty Binary Search Tree?
+
+Options:
+A. The leftmost node reachable by repeatedly following left child pointers from the root
+B. The rightmost node of the root
+C. The root node itself
+D. Any random leaf node
+
+Correct Answer: A
+
+Explanation:
+Because left descendants are always strictly smaller than their ancestors, traversing left pointers until reaching a node without a left child identifies the global minimum.
+
+Marks: 2

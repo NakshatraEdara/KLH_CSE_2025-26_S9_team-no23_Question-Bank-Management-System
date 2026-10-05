@@ -1,0 +1,21 @@
+Question ID: 42
+Subject: Data Structures and Algorithms
+Topic: Binary Search Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Which tree traversal of a Binary Search Tree visits all keys in strictly ascending sorted order?
+
+Options:
+A. In-order traversal
+B. Pre-order traversal
+C. Post-order traversal
+D. Level-order traversal
+
+Correct Answer: A
+
+Explanation:
+In-order traversal recursively visits (Left Subtree, Current Node, Right Subtree), which directly outputs BST keys in monotonically non-decreasing order.
+
+Marks: 2

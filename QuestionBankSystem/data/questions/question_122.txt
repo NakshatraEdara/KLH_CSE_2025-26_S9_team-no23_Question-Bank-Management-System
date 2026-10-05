@@ -1,0 +1,21 @@
+Question ID: 122
+Subject: Data Structures and Algorithms
+Topic: Graphs
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is Kahn's algorithm for Topological Sorting of a Directed Acyclic Graph (DAG)?
+
+Options:
+A. A BFS-based algorithm that repeatedly enqueues vertices with an in-degree of 0 and removes their outgoing edges
+B. An algorithm that sorts vertices by their labels
+C. A randomized DFS that visits sinks first
+D. A priority queue algorithm based on vertex degrees
+
+Correct Answer: A
+
+Explanation:
+Kahn's algorithm calculates in-degrees for all vertices, initializes a queue with all in-degree 0 vertices, and repeatedly decrements neighbor in-degrees as vertices are dequeued.
+
+Marks: 5

@@ -1,0 +1,21 @@
+Question ID: 47
+Subject: Data Structures and Algorithms
+Topic: AVL Trees
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the maximum height of an AVL tree containing n nodes in terms of big-O notation?
+
+Options:
+A. O(log n)
+B. O(sqrt(n))
+C. O(n)
+D. O(n log n)
+
+Correct Answer: A
+
+Explanation:
+The minimum number of nodes in an AVL tree of height h follows Fibonacci-like growth N(h) = N(h-1) + N(h-2) + 1 ~ phi^h, meaning h is bounded by ~1.44 log2(n), which is O(log n).
+
+Marks: 10

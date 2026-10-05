@@ -1,0 +1,21 @@
+Question ID: 293
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the capacity of a cut (S, T) in a flow network?
+
+Options:
+A. The sum of capacities of all directed edges originating in set S and terminating in set T
+B. The sum of all edges in the entire graph
+C. The capacity of the smallest edge in S
+D. The number of edges crossing from T to S
+
+Correct Answer: A
+
+Explanation:
+Cut capacity is defined strictly as sum_{u in S, v in T} c(u, v). Edges in the reverse direction (from T to S) do not contribute to the cut capacity.
+
+Marks: 2

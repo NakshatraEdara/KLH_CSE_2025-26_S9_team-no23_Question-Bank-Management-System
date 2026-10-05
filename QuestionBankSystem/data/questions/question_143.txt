@@ -1,0 +1,21 @@
+Question ID: 143
+Subject: Data Structures and Algorithms
+Topic: Prim's Algorithm
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+For a dense graph where E is proportional to V^2, which implementation of Prim's algorithm is practically and asymptotically most efficient without complex heap structures?
+
+Options:
+A. Adjacency matrix implementation with simple array scanning for minimum key in O(V^2) time
+B. Kruskal's algorithm with binary heap in O(V^2 log V)
+C. Dijkstra with Fibonacci heap
+D. Bellman-Ford in O(V^3)
+
+Correct Answer: A
+
+Explanation:
+When E = Theta(V^2), O(V^2) from an adjacency matrix without priority queue overhead outperforms O(V^2 log V) heap implementations in both constant factors and asymptotic bounds.
+
+Marks: 5

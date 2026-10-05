@@ -1,0 +1,21 @@
+Question ID: 130
+Subject: Data Structures and Algorithms
+Topic: Graphs
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What algorithm finds an Eulerian circuit in a graph in O(V + E) time?
+
+Options:
+A. Hierholzer's algorithm
+B. Bellman-Ford algorithm
+C. Kruskal's algorithm
+D. Hopcroft-Karp algorithm
+
+Correct Answer: A
+
+Explanation:
+Hierholzer's algorithm finds an Eulerian path/circuit in O(E) time by tracing sub-tours until edges are exhausted, splicing sub-tours into the main tour.
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 102
+Subject: Data Structures and Algorithms
+Topic: B+ Trees
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the key structural difference between a B-Tree and a B+ Tree regarding record data storage?
+
+Options:
+A. In a B+ Tree, all data records are stored exclusively in leaf nodes; internal nodes store only routing keys
+B. In a B+ Tree, data records are stored only at the root
+C. In a B+ Tree, leaves are not connected to each other
+D. B+ Trees do not allow binary search within nodes
+
+Correct Answer: A
+
+Explanation:
+In a B+ Tree, internal nodes act purely as an index directory, while all actual key-data records reside in leaf nodes, which are linked together in a sequential chain.
+
+Marks: 2

@@ -1,0 +1,21 @@
+Question ID: 160
+Subject: Data Structures and Algorithms
+Topic: Bellman-Ford Algorithm
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the primary capability of the Bellman-Ford algorithm that standard Dijkstra's algorithm lacks?
+
+Options:
+A. Handling negative edge weights and detecting negative weight cycles
+B. Finding minimum cut in bipartite graphs
+C. Generating spanning forests in O(1) time
+D. Sorting vertices topologically
+
+Correct Answer: A
+
+Explanation:
+Bellman-Ford correctly computes single-source shortest paths in the presence of negative edge weights and can detect the presence of negative weight cycles reachable from the source.
+
+Marks: 2

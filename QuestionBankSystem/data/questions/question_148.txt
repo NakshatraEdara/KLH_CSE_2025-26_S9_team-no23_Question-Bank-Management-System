@@ -1,0 +1,21 @@
+Question ID: 148
+Subject: Data Structures and Algorithms
+Topic: Minimum Spanning Tree
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the relationship between the Maximum Bottleneck Spanning Tree (MBST) and the Minimum Spanning Tree (MST)?
+
+Options:
+A. Every MST is also a Minimum Bottleneck Spanning Tree (minimizes the maximum edge weight in the tree)
+B. An MST never minimizes bottleneck edge weight
+C. The MST maximizes the bottleneck edge weight
+D. They have disjoint edge sets
+
+Correct Answer: A
+
+Explanation:
+Any Minimum Spanning Tree also minimizes the maximum edge weight across the tree (bottleneck spanning tree), a direct consequence of the Cycle Property.
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 85
+Subject: Data Structures and Algorithms
+Topic: Fenwick Tree
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How can a Fenwick tree be adapted to support both range updates (add v to [L, R]) and range sum queries in O(log n) time?
+
+Options:
+A. By maintaining two Fenwick trees: one for slopes (v) and one for offsets (v * (L - 1))
+B. By recomputing the entire array after each update
+C. By using 3-dimensional indexing
+D. It is mathematically impossible for Fenwick trees to support range sum queries with range updates
+
+Correct Answer: A
+
+Explanation:
+Using algebraic decomposition of prefix sums with two BITs (BIT1 for differences and BIT2 for index-weighted adjustments), both operations achieve O(log n) time.
+
+Marks: 10

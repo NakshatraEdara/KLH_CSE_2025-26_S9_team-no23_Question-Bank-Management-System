@@ -1,0 +1,21 @@
+Question ID: 63
+Subject: Data Structures and Algorithms
+Topic: Heaps
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of building a binary heap of n elements using the bottom-up Floyd's build-heap algorithm?
+
+Options:
+A. O(n)
+B. O(n log n)
+C. O(log n)
+D. O(n^2)
+
+Correct Answer: A
+
+Explanation:
+Floyd's algorithm calls sift-down on nodes from index floor(n/2)-1 down to 0. The sum sum(h / 2^h) for h=1 to log(n) converges to a constant, proving O(n) linear build time.
+
+Marks: 5

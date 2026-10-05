@@ -1,0 +1,21 @@
+Question ID: 182
+Subject: Data Structures and Algorithms
+Topic: A* Search
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What happens if a heuristic h(n) is admissible but NOT consistent when using A* Graph Search without reopening closed nodes?
+
+Options:
+A. A* may return a sub-optimal path because a node reached via a suboptimal path may be closed before the optimal path reaches it
+B. A* will crash with stack overflow
+C. A* is still guaranteed optimal without reopening closed nodes
+D. The priority queue will invert its order
+
+Correct Answer: A
+
+Explanation:
+Without consistency, f(n) values are not monotonically non-decreasing along paths. A node can be expanded and placed in the closed set before its true optimal path is discovered; without reopening closed nodes, optimality is lost.
+
+Marks: 10

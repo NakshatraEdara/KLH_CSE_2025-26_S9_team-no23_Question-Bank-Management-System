@@ -1,0 +1,21 @@
+Question ID: 132
+Subject: Data Structures and Algorithms
+Topic: Graphs
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is 0-1 BFS, and what data structure allows it to find shortest paths in O(V + E) time on graphs with edge weights restricted to {0, 1}?
+
+Options:
+A. A double-ended queue (deque); weight-0 edges push to the front, weight-1 edges push to the back
+B. A priority queue with Fibonacci heap
+C. Two separate stacks
+D. A disjoint-set union find
+
+Correct Answer: A
+
+Explanation:
+In 0-1 BFS, pushing 0-cost transitions to the front and 1-cost transitions to the back keeps the deque sorted by distance, achieving O(V + E) shortest path time without priority queue overhead.
+
+Marks: 5

@@ -1,0 +1,21 @@
+Question ID: 216
+Subject: Data Structures and Algorithms
+Topic: Backtracking
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the Knight's Tour problem, and what heuristic drastically speeds up backtracking search for a valid tour?
+
+Options:
+A. Warnsdorff's heuristic: always move the knight to the unvisited adjacent square with the fewest onward legal moves
+B. A* search with Manhattan distance
+C. Dijkstra's heuristic
+D. Always moving to the center of the board
+
+Correct Answer: A
+
+Explanation:
+A Knight's Tour visits every chessboard square exactly once. Warnsdorff's rule greedily picks the square with the minimum outgoing degree, preventing premature isolation of corner squares.
+
+Marks: 5

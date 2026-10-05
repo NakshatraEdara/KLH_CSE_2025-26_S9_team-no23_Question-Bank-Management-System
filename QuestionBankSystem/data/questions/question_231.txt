@@ -1,0 +1,21 @@
+Question ID: 231
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity to compute the complete Z-array of a string of length n using the Z-algorithm?
+
+Options:
+A. O(n) linear time
+B. O(n^2)
+C. O(n log n)
+D. O(log n)
+
+Correct Answer: A
+
+Explanation:
+The Z-algorithm maintains a 'Z-box' interval [L, R] of the rightmost matched segment. By reusing previously computed Z-values inside [L, R], the right pointer R advances monotonically, achieving O(n) time.
+
+Marks: 5

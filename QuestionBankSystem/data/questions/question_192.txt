@@ -1,0 +1,21 @@
+Question ID: 192
+Subject: Data Structures and Algorithms
+Topic: Greedy Algorithms
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Can the Fractional Knapsack problem be solved optimally using a Greedy approach?
+
+Options:
+A. Yes, by greedily sorting items by value-to-weight ratio (v_i / w_i) in descending order
+B. No, it requires exponential dynamic programming
+C. Only if all item weights are equal to 1
+D. Only using network flow
+
+Correct Answer: A
+
+Explanation:
+Because items can be divided into fractions, taking as much of the item with the highest value-per-unit-weight as possible is guaranteed to yield the optimal knapsack value.
+
+Marks: 2

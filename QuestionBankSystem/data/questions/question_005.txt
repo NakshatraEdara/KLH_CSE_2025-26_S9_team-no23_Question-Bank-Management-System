@@ -1,0 +1,21 @@
+Question ID: 5
+Subject: Data Structures and Algorithms
+Topic: Linked Lists
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+Using Floyd's Cycle-Finding Algorithm (Tortoise and Hare), how can one detect if a singly linked list contains a cycle?
+
+Options:
+A. Traverse with a slow pointer moving 1 step and a fast pointer moving 2 steps; if they meet, a cycle exists
+B. Hash every node's value and check for duplicates
+C. Reverse the linked list and check if the head remains unchanged
+D. Count the total number of nodes and compare against memory bounds
+
+Correct Answer: A
+
+Explanation:
+Floyd's algorithm advances the slow pointer by 1 node and the fast pointer by 2 nodes. If a cycle exists, the relative speed difference causes the fast pointer to catch up to the slow pointer inside the loop in O(n) time and O(1) space.
+
+Marks: 5

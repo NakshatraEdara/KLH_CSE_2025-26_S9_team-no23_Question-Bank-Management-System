@@ -1,0 +1,21 @@
+Question ID: 218
+Subject: Data Structures and Algorithms
+Topic: Backtracking
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+In the m-Coloring problem (color graph vertices with at most m colors so no adjacent vertices share a color), when does backtracking prune a branch?
+
+Options:
+A. When the chosen color for the current vertex matches the color already assigned to any of its adjacent neighbors
+B. When the sum of colors exceeds m
+C. When a vertex has an odd degree
+D. When the chromatic number is 2
+
+Correct Answer: A
+
+Explanation:
+Before assigning color c to vertex v, the algorithm checks all neighbors of v. If any neighbor already has color c, that branch is pruned immediately.
+
+Marks: 5

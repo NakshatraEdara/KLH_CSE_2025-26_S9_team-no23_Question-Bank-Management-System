@@ -1,0 +1,21 @@
+Question ID: 290
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is Minimum-Cost Maximum-Flow (MCMF)?
+
+Options:
+A. Finding a flow that achieves the maximum possible flow value while minimizing the total cost sum(f(u, v) * cost(u, v)) across all edges
+B. Finding the path with fewest vertices
+C. Minimizing flow while maximizing capacity
+D. Finding the spanning tree with cheapest flow
+
+Correct Answer: A
+
+Explanation:
+MCMF routes the maximum feasible network flow such that the linear cost of sending flow through the network is minimized, typically solved using successive shortest path algorithms (e.g. SPFA or Dijkstra with potentials).
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 32
+Subject: Data Structures and Algorithms
+Topic: Sorting Algorithms
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the space complexity of standard in-place HeapSort?
+
+Options:
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n log n)
+
+Correct Answer: A
+
+Explanation:
+HeapSort constructs a heap within the input array itself and performs sift-down operations iteratively using only O(1) auxiliary space.
+
+Marks: 5

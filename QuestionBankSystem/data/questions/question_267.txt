@@ -1,0 +1,21 @@
+Question ID: 267
+Subject: Data Structures and Algorithms
+Topic: Edit Distance
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How can the space complexity of Edit Distance calculation be reduced if only the distance score (not the alignment path) is needed?
+
+Options:
+A. By keeping only two rows (current and previous) in memory, reducing space to O(min(m, n))
+B. By converting characters to integers
+C. By using a binary search tree
+D. By running Dijkstra's algorithm
+
+Correct Answer: A
+
+Explanation:
+Because computing row i only requires values from row i - 1 and the current row, maintaining two alternating rows achieves O(min(m, n)) space.
+
+Marks: 5

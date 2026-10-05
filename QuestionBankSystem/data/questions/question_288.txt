@@ -1,0 +1,21 @@
+Question ID: 288
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of the highest-label push-relabel algorithm with gap heuristic?
+
+Options:
+A. O(V^2 * sqrt(E))
+B. O(V * E^2)
+C. O(2^V)
+D. O(V^4)
+
+Correct Answer: A
+
+Explanation:
+Selecting the active node with the maximum height to push excess bounds non-saturating pushes to O(V^2 * sqrt(E)), making it one of the fastest practical maximum flow algorithms.
+
+Marks: 10

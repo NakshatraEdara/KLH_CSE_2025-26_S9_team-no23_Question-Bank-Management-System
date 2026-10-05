@@ -1,0 +1,21 @@
+Question ID: 210
+Subject: Data Structures and Algorithms
+Topic: Backtracking
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+In the classic N-Queens puzzle, what is the objective?
+
+Options:
+A. Place N chess queens on an N x N chessboard so that no two queens threaten each other
+B. Find the minimum moves for a queen to visit every square
+C. Place as many queens as possible on a 3x3 board
+D. Check if a queen can capture a king in one move
+
+Correct Answer: A
+
+Explanation:
+The N-Queens puzzle requires positioning N queens on an N x N board such that no two queens share the same row, column, or diagonal.
+
+Marks: 2

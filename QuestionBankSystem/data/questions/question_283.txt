@@ -1,0 +1,21 @@
+Question ID: 283
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+Why can the generic Ford-Fulkerson algorithm loop infinitely or fail to converge to the maximum flow when capacities are irrational numbers?
+
+Options:
+A. Path choices using DFS can cause flow augmentations to converge to an infinite sum strictly strictly below maximum capacity
+B. Irrational numbers cannot be represented in binary
+C. The residual graph becomes disconnected
+D. DFS causes an immediate divide-by-zero error
+
+Correct Answer: A
+
+Explanation:
+Pathological augmenting path selections on graphs with irrational capacities can generate an infinite sequence of decreasing augmentations that converges to a value far below true max flow.
+
+Marks: 5

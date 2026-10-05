@@ -1,0 +1,21 @@
+Question ID: 90
+Subject: Data Structures and Algorithms
+Topic: Segment Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of a Range Minimum Query (RMQ) in a standard Segment Tree of size n?
+
+Options:
+A. O(log n)
+B. O(1)
+C. O(n)
+D. O(sqrt(n))
+
+Correct Answer: A
+
+Explanation:
+The query visits at most four nodes per level across the tree height of ceil(log2 n), bounding total RMQ time to O(log n).
+
+Marks: 2

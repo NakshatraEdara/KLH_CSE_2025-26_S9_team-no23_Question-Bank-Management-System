@@ -1,0 +1,21 @@
+Question ID: 20
+Subject: Data Structures and Algorithms
+Topic: Arrays
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the two-pointer technique's time complexity to determine if a sorted array contains two elements that sum to a target value X?
+
+Options:
+A. O(n)
+B. O(n log n)
+C. O(n^2)
+D. O(1)
+
+Correct Answer: A
+
+Explanation:
+With one pointer at index 0 and another at index n - 1, moving them inward based on comparison with target X inspects each element at most once in O(n) total time.
+
+Marks: 5

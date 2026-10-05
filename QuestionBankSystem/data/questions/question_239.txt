@@ -1,0 +1,21 @@
+Question ID: 239
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+For which of the following scenarios is Rabin-Karp particularly superior to KMP?
+
+Options:
+A. Multiple pattern search (searching for a set of k patterns of equal length simultaneously)
+B. Searching for a single pattern in a 2-character alphabet
+C. Finding longest palindromic prefix
+D. Constructing suffix trees
+
+Correct Answer: A
+
+Explanation:
+Rabin-Karp can insert the hashes of all k patterns into a hash set; checking if the current text window hash matches any of the k patterns still takes O(1) average time.
+
+Marks: 5

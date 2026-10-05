@@ -1,0 +1,21 @@
+Question ID: 250
+Subject: Data Structures and Algorithms
+Topic: LCP Array
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of Kasai's algorithm for constructing the LCP array given a string and its Suffix Array?
+
+Options:
+A. O(n) linear time
+B. O(n log n)
+C. O(n^2)
+D. O(n^3)
+
+Correct Answer: A
+
+Explanation:
+Kasai's algorithm processes suffixes in original text order. Since the LCP value decreases by at most 1 when advancing from text position i to i + 1, the matching pointer increments at most 2n times, proving O(n) time.
+
+Marks: 5

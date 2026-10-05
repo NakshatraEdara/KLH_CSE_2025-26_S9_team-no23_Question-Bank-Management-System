@@ -1,0 +1,21 @@
+Question ID: 116
+Subject: Data Structures and Algorithms
+Topic: B+ Trees
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How does write amplification in a B+ Tree compare to an LSM-Tree (Log-Structured Merge-tree) for high-throughput write workloads?
+
+Options:
+A. B+ Trees have higher write amplification due to random-access in-place page writes, whereas LSM-trees use sequential append-only writes
+B. B+ Trees have zero write amplification
+C. LSM-Trees have significantly higher write amplification on all write patterns
+D. Both have identical write mechanics
+
+Correct Answer: A
+
+Explanation:
+Updating a single record in a B+ Tree requires writing an entire 4KB-16KB page to disk (in-place random write). LSM-Trees buffer mutations in memory and write large sequential SSTables, achieving higher write throughput.
+
+Marks: 10

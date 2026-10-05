@@ -1,0 +1,21 @@
+Question ID: 45
+Subject: Data Structures and Algorithms
+Topic: AVL Trees
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the balance factor of a node in an AVL Tree?
+
+Options:
+A. Height(Left Subtree) - Height(Right Subtree)
+B. Number of left descendants - Number of right descendants
+C. Key of left child - Key of right child
+D. Depth(Left Subtree) + Depth(Right Subtree)
+
+Correct Answer: A
+
+Explanation:
+In an AVL tree, the balance factor of any node is defined as height(left) - height(right) (or vice versa), and must remain in {-1, 0, +1} for every node.
+
+Marks: 2

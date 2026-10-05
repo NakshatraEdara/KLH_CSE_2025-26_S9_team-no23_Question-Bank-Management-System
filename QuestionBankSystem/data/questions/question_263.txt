@@ -1,0 +1,21 @@
+Question ID: 263
+Subject: Data Structures and Algorithms
+Topic: Edit Distance
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the Levenshtein Edit Distance between two strings?
+
+Options:
+A. The minimum number of single-character insertions, deletions, and substitutions required to transform one string into the other
+B. The number of matching characters between two strings
+C. The sum of ASCII value differences
+D. The number of anagram swaps needed to match two strings
+
+Correct Answer: A
+
+Explanation:
+Levenshtein distance measures dissimilarity between two strings as the minimum count of atomic edit operations (insert, delete, substitute) required to transform string A into string B.
+
+Marks: 2

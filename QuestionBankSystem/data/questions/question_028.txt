@@ -1,0 +1,21 @@
+Question ID: 28
+Subject: Data Structures and Algorithms
+Topic: Sorting Algorithms
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the primary operational mechanism of Counting Sort?
+
+Options:
+A. Counting frequencies of each discrete integer key within a known range [0, k]
+B. Pairwise comparisons of adjacent elements
+C. Repeatedly building max-heaps
+D. Dividing the array into sub-arrays using pivots
+
+Correct Answer: A
+
+Explanation:
+Counting sort tallies the occurrences of each distinct integer key in an auxiliary array, then computes prefix sums to place elements directly into sorted position.
+
+Marks: 2

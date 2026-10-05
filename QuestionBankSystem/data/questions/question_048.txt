@@ -1,0 +1,21 @@
+Question ID: 48
+Subject: Data Structures and Algorithms
+Topic: Binary Search Tree
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+Given the pre-order traversal sequence [50, 30, 20, 40, 70, 60, 80], how can the unique BST be reconstructed in O(n) time?
+
+Options:
+A. By recursively consuming elements with upper and lower value bounds
+B. By sorting the array and running Floyd-Warshall
+C. By inserting elements backwards into a deque
+D. Reconstruction from pre-order alone is mathematically impossible
+
+Correct Answer: A
+
+Explanation:
+Because a BST's in-order traversal is its sorted keys, pre-order elements can be parsed with valid [min, max] range constraints in a single pass of O(n) time.
+
+Marks: 5

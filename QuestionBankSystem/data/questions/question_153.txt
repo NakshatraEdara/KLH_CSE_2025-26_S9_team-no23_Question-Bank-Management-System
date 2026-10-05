@@ -1,0 +1,21 @@
+Question ID: 153
+Subject: Data Structures and Algorithms
+Topic: Dijkstra's Algorithm
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What type of problem does Dijkstra's algorithm solve?
+
+Options:
+A. Single-Source Shortest Path (SSSP) on graphs with non-negative edge weights
+B. All-Pairs Shortest Paths on graphs with negative cycles
+C. Maximum Flow in bipartite networks
+D. Topological Sorting of undirected graphs
+
+Correct Answer: A
+
+Explanation:
+Dijkstra's algorithm computes the shortest paths from a single source vertex to all other vertices in a directed or undirected graph with strictly non-negative edge weights.
+
+Marks: 2

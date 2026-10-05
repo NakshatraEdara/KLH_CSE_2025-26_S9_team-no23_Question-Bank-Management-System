@@ -1,0 +1,21 @@
+Question ID: 104
+Subject: Data Structures and Algorithms
+Topic: B-Trees
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What happens during insertion into a B-Tree node of order m when that node already contains m - 1 keys?
+
+Options:
+A. The node overflows, splits into two halves, and its median key is pushed up to the parent node
+B. The oldest key in the node is deleted
+C. A new root is immediately created with all elements
+D. The insertion is rejected with a buffer overflow error
+
+Correct Answer: A
+
+Explanation:
+When an insertion would result in m keys, the node splits around the median key. The median is promoted to the parent, and the remaining keys form two balanced child nodes.
+
+Marks: 5

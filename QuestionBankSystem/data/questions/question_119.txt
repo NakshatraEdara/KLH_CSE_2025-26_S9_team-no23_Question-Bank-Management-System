@@ -1,0 +1,21 @@
+Question ID: 119
+Subject: Data Structures and Algorithms
+Topic: Graphs
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Which data structure is fundamentally used in iterative Depth-First Search (DFS) (or implicitly via call stack in recursive DFS)?
+
+Options:
+A. Stack
+B. Queue
+C. Binary Heap
+D. Hash Table
+
+Correct Answer: A
+
+Explanation:
+DFS explores deeply along each branch before backtracking, utilizing LIFO discipline provided by a call stack or explicit Stack.
+
+Marks: 2

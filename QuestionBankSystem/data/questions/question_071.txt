@@ -1,0 +1,21 @@
+Question ID: 71
+Subject: Data Structures and Algorithms
+Topic: Heaps
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of the extract-min operation in a standard binary Min-Heap of size n?
+
+Options:
+A. O(log n)
+B. O(1)
+C. O(n)
+D. O(n log n)
+
+Correct Answer: A
+
+Explanation:
+Extract-min replaces the root with the last element in O(1) time and then sifts it down along the tree height, which requires at most O(log n) swaps.
+
+Marks: 2

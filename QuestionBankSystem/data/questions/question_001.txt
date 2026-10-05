@@ -1,0 +1,21 @@
+Question ID: 1
+Subject: Data Structures and Algorithms
+Topic: Arrays
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of accessing an element at a given index in a standard contiguous array?
+
+Options:
+A. O(1)
+B. O(n)
+C. O(log n)
+D. O(n^2)
+
+Correct Answer: A
+
+Explanation:
+Contiguous arrays calculate element addresses using base_address + index * element_size, allowing direct O(1) random access.
+
+Marks: 2

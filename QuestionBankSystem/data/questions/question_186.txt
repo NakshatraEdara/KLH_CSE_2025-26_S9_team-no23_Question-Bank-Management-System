@@ -1,0 +1,21 @@
+Question ID: 186
+Subject: Data Structures and Algorithms
+Topic: Floyd-Warshall Algorithm
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How can the actual shortest path sequence between vertices i and j be reconstructed in Floyd-Warshall?
+
+Options:
+A. By maintaining a predecessor matrix next[i][j] updated to next[i][k] whenever dist[i][j] is improved via k
+B. By re-running BFS from i to j
+C. By sorting the distance matrix rows
+D. Paths cannot be reconstructed from Floyd-Warshall
+
+Correct Answer: A
+
+Explanation:
+Storing next[i][j] (the first step on the shortest path from i to j) and updating next[i][j] = next[i][k] during relaxation allows path reconstruction in O(path length) time.
+
+Marks: 10

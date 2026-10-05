@@ -1,0 +1,21 @@
+Question ID: 133
+Subject: Data Structures and Algorithms
+Topic: Graphs
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of the Hopcroft-Karp algorithm for finding maximum cardinality bipartite matching?
+
+Options:
+A. O(E * sqrt(V))
+B. O(V * E)
+C. O(V^3)
+D. O(E log V)
+
+Correct Answer: A
+
+Explanation:
+Hopcroft-Karp repeatedly finds a maximal set of shortest vertex-disjoint augmenting paths in each phase using BFS and DFS, terminating in at most O(sqrt(V)) phases for a total time of O(E * sqrt(V)).
+
+Marks: 10

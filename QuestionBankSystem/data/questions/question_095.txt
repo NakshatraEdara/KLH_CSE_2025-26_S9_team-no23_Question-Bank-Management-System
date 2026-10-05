@@ -1,0 +1,21 @@
+Question ID: 95
+Subject: Data Structures and Algorithms
+Topic: Segment Tree
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How does Segment Tree Beats (developed by Ji Driver) maintain range modulo or range min updates?
+
+Options:
+A. By maintaining max, strict second max, and count of max values to break down updates conditionally without full recomputation
+B. By replacing binary recursion with ternary recursion
+C. By converting all values to floating point numbers
+D. By running Dijkstra inside each node
+
+Correct Answer: A
+
+Explanation:
+Segment Tree Beats tracks the maximum, second maximum, and frequency of maximum values. When an update affects only the maximum values, lazy tags update them efficiently in amortized O(log n) time.
+
+Marks: 10

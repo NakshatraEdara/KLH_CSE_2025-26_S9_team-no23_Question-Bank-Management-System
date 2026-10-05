@@ -1,0 +1,21 @@
+Question ID: 232
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How is pattern matching performed using the Z-algorithm for text T and pattern P?
+
+Options:
+A. Construct string S = P + '$' + T (where '$' is a unique separator); any index i where Z[i] == length(P) is a match occurrence
+B. Compute Z-array of T and Z-array of P separately and subtract them
+C. Reverse both strings and run binary search
+D. Multiply Z-arrays using FFT
+
+Correct Answer: A
+
+Explanation:
+In S = P + '$' + T, prefix of S is P. If Z[i] == len(P) in the T-portion of S, the substring starting at that index matches P completely, all found in O(len(P) + len(T)) time.
+
+Marks: 5

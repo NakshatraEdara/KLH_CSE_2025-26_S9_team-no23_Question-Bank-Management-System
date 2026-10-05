@@ -1,0 +1,21 @@
+Question ID: 99
+Subject: Data Structures and Algorithms
+Topic: B-Trees
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Why are B-Trees and B+ Trees preferred over AVL or Red-Black trees for disk-based storage and databases?
+
+Options:
+A. Their high branching factor results in very shallow trees, minimizing expensive disk I/O reads
+B. They can only be stored in CPU registers
+C. They do not store any keys in memory
+D. They eliminate all disk write operations
+
+Correct Answer: A
+
+Explanation:
+Disk seeks are orders of magnitude slower than RAM access. Large node capacity matching disk page sizes produces tree heights of 3 or 4 for millions of records, drastically reducing disk seeks.
+
+Marks: 2

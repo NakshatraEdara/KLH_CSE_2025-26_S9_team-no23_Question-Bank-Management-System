@@ -1,0 +1,21 @@
+Question ID: 261
+Subject: Data Structures and Algorithms
+Topic: Suffix Arrays
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How does binary search on a Suffix Array improve from O(m log n) to O(m + log n) time?
+
+Options:
+A. By utilizing precomputed LCP values between search boundaries (LCP-LR table) to skip redundant character comparisons
+B. By compressing the search pattern
+C. By converting binary search into linear search
+D. By sorting the pattern characters
+
+Correct Answer: A
+
+Explanation:
+Precomputing the LCP between the left/right search bounds and the midpoint suffix allows the algorithm to skip matching prefix characters already known to be identical, reducing search time to O(m + log n).
+
+Marks: 5

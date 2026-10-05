@@ -1,0 +1,21 @@
+Question ID: 196
+Subject: Data Structures and Algorithms
+Topic: Greedy Algorithms
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What optimal prefix code construction algorithm uses a greedy approach with a min-priority queue?
+
+Options:
+A. Huffman Coding
+B. LZW compression
+C. Shannon-Fano coding
+D. Run-length encoding
+
+Correct Answer: A
+
+Explanation:
+Huffman's algorithm greedily extracts the two lowest-frequency trees from a min-heap, combines them under a new parent node with sum frequency, and reinserts until one tree remains.
+
+Marks: 5

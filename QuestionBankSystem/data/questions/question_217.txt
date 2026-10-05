@@ -1,0 +1,21 @@
+Question ID: 217
+Subject: Data Structures and Algorithms
+Topic: Backtracking
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How does the Hamiltonian Path problem differ from the Eulerian Path problem in computational complexity?
+
+Options:
+A. Hamiltonian Path is NP-complete and solved via backtracking/DP in exponential time; Eulerian Path is in P and solved in O(V + E) time
+B. Both are in P and solvable in O(V + E)
+C. Both are undecidable
+D. Eulerian Path is NP-complete while Hamiltonian Path is linear
+
+Correct Answer: A
+
+Explanation:
+A Hamiltonian Path visits every vertex once (NP-complete, exponential). An Eulerian Path visits every edge once (in P, solvable in O(V + E) via Hierholzer's algorithm).
+
+Marks: 10

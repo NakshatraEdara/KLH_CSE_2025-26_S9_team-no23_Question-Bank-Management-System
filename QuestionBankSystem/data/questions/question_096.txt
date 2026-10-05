@@ -1,0 +1,21 @@
+Question ID: 96
+Subject: Data Structures and Algorithms
+Topic: Fenwick Tree
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+In a 2D Fenwick Tree supporting updates and sum queries on an R x C grid, what is the time complexity of both operations?
+
+Options:
+A. O(log R * log C)
+B. O(R * C)
+C. O(log(R + C))
+D. O(1)
+
+Correct Answer: A
+
+Explanation:
+A 2D BIT nests row and column index updates via two nested loops hopping lowest set bits, taking O(log R * log C) time per operation.
+
+Marks: 5

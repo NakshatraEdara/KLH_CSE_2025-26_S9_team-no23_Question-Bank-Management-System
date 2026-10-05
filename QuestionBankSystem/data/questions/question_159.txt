@@ -1,0 +1,21 @@
+Question ID: 159
+Subject: Data Structures and Algorithms
+Topic: Dijkstra's Algorithm
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is Dial's algorithm (bounded Dijkstra), and what is its time complexity when all edge weights are integers bounded by a small constant W?
+
+Options:
+A. It replaces the heap with an array of buckets from 0 to W*V, achieving O(V * W + E) time
+B. It runs in O(V^3)
+C. It uses randomized hashing to run in O(1)
+D. It only works on DAGs
+
+Correct Answer: A
+
+Explanation:
+Dial's algorithm uses circular buckets for distances, avoiding comparison sorts and achieving O(V * W + E) linear time when maximum edge weight W is small.
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 165
+Subject: Data Structures and Algorithms
+Topic: Dijkstra's Algorithm
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+Can adding a large positive constant C to all edge weights in a graph allow Dijkstra's algorithm to work on graphs with negative edge weights?
+
+Options:
+A. No, because paths with more edges are penalized more heavily by adding C to each edge, altering the shortest path
+B. Yes, because it makes all edge weights non-negative without changing path relationships
+C. Yes, but only for undirected graphs
+D. Yes, provided C is greater than 1000
+
+Correct Answer: A
+
+Explanation:
+Adding C to each edge adds k * C to a path with k edges. A path with 3 edges has 3C added while a path with 1 edge has only 1C added, changing which path is minimal.
+
+Marks: 5

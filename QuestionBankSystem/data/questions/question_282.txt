@@ -1,0 +1,21 @@
+Question ID: 282
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of the Edmonds-Karp algorithm for maximum flow on a network with V vertices and E edges?
+
+Options:
+A. O(V * E^2)
+B. O(V^2 * E)
+C. O(V + E)
+D. O(E * log V)
+
+Correct Answer: A
+
+Explanation:
+Edmonds-Karp implements the Ford-Fulkerson method by finding shortest augmenting paths (in edge count) using BFS. There are at most O(V * E) augmentations, each taking O(E) BFS time, totaling O(V * E^2).
+
+Marks: 5

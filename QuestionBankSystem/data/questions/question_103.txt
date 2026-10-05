@@ -1,0 +1,21 @@
+Question ID: 103
+Subject: Data Structures and Algorithms
+Topic: B+ Trees
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+Why are B+ Trees substantially superior to standard B-Trees for database range queries (e.g., SELECT WHERE key BETWEEN x AND y)?
+
+Options:
+A. Leaf nodes are linked in a doubly or singly linked list, allowing sequential range traversal without tree re-traversal
+B. B+ Trees do not require sorting
+C. Internal nodes in B+ Trees are kept on disk while leaves stay in cache
+D. B+ Trees allow direct hash lookups on leaves
+
+Correct Answer: A
+
+Explanation:
+Once the start key is located via root-to-leaf search, the range query simply iterates through the linked list of leaf pages without traversing back up internal nodes.
+
+Marks: 5

@@ -1,0 +1,21 @@
+Question ID: 167
+Subject: Data Structures and Algorithms
+Topic: Dijkstra's Algorithm
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+In Dijkstra's algorithm, what initial distance is assigned to the source vertex and all other vertices?
+
+Options:
+A. Source: 0, All other vertices: positive infinity
+B. Source: 1, All other vertices: 0
+C. All vertices: 0
+D. All vertices: negative infinity
+
+Correct Answer: A
+
+Explanation:
+Initialization sets dist[source] = 0 (distance to itself) and dist[v] = infinity for all other vertices v, representing that they are initially unreachable.
+
+Marks: 2

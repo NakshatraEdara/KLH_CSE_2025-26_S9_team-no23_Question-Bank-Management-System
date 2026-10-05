@@ -1,0 +1,21 @@
+Question ID: 275
+Subject: Data Structures and Algorithms
+Topic: Sequence Alignment
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What are PAM and BLOSUM matrices in sequence alignment?
+
+Options:
+A. Substitution scoring matrices representing log-odds evolutionary replacement probabilities between amino acids
+B. Compressed hash tables for DNA strings
+C. Random number generators for simulated annealing
+D. Binary trees used for sorting sequences
+
+Correct Answer: A
+
+Explanation:
+PAM (Point Accepted Mutation) and BLOSUM (Blocks Substitution Matrix) quantify the biological likelihood of replacing one amino acid with another based on observed evolutionary conservation.
+
+Marks: 5

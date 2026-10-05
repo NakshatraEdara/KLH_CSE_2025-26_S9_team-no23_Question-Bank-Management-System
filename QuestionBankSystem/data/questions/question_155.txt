@@ -1,0 +1,21 @@
+Question ID: 155
+Subject: Data Structures and Algorithms
+Topic: Dijkstra's Algorithm
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of Dijkstra's algorithm using an adjacency list and a standard binary min-heap?
+
+Options:
+A. O((V + E) log V)
+B. O(V^2)
+C. O(V * E)
+D. O(V + E)
+
+Correct Answer: A
+
+Explanation:
+Extract-min is called V times (O(V log V)) and edge relaxations insert or decrease keys at most E times (O(E log V)), yielding O((V + E) log V).
+
+Marks: 5

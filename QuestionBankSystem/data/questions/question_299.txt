@@ -1,0 +1,21 @@
+Question ID: 299
+Subject: Data Structures and Algorithms
+Topic: Optimization Problems
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+When generating multiple balanced exam papers from a question bank, what does the Min-Cost Multi-Commodity Flow or Ford-Fulkerson variant optimize?
+
+Options:
+A. Maximal flow verifies if all exam sets can be filled with distinct questions; edge costs can minimize difficulty variance across sets
+B. It replaces question text with random characters
+C. It sorts students by registration number
+D. It guarantees questions have only 2 options
+
+Correct Answer: A
+
+Explanation:
+Modeling question allocation as network flow ensures each question is used at most once (unit edge capacities) while satisfying per-exam quotas; costs penalize deviation from target difficulty profiles.
+
+Marks: 10

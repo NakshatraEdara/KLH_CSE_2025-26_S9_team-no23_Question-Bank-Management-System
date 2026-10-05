@@ -1,0 +1,21 @@
+Question ID: 91
+Subject: Data Structures and Algorithms
+Topic: Fenwick Tree
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How can a Fenwick tree be used to count the number of inversions in an array of size n in O(n log n) time?
+
+Options:
+A. Coordinate-compress elements, then for each element query prefix sums to count elements already inserted that are greater than it
+B. Insert elements into a min-heap and pop them
+C. By running Kruskal's algorithm on the indices
+D. By computing the determinant of the array
+
+Correct Answer: A
+
+Explanation:
+After coordinate compression, iterating through the array and using the BIT to count how many previously processed numbers exceed the current number computes total inversions in O(n log n) time.
+
+Marks: 5

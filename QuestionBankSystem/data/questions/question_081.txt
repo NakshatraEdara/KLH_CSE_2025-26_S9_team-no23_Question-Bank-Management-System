@@ -1,0 +1,21 @@
+Question ID: 81
+Subject: Data Structures and Algorithms
+Topic: Fenwick Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is another common name for a Fenwick Tree?
+
+Options:
+A. Binary Indexed Tree (BIT)
+B. Red-Black Tree
+C. B-Tree
+D. Suffix Tree
+
+Correct Answer: A
+
+Explanation:
+A Fenwick Tree is widely known as a Binary Indexed Tree (BIT), introduced by Peter Fenwick in 1994 for efficient cumulative frequency calculations.
+
+Marks: 2

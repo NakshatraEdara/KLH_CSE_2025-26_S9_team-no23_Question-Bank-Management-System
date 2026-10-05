@@ -1,0 +1,21 @@
+Question ID: 247
+Subject: Data Structures and Algorithms
+Topic: Suffix Arrays
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of building a Suffix Array using prefix doubling (Manber-Myers algorithm)?
+
+Options:
+A. O(n log^2 n) with comparison sort, or O(n log n) with radix sort
+B. O(n^3)
+C. O(n!)
+D. O(1)
+
+Correct Answer: A
+
+Explanation:
+Prefix doubling sorts prefixes of lengths 1, 2, 4, ..., 2^k up to n. Each of the O(log n) phases sorts rank pairs in O(n log n) using standard sort or O(n) using radix sort, totaling O(n log^2 n) or O(n log n).
+
+Marks: 5

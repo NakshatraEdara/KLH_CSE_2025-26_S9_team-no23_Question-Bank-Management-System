@@ -1,0 +1,21 @@
+Question ID: 135
+Subject: Data Structures and Algorithms
+Topic: Minimum Spanning Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is a Minimum Spanning Tree (MST) of a connected, edge-weighted undirected graph?
+
+Options:
+A. A subset of edges that connects all vertices without cycles and minimizes total edge weight
+B. A path connecting the two farthest vertices in the graph
+C. A cycle containing all vertices with minimum weight
+D. A tree with the minimum possible diameter
+
+Correct Answer: A
+
+Explanation:
+An MST is an acyclic spanning subgraph that connects every vertex in G with exactly V - 1 edges such that the sum of edge weights is minimized.
+
+Marks: 2

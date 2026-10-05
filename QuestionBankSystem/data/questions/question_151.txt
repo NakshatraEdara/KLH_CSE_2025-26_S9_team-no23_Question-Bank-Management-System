@@ -1,0 +1,21 @@
+Question ID: 151
+Subject: Data Structures and Algorithms
+Topic: Minimum Spanning Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the total number of edges in a Minimum Spanning Tree for a connected graph with 50 vertices?
+
+Options:
+A. 49
+B. 50
+C. 100
+D. 1225
+
+Correct Answer: A
+
+Explanation:
+Any spanning tree of a graph with V vertices contains exactly V - 1 edges. For V = 50, the MST has 50 - 1 = 49 edges.
+
+Marks: 2

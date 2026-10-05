@@ -1,0 +1,21 @@
+Question ID: 134
+Subject: Data Structures and Algorithms
+Topic: Graphs
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+In a connected undirected graph with V vertices, what is the minimum number of edges required to keep it connected?
+
+Options:
+A. V - 1 edges (forming a spanning tree)
+B. V edges
+C. V / 2 edges
+D. V * (V - 1) / 2 edges
+
+Correct Answer: A
+
+Explanation:
+Any minimally connected undirected graph with V vertices is a tree, which contains exactly V - 1 edges.
+
+Marks: 2

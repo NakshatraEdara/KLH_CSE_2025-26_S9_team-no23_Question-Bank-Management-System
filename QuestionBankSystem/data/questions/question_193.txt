@@ -1,0 +1,21 @@
+Question ID: 193
+Subject: Data Structures and Algorithms
+Topic: Dynamic Programming
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity to find the Longest Common Subsequence (LCS) of two strings of lengths m and n using DP?
+
+Options:
+A. O(m * n)
+B. O(m + n)
+C. O(2^(m+n))
+D. O(m log n)
+
+Correct Answer: A
+
+Explanation:
+The DP table dp[i][j] represents LCS length of prefixes of length i and j. Each entry is computed in O(1) via dp[i][j] = dp[i-1][j-1]+1 if s1[i]==s2[j] else max(dp[i-1][j], dp[i][j-1]), taking O(m * n) total time.
+
+Marks: 5

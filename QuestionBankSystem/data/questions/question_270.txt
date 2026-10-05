@@ -1,0 +1,21 @@
+Question ID: 270
+Subject: Data Structures and Algorithms
+Topic: Sequence Alignment
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is Hirschberg's algorithm, and what remarkable efficiency does it achieve for sequence alignment?
+
+Options:
+A. A divide-and-conquer algorithm that reconstructs the optimal alignment in O(m * n) time while using only O(min(m, n)) linear space
+B. An algorithm that aligns sequences in O(1) space and O(n) time
+C. A randomized approximation algorithm
+D. A hardware-only alignment chip
+
+Correct Answer: A
+
+Explanation:
+Hirschberg's algorithm splits the problem at row m/2, computes forward and backward score vectors in linear space, identifies the midpoint column intersection, and recurses, achieving full alignment in O(min(m, n)) space.
+
+Marks: 10

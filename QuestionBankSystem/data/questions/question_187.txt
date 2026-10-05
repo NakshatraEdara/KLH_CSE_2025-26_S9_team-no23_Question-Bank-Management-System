@@ -1,0 +1,21 @@
+Question ID: 187
+Subject: Data Structures and Algorithms
+Topic: A* Search
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+Between two admissible heuristics h1(n) and h2(n), if h2(n) >= h1(n) for all nodes n, what is said about h2, and why is it preferred?
+
+Options:
+A. h2 dominates h1; h2 will expand fewer or equal nodes than h1, making search more directed and efficient
+B. h2 is inconsistent
+C. h1 is faster because smaller numbers are easier to add
+D. h2 is inadmissible
+
+Correct Answer: A
+
+Explanation:
+If h2(n) >= h1(n) everywhere and both are admissible, h2 is closer to the true cost h*(n). Every node expanded by A* with h2 is also expanded by A* with h1, so h2 explores a smaller search frontier.
+
+Marks: 10

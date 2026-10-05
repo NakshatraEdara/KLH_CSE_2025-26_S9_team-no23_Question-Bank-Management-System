@@ -1,0 +1,21 @@
+Question ID: 39
+Subject: Data Structures and Algorithms
+Topic: Sorting Algorithms
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+TimSort, the default sorting algorithm in Java and Python, is a hybrid of which two algorithms?
+
+Options:
+A. Merge Sort and Insertion Sort
+B. Quick Sort and Heap Sort
+C. Bubble Sort and Selection Sort
+D. Radix Sort and Bucket Sort
+
+Correct Answer: A
+
+Explanation:
+TimSort identifies natural sorted runs, extends small runs using binary insertion sort, and merges them using an adaptive merge sort with galloping mode.
+
+Marks: 5

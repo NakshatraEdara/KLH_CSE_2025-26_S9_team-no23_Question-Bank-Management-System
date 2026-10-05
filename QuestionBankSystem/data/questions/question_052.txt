@@ -1,0 +1,21 @@
+Question ID: 52
+Subject: Data Structures and Algorithms
+Topic: Binary Search Tree
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How can one find the Lowest Common Ancestor (LCA) of two distinct keys u and v (where u < v) in a BST?
+
+Options:
+A. Traverse from root; the first node with key x such that u <= x <= v is the LCA
+B. Find the mid-point of in-order traversal array
+C. Calculate the average of u and v and search for that key
+D. Run BFS from both nodes until they collide
+
+Correct Answer: A
+
+Explanation:
+Because of the BST ordering property, if both u and v are smaller than current node, LCA is in left subtree; if both are greater, in right subtree. The first node between u and v splits them and is the LCA.
+
+Marks: 5

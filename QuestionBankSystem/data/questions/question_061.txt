@@ -1,0 +1,21 @@
+Question ID: 61
+Subject: Data Structures and Algorithms
+Topic: Heaps
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the fundamental invariant of a Max-Heap?
+
+Options:
+A. The key of every parent node is greater than or equal to the keys of its children
+B. Left child key is always less than right child key
+C. Every node must have exactly two non-null children
+D. Leaves must be sorted in ascending order
+
+Correct Answer: A
+
+Explanation:
+In a max-heap, the max-heap property dictates that key(parent) >= key(child) for every node other than the root.
+
+Marks: 2

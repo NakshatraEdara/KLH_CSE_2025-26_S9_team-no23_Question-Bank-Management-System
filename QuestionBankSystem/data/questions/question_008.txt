@@ -1,0 +1,21 @@
+Question ID: 8
+Subject: Data Structures and Algorithms
+Topic: Stacks
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+When converting an infix arithmetic expression to postfix notation using Dijkstra's Shunting-yard algorithm, what data structure is used to temporarily hold operators?
+
+Options:
+A. Queue
+B. Binary Heap
+C. Stack
+D. Hash Set
+
+Correct Answer: C
+
+Explanation:
+The Shunting-yard algorithm uses an operator stack to buffer operators and maintain precedence and associativity before appending them to the output queue.
+
+Marks: 5

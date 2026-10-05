@@ -1,0 +1,21 @@
+Question ID: 238
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What technique eliminates spurious hash collisions and makes Rabin-Karp virtually immune to worst-case adversarial inputs?
+
+Options:
+A. Double Hashing: computing two independent rolling hashes with different large prime moduli and bases
+B. Using 16-bit integer hashes
+C. Setting modulus M = 2
+D. Sorting characters before hashing
+
+Correct Answer: A
+
+Explanation:
+Using two large primes (e.g. 10^9 + 7 and 10^9 + 9) reduces collision probability to ~1 / (10^18), making accidental false matches virtually zero.
+
+Marks: 10

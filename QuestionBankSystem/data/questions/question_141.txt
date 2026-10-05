@@ -1,0 +1,21 @@
+Question ID: 141
+Subject: Data Structures and Algorithms
+Topic: Prim's Algorithm
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of Prim's algorithm when implemented using a binary min-heap priority queue and adjacency lists?
+
+Options:
+A. O(E log V)
+B. O(V^2)
+C. O(E + V)
+D. O(V * E)
+
+Correct Answer: A
+
+Explanation:
+Each vertex is extracted from the heap once (V * log V), and each edge can trigger a decrease-key/insertion in the heap (E * log V), yielding O((V + E) log V) = O(E log V).
+
+Marks: 5

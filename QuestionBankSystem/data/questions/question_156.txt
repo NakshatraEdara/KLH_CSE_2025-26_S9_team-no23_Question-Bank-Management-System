@@ -1,0 +1,21 @@
+Question ID: 156
+Subject: Data Structures and Algorithms
+Topic: Dijkstra's Algorithm
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of Dijkstra's algorithm when implemented with a Fibonacci Heap?
+
+Options:
+A. O(E + V log V)
+B. O(E log V)
+C. O(V^2)
+D. O(E * V)
+
+Correct Answer: A
+
+Explanation:
+With O(1) amortized decrease-key operations for E edges and O(log V) amortized extract-min operations for V vertices, the total runtime is O(E + V log V).
+
+Marks: 10

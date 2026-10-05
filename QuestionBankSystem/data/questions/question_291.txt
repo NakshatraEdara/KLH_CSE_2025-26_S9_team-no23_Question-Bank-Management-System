@@ -1,0 +1,21 @@
+Question ID: 291
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How can a flow network with multiple source vertices and multiple sink vertices be transformed into a standard single-source single-sink network?
+
+Options:
+A. By adding a supersource connected to all sources with their supply capacities, and a supersink connected from all sinks with their demand capacities
+B. By merging all sources into a single vertex and deleting all incoming edges
+C. By running BFS independently for every source-sink pair
+D. Multiple sources and sinks cannot be reduced to single-source networks
+
+Correct Answer: A
+
+Explanation:
+A virtual supersource with directed edges to all individual sources, and a virtual supersink with edges from all sinks, standardizes multi-source multi-sink problems into single s-t maximum flow.
+
+Marks: 5

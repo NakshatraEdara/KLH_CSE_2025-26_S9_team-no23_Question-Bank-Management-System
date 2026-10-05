@@ -1,0 +1,21 @@
+Question ID: 43
+Subject: Data Structures and Algorithms
+Topic: Binary Search Tree
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+When deleting a node with two children from a BST, which node can safely replace it without violating the BST property?
+
+Options:
+A. Its in-order predecessor or in-order successor
+B. The root of the tree
+C. The leftmost leaf of the entire tree
+D. Any random leaf node
+
+Correct Answer: A
+
+Explanation:
+The in-order successor (minimum in right subtree) or in-order predecessor (maximum in left subtree) has at most one child and preserves all ordering invariants when swapped into the target node.
+
+Marks: 5

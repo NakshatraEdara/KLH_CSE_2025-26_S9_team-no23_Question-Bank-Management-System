@@ -1,0 +1,21 @@
+Question ID: 11
+Subject: Data Structures and Algorithms
+Topic: Queues
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Which principle governs the order of insertion and removal in a standard queue?
+
+Options:
+A. First In First Out (FIFO)
+B. Last In First Out (LIFO)
+C. Random Access Only
+D. Last In Last Out (LILO)
+
+Correct Answer: A
+
+Explanation:
+A queue operates under the First In First Out (FIFO) discipline: items enqueue at the rear and dequeue from the front.
+
+Marks: 2

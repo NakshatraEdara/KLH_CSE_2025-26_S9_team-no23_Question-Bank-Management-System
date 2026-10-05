@@ -1,0 +1,21 @@
+Question ID: 54
+Subject: Data Structures and Algorithms
+Topic: AVL Trees
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+Which rotation is performed when an imbalance occurs due to an insertion into the right subtree of the right child (RR case)?
+
+Options:
+A. A single Left rotation on the unbalanced node
+B. A single Right rotation on the unbalanced node
+C. A Left-Right double rotation
+D. A Right-Left double rotation
+
+Correct Answer: A
+
+Explanation:
+A single Left rotation raises the right child to become the new root of the subtree, restoring height balance when an insertion occurs in the outer right grandchild.
+
+Marks: 5

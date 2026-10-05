@@ -1,0 +1,21 @@
+Question ID: 262
+Subject: Data Structures and Algorithms
+Topic: LCP Array
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How can the number of occurrences of every distinct substring in a text be computed using Suffix Array, LCP, and a monotonic stack?
+
+Options:
+A. By processing the LCP array as a histogram problem using a monotonic stack to find the left and right extent of each LCP interval in O(n) time
+B. By running Floyd-Warshall on the LCP matrix
+C. By squaring the adjacency matrix
+D. By running Dijkstra from each suffix
+
+Correct Answer: A
+
+Explanation:
+Each distinct LCP value spans a contiguous interval of suffixes sharing that common prefix. Finding the maximal interval for each prefix length via monotonic stack (largest rectangle in histogram approach) takes O(n) time.
+
+Marks: 10

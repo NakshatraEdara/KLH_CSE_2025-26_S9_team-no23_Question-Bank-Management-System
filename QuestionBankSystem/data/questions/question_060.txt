@@ -1,0 +1,21 @@
+Question ID: 60
+Subject: Data Structures and Algorithms
+Topic: AVL Trees
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of deleting a node from an AVL tree containing n nodes?
+
+Options:
+A. O(log n)
+B. O(1)
+C. O(n)
+D. O(n log n)
+
+Correct Answer: A
+
+Explanation:
+Node deletion follows BST deletion in O(log n) time, followed by walking up the ancestral path performing at most O(log n) rotations of O(1) each, yielding O(log n) total time.
+
+Marks: 5

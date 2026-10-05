@@ -1,0 +1,21 @@
+Question ID: 168
+Subject: Data Structures and Algorithms
+Topic: Bellman-Ford Algorithm
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+In a DAG (Directed Acyclic Graph) with arbitrary (including negative) weights, how fast can single-source shortest paths be found without Bellman-Ford?
+
+Options:
+A. O(V + E) time by relaxing edges in topological order
+B. O(V * E)
+C. O(V^2)
+D. O(2^V)
+
+Correct Answer: A
+
+Explanation:
+Because a DAG has no cycles, topologically sorting vertices in O(V + E) and relaxing outgoing edges in that order computes exact shortest (and longest) paths in linear O(V + E) time.
+
+Marks: 10

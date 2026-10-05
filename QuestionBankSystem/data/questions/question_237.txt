@@ -1,0 +1,21 @@
+Question ID: 237
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How is the rolling hash updated in O(1) time when sliding a window of length m by one character (dropping old char c_out and adding new char c_in) with base B and modulus M?
+
+Options:
+A. H_new = ((H_old - c_out * B^(m-1)) * B + c_in) % M
+B. H_new = (H_old + c_in - c_out) % M
+C. H_new = (H_old * c_in / c_out) % M
+D. H_new = (H_old ^ c_in) % M
+
+Correct Answer: A
+
+Explanation:
+The highest-order term (c_out * B^(m-1)) is subtracted, the remainder is multiplied by base B to shift all positional exponents up by 1, and the new low-order character c_in is added.
+
+Marks: 5

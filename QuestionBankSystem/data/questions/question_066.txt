@@ -1,0 +1,21 @@
+Question ID: 66
+Subject: Data Structures and Algorithms
+Topic: Hashing
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+How does Separate Chaining resolve hash collisions in a hash table?
+
+Options:
+A. Each table bucket maintains a linked list (or chain) of entries that hash to that index
+B. By probing the next consecutive empty slot
+C. By discarding the older entry
+D. By rehashing with an infinite loop
+
+Correct Answer: A
+
+Explanation:
+In separate chaining, every bucket contains a pointer to a linked list (or small tree) storing all key-value records that collided at that bucket index.
+
+Marks: 2

@@ -1,0 +1,21 @@
+Question ID: 281
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is a Residual Graph in maximum flow algorithms?
+
+Options:
+A. A graph containing forward edges with residual capacity c(u, v) - f(u, v) and backward edges with capacity f(u, v) representing flow cancellation
+B. The graph of unused vertices
+C. A subgraph with negative edge weights
+D. A tree with no directed edges
+
+Correct Answer: A
+
+Explanation:
+The residual graph indicates remaining available capacity on forward edges and reverse capacity on backward edges, allowing subsequent augmenting paths to 'undo' earlier suboptimal flow choices.
+
+Marks: 5

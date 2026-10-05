@@ -1,0 +1,21 @@
+Question ID: 138
+Subject: Data Structures and Algorithms
+Topic: Kruskal's Algorithm
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of Kruskal's algorithm on a graph with V vertices and E edges?
+
+Options:
+A. O(E log E) or O(E log V)
+B. O(V^2)
+C. O(V * E)
+D. O(V + E)
+
+Correct Answer: A
+
+Explanation:
+Sorting E edges takes O(E log E). The DSU operations take O(E * alpha(V)), which is dominated by sorting, yielding overall time O(E log E) = O(E log V).
+
+Marks: 5

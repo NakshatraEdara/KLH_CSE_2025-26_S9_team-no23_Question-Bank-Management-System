@@ -1,0 +1,21 @@
+Question ID: 78
+Subject: Data Structures and Algorithms
+Topic: Hashing
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+When deleting an entry from an open-addressing hash table, why is the slot marked with a special DELETED marker (tombstone) instead of being cleared to null?
+
+Options:
+A. To prevent prematurely terminating the probe sequence for subsequent keys that collided at that slot
+B. To reserve memory for garbage collection
+C. Because array elements cannot be set to null in Java
+D. To maintain sorted order in the table
+
+Correct Answer: A
+
+Explanation:
+Open addressing search stops at an empty (null) slot. Setting a deleted slot to null would break probe chains for existing keys inserted earlier, making them unreachable.
+
+Marks: 5

@@ -1,0 +1,21 @@
+Question ID: 251
+Subject: Data Structures and Algorithms
+Topic: Suffix Arrays
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+How can pattern matching for pattern P of length m be performed using a Suffix Array SA of text of length n?
+
+Options:
+A. Binary search on SA in O(m log n) time, because suffixes are lexicographically sorted
+B. Linear scan through the array in O(n * m)
+C. Hashing each suffix into a separate hash table
+D. Running BFS on the SA indices
+
+Correct Answer: A
+
+Explanation:
+Because suffixes in SA are sorted alphabetically, binary search can find the range of suffixes having P as a prefix by comparing P with suffixes at midpoints in O(m log n) time.
+
+Marks: 2

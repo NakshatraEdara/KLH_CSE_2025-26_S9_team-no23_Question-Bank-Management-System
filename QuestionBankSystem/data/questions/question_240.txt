@@ -1,0 +1,21 @@
+Question ID: 240
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the Boyer-Moore string matching algorithm's best-case time complexity for a text of length n and pattern of length m?
+
+Options:
+A. O(n / m) sub-linear time
+B. O(n + m)
+C. O(n * m)
+D. O(log n)
+
+Correct Answer: A
+
+Explanation:
+Boyer-Moore matches characters from right to left in the pattern. Using the bad character rule, mismatches with characters not in the pattern allow skipping m characters at a time, achieving O(n / m) best-case time.
+
+Marks: 2

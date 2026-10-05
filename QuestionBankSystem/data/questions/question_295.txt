@@ -1,0 +1,21 @@
+Question ID: 295
+Subject: Data Structures and Algorithms
+Topic: Optimization Problems
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How can the problem of generating multiple distinct, non-overlapping exam sets satisfying subject/topic quotas be modeled as a network flow problem?
+
+Options:
+A. Construct a network with source -> exam sets -> topic requirements -> available questions -> sink, with unit capacities ensuring questions are assigned at most once
+B. By sorting questions alphabetically
+C. By running Dijkstra between questions
+D. By running KMP search on question titles
+
+Correct Answer: A
+
+Explanation:
+Multi-category matching with capacity bounds maps to maximum flow: source supplies exam set tokens, intermediate layers enforce topic quotas, and question nodes with capacity 1 guarantee disjoint assignment.
+
+Marks: 5

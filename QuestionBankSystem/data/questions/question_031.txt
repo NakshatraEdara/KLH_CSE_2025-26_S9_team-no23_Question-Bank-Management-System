@@ -1,0 +1,21 @@
+Question ID: 31
+Subject: Data Structures and Algorithms
+Topic: Sorting Algorithms
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Which of the following sorting algorithms makes the minimum possible number of memory writes, making it suitable when write operations are expensive?
+
+Options:
+A. Cycle Sort
+B. Quick Sort
+C. Merge Sort
+D. Bubble Sort
+
+Correct Answer: A
+
+Explanation:
+Cycle sort is an in-place, unstable sorting algorithm that minimizes writes: each element is written either 0 or 1 time to its final destination.
+
+Marks: 2

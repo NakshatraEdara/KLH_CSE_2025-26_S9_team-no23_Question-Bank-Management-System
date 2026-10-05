@@ -1,0 +1,21 @@
+Question ID: 163
+Subject: Data Structures and Algorithms
+Topic: Bellman-Ford Algorithm
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How does Bellman-Ford detect if the graph contains a negative weight cycle reachable from the source?
+
+Options:
+A. By running a V-th relaxation pass; if any edge can still be relaxed, a negative cycle exists
+B. If dist[source] becomes zero
+C. If the sum of all distances is negative
+D. By checking if any vertex has in-degree > 2
+
+Correct Answer: A
+
+Explanation:
+Shortest paths stabilize after V - 1 passes. If any edge (u, v) satisfies dist[u] + weight(u, v) < dist[v] on the V-th pass, a negative cycle exists because distances can be reduced indefinitely.
+
+Marks: 5

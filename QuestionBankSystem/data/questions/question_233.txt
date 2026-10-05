@@ -1,0 +1,21 @@
+Question ID: 233
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+For the string S = 'aabzaa', what are the values of Z[1], Z[2], Z[3], Z[4], Z[5]?
+
+Options:
+A. Z = [-, 1, 0, 0, 2, 1]
+B. Z = [-, 0, 0, 0, 0, 0]
+C. Z = [-, 2, 2, 2, 2, 2]
+D. Z = [-, 1, 2, 3, 4, 5]
+
+Correct Answer: A
+
+Explanation:
+At index 1 ('abzaa' vs 'aabzaa'): match 'a' -> len 1. At 2 ('bzaa'): match '' -> 0. At 3 ('zaa'): match '' -> 0. At 4 ('aa' vs 'aabzaa'): match 'aa' -> 2. At 5 ('a' vs 'aabzaa'): match 'a' -> 1.
+
+Marks: 5

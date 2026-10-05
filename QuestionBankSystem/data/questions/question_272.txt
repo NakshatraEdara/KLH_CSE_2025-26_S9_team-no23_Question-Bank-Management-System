@@ -1,0 +1,21 @@
+Question ID: 272
+Subject: Data Structures and Algorithms
+Topic: Edit Distance
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How does Ukkonen's cutoff algorithm find Edit Distance when the maximum allowable distance is known to be bounded by a small threshold k?
+
+Options:
+A. It only computes a diagonal band of width 2k + 1 in the DP matrix, reducing runtime to O(k * min(m, n))
+B. It runs in O(2^k)
+C. It removes all characters after position k
+D. It replaces DP with binary search
+
+Correct Answer: A
+
+Explanation:
+If the edit distance exceeds k, the optimal path never deviates by more than k cells from the main diagonal. Restricting DP computation to this 2k + 1 stripe reduces time from O(m * n) to O(k * n).
+
+Marks: 10

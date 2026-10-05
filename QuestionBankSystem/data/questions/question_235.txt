@@ -1,0 +1,21 @@
+Question ID: 235
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What core algorithmic technique does the Rabin-Karp string search algorithm utilize?
+
+Options:
+A. Rolling Hash function to compare pattern hash with sliding window text hashes in O(1) time
+B. Suffix Automaton
+C. Dynamic programming matrix
+D. Deterministic Finite Automaton (DFA)
+
+Correct Answer: A
+
+Explanation:
+Rabin-Karp computes a polynomial rolling hash for pattern and text windows. By updating the hash in O(1) as the window slides, it avoids comparing full strings unless hashes match.
+
+Marks: 2

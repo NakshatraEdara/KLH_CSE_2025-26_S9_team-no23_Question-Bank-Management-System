@@ -1,0 +1,21 @@
+Question ID: 140
+Subject: Data Structures and Algorithms
+Topic: Prim's Algorithm
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+How does Prim's algorithm build the Minimum Spanning Tree?
+
+Options:
+A. It grows a single tree from an arbitrary starting vertex, greedily adding the cheapest edge connecting the tree to a non-tree vertex
+B. It adds edges globally in increasing order of weight across all components
+C. It removes the heaviest edges from cycles until no cycles remain
+D. It runs BFS from every vertex simultaneously
+
+Correct Answer: A
+
+Explanation:
+Prim's algorithm is a vertex-growing greedy algorithm: starting from a root vertex, it continuously extracts the lowest-weight cut-crossing edge.
+
+Marks: 2

@@ -1,0 +1,21 @@
+Question ID: 101
+Subject: Data Structures and Algorithms
+Topic: B-Trees
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+In a B-Tree of order m, what is the minimum number of children a non-root internal node must possess?
+
+Options:
+A. ceil(m / 2)
+B. m / 2 - 1
+C. 2
+D. m - 1
+
+Correct Answer: A
+
+Explanation:
+To maintain high storage density and balance, every non-root internal node in a B-Tree of order m must have at least ceil(m / 2) children.
+
+Marks: 2

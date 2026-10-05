@@ -1,0 +1,21 @@
+Question ID: 16
+Subject: Data Structures and Algorithms
+Topic: Linked Lists
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity to find the middle element of a singly linked list in a single pass?
+
+Options:
+A. O(1)
+B. O(n)
+C. O(n log n)
+D. O(n^2)
+
+Correct Answer: B
+
+Explanation:
+Using a two-pointer technique (slow pointer moving 1 step and fast pointer moving 2 steps), the middle is reached when fast reaches the end in a single pass of O(n) time.
+
+Marks: 5

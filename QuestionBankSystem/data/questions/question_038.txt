@@ -1,0 +1,21 @@
+Question ID: 38
+Subject: Data Structures and Algorithms
+Topic: Sorting Algorithms
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+In the Median-of-Medians selection algorithm, dividing elements into groups of 5 guarantees what worst-case time complexity for finding the k-th smallest element?
+
+Options:
+A. O(n)
+B. O(n log n)
+C. O(n^(1.5))
+D. O(log n)
+
+Correct Answer: A
+
+Explanation:
+Groups of 5 ensure the pivot partitions at least 30% of elements on each side. The recurrence T(n) <= T(n/5) + T(7n/10) + O(n) satisfies n/5 + 7n/10 = 9n/10 < n, proving O(n) worst-case time.
+
+Marks: 10

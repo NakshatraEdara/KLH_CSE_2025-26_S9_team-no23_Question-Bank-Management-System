@@ -1,0 +1,21 @@
+Question ID: 40
+Subject: Data Structures and Algorithms
+Topic: Searching Algorithms
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+When can Ternary Search be applied instead of Binary Search to find the extremum of a function?
+
+Options:
+A. When the function is strictly unimodal (either strictly increases then decreases, or vice versa)
+B. When the function is periodic
+C. When the function is discontinuous everywhere
+D. When the array is completely unsorted
+
+Correct Answer: A
+
+Explanation:
+Ternary search divides the search interval into three parts using two internal evaluation points, converging on the peak or trough of any unimodal function in O(log3 n) steps.
+
+Marks: 5

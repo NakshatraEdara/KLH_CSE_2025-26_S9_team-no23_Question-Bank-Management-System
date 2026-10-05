@@ -1,0 +1,21 @@
+Question ID: 12
+Subject: Data Structures and Algorithms
+Topic: Queues
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How does a Circular Queue implemented with a fixed-size array of capacity C avoid false overflow when front > 0?
+
+Options:
+A. By shifting all elements to index 0 whenever dequeue is called
+B. By wrapping rear and front pointers using modulo arithmetic: (index + 1) % C
+C. By doubling the array size on every dequeue
+D. By converting the array into a singly linked list
+
+Correct Answer: B
+
+Explanation:
+Modulo arithmetic allows pointers to wrap around to index 0 when they reach the end of the array, reusing empty slots freed by dequeue operations.
+
+Marks: 5

@@ -1,0 +1,21 @@
+Question ID: 137
+Subject: Data Structures and Algorithms
+Topic: Kruskal's Algorithm
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Which data structure is fundamentally used in Kruskal's algorithm to efficiently detect and prevent cycles?
+
+Options:
+A. Disjoint Set Union (Union-Find)
+B. Binary Search Tree
+C. Segment Tree
+D. FIFO Queue
+
+Correct Answer: A
+
+Explanation:
+Kruskal's algorithm sorts edges by weight and uses a Disjoint Set Union (DSU) structure to check whether the endpoints of an edge belong to the same connected component in near O(1) time.
+
+Marks: 2

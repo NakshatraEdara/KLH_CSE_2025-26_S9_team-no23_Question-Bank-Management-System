@@ -1,0 +1,21 @@
+Question ID: 25
+Subject: Data Structures and Algorithms
+Topic: Sorting Algorithms
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+Which of the following sorting algorithms is stable and guarantees O(n log n) worst-case time complexity?
+
+Options:
+A. Merge Sort
+B. Quick Sort
+C. Heap Sort
+D. Selection Sort
+
+Correct Answer: A
+
+Explanation:
+Merge sort divides the array evenly, achieves O(n log n) time in all cases (worst, average, best), and preserves the relative order of duplicate elements (stability).
+
+Marks: 5

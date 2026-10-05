@@ -1,0 +1,21 @@
+Question ID: 289
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How can the minimum s-t cut edges be identified after running a maximum flow algorithm?
+
+Options:
+A. Run BFS/DFS from source s in the final residual graph to find all reachable vertices S; the min-cut consists of all original edges from S to V\S with full capacity flow
+B. Take all edges with zero flow
+C. Take the edges connected directly to the sink
+D. Sort edges by capacity
+
+Correct Answer: A
+
+Explanation:
+Vertices reachable from s in the residual graph form the source set S. Original edges directed from S to unreachable vertices V\S are fully saturated, constituting the minimal bottleneck cut.
+
+Marks: 5

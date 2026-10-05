@@ -1,0 +1,21 @@
+Question ID: 18
+Subject: Data Structures and Algorithms
+Topic: Queues
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+In a lock-free concurrent single-producer single-consumer (SPSC) ring buffer, which synchronization mechanism is sufficient to prevent race conditions without locks?
+
+Options:
+A. Atomic load and store with memory ordering acquire-release semantics on head and tail indices
+B. Coarse-grained mutex locking on all operations
+C. Spinlock with disabling CPU interrupts
+D. Randomized exponential backoff
+
+Correct Answer: A
+
+Explanation:
+In an SPSC ring buffer, only the producer updates tail and only the consumer updates head. Atomic variables with memory fences (acquire/release) ensure proper visibility and synchronization without mutual exclusion locks.
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 202
+Subject: Data Structures and Algorithms
+Topic: Dynamic Programming
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How can the space complexity of the 0/1 Knapsack DP algorithm be optimized from O(n * W) to O(W)?
+
+Options:
+A. By maintaining a single 1D array of size W+1 and iterating the capacity loop in reverse (from W down to weight)
+B. By sorting the items by value
+C. By running recursion without memoization
+D. By dividing all weights by 2
+
+Correct Answer: A
+
+Explanation:
+Iterating capacity backward prevents overwriting values from the previous item state needed for the current state calculation, effectively using only 1D array of size W + 1.
+
+Marks: 5

@@ -1,0 +1,21 @@
+Question ID: 86
+Subject: Data Structures and Algorithms
+Topic: Segment Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the primary purpose of a Segment Tree?
+
+Options:
+A. Efficiently answer range queries (such as sum, min, max, or gcd) and handle updates on intervals
+B. Sort strings alphabetically
+C. Find shortest paths between graph vertices
+D. Compress files using Huffman coding
+
+Correct Answer: A
+
+Explanation:
+A Segment Tree stores aggregated associative interval data over array segments, allowing logarithmic range queries and interval updates.
+
+Marks: 2

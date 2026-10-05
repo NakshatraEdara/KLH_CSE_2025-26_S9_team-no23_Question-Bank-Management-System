@@ -1,0 +1,21 @@
+Question ID: 73
+Subject: Data Structures and Algorithms
+Topic: Heaps
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How can the running median of a dynamic stream of numbers be maintained efficiently?
+
+Options:
+A. Using two heaps: a Max-Heap for the lower half and a Min-Heap for the upper half
+B. By sorting the stream array after every new element in O(n log n)
+C. Using a single FIFO queue
+D. Using a disjoint set union-find structure
+
+Correct Answer: A
+
+Explanation:
+Balancing sizes between a max-heap (lower numbers) and a min-heap (higher numbers) allows O(log n) insertions and O(1) median retrieval from the root elements.
+
+Marks: 5

@@ -1,0 +1,21 @@
+Question ID: 82
+Subject: Data Structures and Algorithms
+Topic: Fenwick Tree
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+In a 1-indexed Fenwick tree, which bitwise expression isolates the lowest set bit (least significant 1-bit) of an integer index i?
+
+Options:
+A. i & (-i)
+B. i | (-i)
+C. i ^ (-i)
+D. ~i
+
+Correct Answer: A
+
+Explanation:
+In two's complement representation, -i equals (~i) + 1. Performing bitwise AND between i and -i zeroes all bits except the lowest set bit.
+
+Marks: 5

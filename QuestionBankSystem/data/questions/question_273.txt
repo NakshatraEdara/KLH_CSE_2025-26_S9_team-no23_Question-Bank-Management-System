@@ -1,0 +1,21 @@
+Question ID: 273
+Subject: Data Structures and Algorithms
+Topic: Edit Distance
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the Damerau-Levenshtein distance, and how does it extend standard Levenshtein distance?
+
+Options:
+A. It adds transposition of two adjacent characters as a fourth primitive edit operation costing 1
+B. It allows deleting entire words at once
+C. It excludes substitutions
+D. It only counts insertions
+
+Correct Answer: A
+
+Explanation:
+Damerau-Levenshtein distance accounts for common human typographical errors by treating the adjacent transposition of two characters (e.g. 'teh' -> 'the') as a single edit step.
+
+Marks: 5

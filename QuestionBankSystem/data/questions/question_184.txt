@@ -1,0 +1,21 @@
+Question ID: 184
+Subject: Data Structures and Algorithms
+Topic: A* Search
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+For a 4-directional grid where movement is restricted to Up, Down, Left, and Right, which distance metric provides a standard admissible heuristic?
+
+Options:
+A. Manhattan distance: |x1 - x2| + |y1 - y2|
+B. Euclidean distance squared: (x1 - x2)^2 + (y1 - y2)^2
+C. Chebyshev distance: max(|x1 - x2|, |y1 - y2|)
+D. Hamming distance
+
+Correct Answer: A
+
+Explanation:
+In grid navigation with only orthogonal moves, the shortest path without obstacles is the Manhattan distance, making it exact and admissible.
+
+Marks: 2

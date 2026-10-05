@@ -1,0 +1,21 @@
+Question ID: 228
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+How does KMP avoid the O(n * m) worst-case time complexity of Naive string search?
+
+Options:
+A. By never decrementing or backtracking the text pointer i; it uses the LPS array to slide the pattern forward intelligently
+B. By sorting the characters in the text
+C. By compressing both text and pattern
+D. By running multi-threaded parallel comparisons
+
+Correct Answer: A
+
+Explanation:
+When a mismatch occurs at pattern index j, KMP resets j to lps[j - 1] without re-examining characters in the text that have already been matched.
+
+Marks: 2

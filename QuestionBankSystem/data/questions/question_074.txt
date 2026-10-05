@@ -1,0 +1,21 @@
+Question ID: 74
+Subject: Data Structures and Algorithms
+Topic: Hashing
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What mathematical property defines a Universal Hash Function Family H?
+
+Options:
+A. For any two distinct keys x != y, P_{h in H}[h(x) == h(y)] <= 1 / m
+B. No two keys can ever produce the same hash code
+C. The hash codes are strictly prime numbers
+D. The hash table never requires rehashing
+
+Correct Answer: A
+
+Explanation:
+A hash family is universal if the collision probability for any two distinct keys chosen independently of the hash function is at most 1/m, guaranteeing O(1) expected time for all operations.
+
+Marks: 10

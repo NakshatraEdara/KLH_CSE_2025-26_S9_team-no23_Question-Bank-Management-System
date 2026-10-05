@@ -1,0 +1,21 @@
+Question ID: 131
+Subject: Data Structures and Algorithms
+Topic: Graphs
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the maximum number of edges in a simple undirected graph with V vertices?
+
+Options:
+A. V * (V - 1) / 2
+B. V^2
+C. 2 * V
+D. V - 1
+
+Correct Answer: A
+
+Explanation:
+Each of the V vertices can connect to V - 1 other vertices. In an undirected graph without self-loops or multi-edges, total edges is V * (V - 1) / 2.
+
+Marks: 2

@@ -1,0 +1,21 @@
+Question ID: 194
+Subject: Data Structures and Algorithms
+Topic: Dynamic Programming
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the optimal time complexity to find the Longest Increasing Subsequence (LIS) in an array of size n using patience sorting / binary search?
+
+Options:
+A. O(n log n)
+B. O(n^2)
+C. O(n)
+D. O(2^n)
+
+Correct Answer: A
+
+Explanation:
+While basic DP is O(n^2), maintaining an array of the smallest tail of all increasing subsequences of various lengths allows binary search (std::lower_bound) for each element, achieving O(n log n) time.
+
+Marks: 10

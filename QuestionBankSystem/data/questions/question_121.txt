@@ -1,0 +1,21 @@
+Question ID: 121
+Subject: Data Structures and Algorithms
+Topic: Graphs
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How can Depth-First Search detect a cycle in a directed graph?
+
+Options:
+A. By detecting a back-edge pointing to a vertex currently in the active recursion call stack (gray state)
+B. By counting total vertices and edges
+C. By checking if BFS queue is empty
+D. By running Kruskal's algorithm
+
+Correct Answer: A
+
+Explanation:
+Using 3-color vertex marking (white = unvisited, gray = currently visiting, black = fully explored), encountering an edge to a gray vertex indicates a back-edge to an ancestor, confirming a directed cycle.
+
+Marks: 5

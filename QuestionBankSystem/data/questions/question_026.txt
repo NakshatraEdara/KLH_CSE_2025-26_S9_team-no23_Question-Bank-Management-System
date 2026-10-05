@@ -1,0 +1,21 @@
+Question ID: 26
+Subject: Data Structures and Algorithms
+Topic: Sorting Algorithms
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What causes standard QuickSort with Lomuto or Hoare partitioning to degrade to O(n^2) time complexity?
+
+Options:
+A. Choosing the first or last element as pivot on an already sorted or reverse-sorted array without randomization
+B. Input array size exceeding cache line size
+C. Having all unique elements in the input
+D. Using recursion instead of iteration
+
+Correct Answer: A
+
+Explanation:
+Selecting an extreme element on an already sorted array results in completely unbalanced partitions of sizes 0 and n - 1 at each step, leading to O(n^2) comparisons.
+
+Marks: 5

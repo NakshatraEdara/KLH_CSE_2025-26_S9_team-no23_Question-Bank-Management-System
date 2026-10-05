@@ -1,0 +1,21 @@
+Question ID: 264
+Subject: Data Structures and Algorithms
+Topic: Edit Distance
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the Levenshtein distance between 'kitten' and 'sitting'?
+
+Options:
+A. 3 (substitute 'k'->'s', substitute 'e'->'i', insert 'g')
+B. 1
+C. 2
+D. 5
+
+Correct Answer: A
+
+Explanation:
+1: 'k' -> 's' ('sitten'). 2: 'e' -> 'i' ('sittin'). 3: insert 'g' at end ('sitting'). Total edit operations = 3.
+
+Marks: 2

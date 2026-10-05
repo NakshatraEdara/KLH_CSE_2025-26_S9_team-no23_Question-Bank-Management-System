@@ -1,0 +1,21 @@
+Question ID: 173
+Subject: Data Structures and Algorithms
+Topic: Floyd-Warshall Algorithm
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the core dynamic programming recurrence relation in the Floyd-Warshall algorithm?
+
+Options:
+A. dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])
+B. dist[i][j] = dist[i][k] * dist[k][j]
+C. dist[i][j] = max(dist[i][j], dist[i][k] - dist[k][j])
+D. dist[i][j] = dist[i][j-1] + dist[i-1][j]
+
+Correct Answer: A
+
+Explanation:
+At iteration k, dist[i][j] represents the shortest path from i to j using only intermediate vertices from {1, ..., k}. The path either avoids k (dist[i][j]) or passes through k (dist[i][k] + dist[k][j]).
+
+Marks: 5

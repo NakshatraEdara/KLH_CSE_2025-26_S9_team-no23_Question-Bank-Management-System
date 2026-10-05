@@ -1,0 +1,21 @@
+Question ID: 51
+Subject: Data Structures and Algorithms
+Topic: Binary Search Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the relationship between the depth of the root node and the height of a non-empty BST?
+
+Options:
+A. Root depth is 0; tree height is the maximum depth of any leaf
+B. Root depth is equal to tree height always
+C. Root depth is n; tree height is 0
+D. Root depth is 1; tree height is strictly n - 1
+
+Correct Answer: A
+
+Explanation:
+By standard tree conventions, the root resides at depth 0, and the height of the tree is the length of the longest simple downward path from root to leaf.
+
+Marks: 2

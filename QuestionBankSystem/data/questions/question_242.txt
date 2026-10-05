@@ -1,0 +1,21 @@
+Question ID: 242
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How does the Bad Character Rule in Boyer-Moore calculate shift distance when a mismatch occurs at pattern index j on text character c?
+
+Options:
+A. Shift = max(1, j - last_occurrence[c])
+B. Shift = j + 1
+C. Shift = pattern_length - 1
+D. Shift = length of text
+
+Correct Answer: A
+
+Explanation:
+The pattern is shifted right so that the last occurrence of character c in the pattern aligns with text character c. If c does not appear to the left of j, shift is j - (-1) = j + 1.
+
+Marks: 5

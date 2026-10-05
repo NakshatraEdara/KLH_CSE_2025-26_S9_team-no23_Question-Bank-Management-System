@@ -1,0 +1,21 @@
+Question ID: 206
+Subject: Data Structures and Algorithms
+Topic: Dynamic Programming
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is Digit DP, and what state variables are typically used in its memoization table?
+
+Options:
+A. DP on the digit representation of integers; state includes (digit_index, tight_bound_flag, leading_zeros_flag, constraint_property)
+B. DP on floating point exponents
+C. DP that only operates on binary numbers
+D. DP using digital logic gates
+
+Correct Answer: A
+
+Explanation:
+Digit DP counts numbers in a range [A, B] satisfying digit properties by building digits from most to least significant, tracking whether the prefix matches the strict upper bound (tight flag).
+
+Marks: 10

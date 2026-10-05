@@ -1,0 +1,21 @@
+Question ID: 107
+Subject: Data Structures and Algorithms
+Topic: B-Trees
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+During deletion in a B-Tree, what rebalancing operation occurs when a node has fewer than ceil(m / 2) - 1 keys and neither sibling can spare a key?
+
+Options:
+A. Node merging: the node, an adjacent sibling, and the dividing key from the parent are merged into a single node
+B. Key rotation with grandparent
+C. Rehashing the entire tree
+D. Converting the underflowing node into a leaf
+
+Correct Answer: A
+
+Explanation:
+If key borrowing (rotation) from siblings is impossible because siblings are at minimum capacity, the node is merged with a sibling and the separator key from the parent, which may propagate merges upwards.
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 260
+Subject: Data Structures and Algorithms
+Topic: LCP Array
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the FM-index, and what data structures combine to make it an ultra-compact compressed full-text index?
+
+Options:
+A. Burrows-Wheeler Transform combined with Wavelet Matrix or checkpointed rank/select bitvectors (O(n) compressed space)
+B. A Segment Tree stored on disk
+C. A Bloom Filter inside a Hash Table
+D. An AVL tree of suffix arrays
+
+Correct Answer: A
+
+Explanation:
+The FM-index combines the BWT with auxiliary rank/select structures (LF-mapping). It enables pattern searches in O(m) time directly within compressed text (often smaller than the original text size).
+
+Marks: 10

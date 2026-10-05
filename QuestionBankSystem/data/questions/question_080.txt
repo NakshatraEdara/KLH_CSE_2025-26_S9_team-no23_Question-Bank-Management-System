@@ -1,0 +1,21 @@
+Question ID: 80
+Subject: Data Structures and Algorithms
+Topic: Hashing
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the space complexity and false positive rate of a Bloom Filter storing n elements with m bit slots and k independent hash functions?
+
+Options:
+A. Space is O(m) bits; false positive probability is approximately (1 - e^(-kn/m))^k with zero false negatives
+B. Space is O(n * k) bytes with 50% false negative rate
+C. Space is O(1) with 0% false positive rate
+D. Space is O(m^2) bits with no false positives
+
+Correct Answer: A
+
+Explanation:
+A Bloom filter uses m bits. It can yield false positives with probability ~(1 - e^(-kn/m))^k, but guarantees zero false negatives (if an element was inserted, all its k bits are definitely 1).
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 4
+Subject: Data Structures and Algorithms
+Topic: Linked Lists
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the primary advantage of a singly linked list over a fixed-size contiguous array?
+
+Options:
+A. Faster random access by index
+B. Dynamic sizing without requiring contiguous memory allocation
+C. Lower memory overhead per element
+D. Better CPU cache locality
+
+Correct Answer: B
+
+Explanation:
+Linked list nodes can be allocated anywhere in memory dynamically as elements are added, eliminating fixed capacity limits and contiguous block requirements.
+
+Marks: 2

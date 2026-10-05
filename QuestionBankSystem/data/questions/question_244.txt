@@ -1,0 +1,21 @@
+Question ID: 244
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+In Rabin-Karp, why is the modulus M chosen as a large prime number?
+
+Options:
+A. To distribute hash values uniformly across the range [0, M-1] and minimize collisions
+B. Because binary arithmetic only works with primes
+C. To prevent floating point inaccuracies
+D. To force all hashes to be positive even numbers
+
+Correct Answer: A
+
+Explanation:
+A large prime modulus ensures uniform modular distribution and prevents common integer factors from concentrating hash values into small collision clusters.
+
+Marks: 2

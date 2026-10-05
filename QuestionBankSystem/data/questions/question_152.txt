@@ -1,0 +1,21 @@
+Question ID: 152
+Subject: Data Structures and Algorithms
+Topic: Minimum Spanning Tree
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the randomized expected time complexity of Karger, Klein, and Tarjan's algorithm for finding an MST in an undirected graph?
+
+Options:
+A. O(V + E) linear time
+B. O(E log V)
+C. O(V^2)
+D. O(E * alpha(V))
+
+Correct Answer: A
+
+Explanation:
+Using random edge sampling, Boruvka contraction steps, and MST verification via cycle property, the Karger-Klein-Tarjan randomized algorithm finds an MST in O(V + E) expected time.
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 205
+Subject: Data Structures and Algorithms
+Topic: Dynamic Programming
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of the DP solution to find the Maximum Subarray Sum in an array of size n?
+
+Options:
+A. O(n)
+B. O(n^2)
+C. O(n log n)
+D. O(log n)
+
+Correct Answer: A
+
+Explanation:
+With dp[i] = max(arr[i], dp[i-1] + arr[i]), each element takes O(1) time to evaluate, yielding O(n) total time (Kadane's algorithm).
+
+Marks: 5

@@ -1,0 +1,21 @@
+Question ID: 7
+Subject: Data Structures and Algorithms
+Topic: Stacks
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Which principle governs the order of insertion and removal in a standard stack data structure?
+
+Options:
+A. First In First Out (FIFO)
+B. Last In First Out (LIFO)
+C. Highest Priority First Out (HPFO)
+D. Shortest Remaining Time First (SRTF)
+
+Correct Answer: B
+
+Explanation:
+A stack operates strictly on the Last In First Out (LIFO) principle, where the most recently added element is the first one removed.
+
+Marks: 2

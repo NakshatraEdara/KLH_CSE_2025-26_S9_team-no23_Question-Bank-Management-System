@@ -1,0 +1,21 @@
+Question ID: 255
+Subject: Data Structures and Algorithms
+Topic: LCP Array
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How can the Longest Common Substring of two distinct strings S1 and S2 be found using Suffix Arrays and LCP?
+
+Options:
+A. Concatenate S = S1 + '#' + S2, build SA and LCP, and find max(LCP[i]) where SA[i] and SA[i-1] belong to different source strings
+B. Build independent hash sets and find set intersection
+C. Run Dijkstra on the combined alphabet
+D. Compute Edit Distance between S1 and S2
+
+Correct Answer: A
+
+Explanation:
+In the combined string S1 + '#' + S2, an adjacent pair in SA coming from different original strings shares an LCP that is a common substring. The maximum such LCP gives the longest common substring in O(n1 + n2) time.
+
+Marks: 10

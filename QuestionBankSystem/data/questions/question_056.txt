@@ -1,0 +1,21 @@
+Question ID: 56
+Subject: Data Structures and Algorithms
+Topic: AVL Trees
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+Why is lookup generally faster in an AVL tree compared to a Red-Black tree with the same keys?
+
+Options:
+A. AVL trees are more rigidly balanced, resulting in a strictly smaller maximum height
+B. AVL trees do not use pointers
+C. AVL trees store keys in continuous memory blocks
+D. Red-Black trees require linear scans
+
+Correct Answer: A
+
+Explanation:
+AVL trees maintain a balance factor strictly in {-1, 0, 1} with max height ~1.44 log2(n), whereas Red-Black trees allow heights up to 2 log2(n + 1). Thus, AVL search paths are shorter.
+
+Marks: 5

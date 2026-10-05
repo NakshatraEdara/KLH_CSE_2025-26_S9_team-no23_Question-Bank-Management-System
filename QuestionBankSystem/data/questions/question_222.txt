@@ -1,0 +1,21 @@
+Question ID: 222
+Subject: Data Structures and Algorithms
+Topic: Backtracking
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How does the Minimum Remaining Values (MRV) heuristic optimize CSP backtracking search?
+
+Options:
+A. It selects the unassigned variable with the fewest legal values remaining in its domain to fail first and minimize branch width
+B. It picks the variable with the largest domain
+C. It selects variables alphabetically
+D. It minimizes the number of colors
+
+Correct Answer: A
+
+Explanation:
+MRV ('most constrained variable' or 'fail-first') chooses the variable closest to failure. If a branch is doomed, picking the tightest variable detects failure at shallow tree depths, drastically reducing search space.
+
+Marks: 10

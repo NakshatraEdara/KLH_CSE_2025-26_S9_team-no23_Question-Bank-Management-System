@@ -1,0 +1,21 @@
+Question ID: 207
+Subject: Data Structures and Algorithms
+Topic: Dynamic Programming
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+In the Subset Sum problem (determine if a subset sums to target S), what is the time complexity of the standard boolean DP table?
+
+Options:
+A. O(n * S)
+B. O(2^n) strictly
+C. O(n + S)
+D. O(S^2)
+
+Correct Answer: A
+
+Explanation:
+The DP table boolean dp[i][s] has dimensions n x (S + 1) with O(1) state transitions, achieving pseudo-polynomial time O(n * S).
+
+Marks: 5

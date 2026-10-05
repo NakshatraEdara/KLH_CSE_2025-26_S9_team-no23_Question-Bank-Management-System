@@ -1,0 +1,21 @@
+Question ID: 33
+Subject: Data Structures and Algorithms
+Topic: Searching Algorithms
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+In a rotated sorted array of unique elements (e.g. [4, 5, 6, 7, 0, 1, 2]), how can binary search find a target in O(log n) time?
+
+Options:
+A. At least one half is always normally sorted; check if the target falls within that sorted half to pick the next subarray
+B. Sort the array first in O(n log n) time
+C. Perform linear scan from the minimum element
+D. Apply Ternary Search directly on the whole array
+
+Correct Answer: A
+
+Explanation:
+Dividing at mid always produces at least one strictly sorted half. Comparing the target with the endpoints of the sorted half determines whether the target lies in that half in O(log n) time.
+
+Marks: 5

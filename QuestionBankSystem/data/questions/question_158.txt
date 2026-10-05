@@ -1,0 +1,21 @@
+Question ID: 158
+Subject: Data Structures and Algorithms
+Topic: Dijkstra's Algorithm
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is edge relaxation in shortest path algorithms?
+
+Options:
+A. If dist[u] + weight(u, v) < dist[v], update dist[v] = dist[u] + weight(u, v)
+B. Deleting edge (u, v) from the graph
+C. Setting weight(u, v) to zero
+D. Reversing the direction of edge (u, v)
+
+Correct Answer: A
+
+Explanation:
+Relaxing an edge (u, v) tests whether traversing through u improves the current best known shortest distance to v; if so, dist[v] is updated.
+
+Marks: 2

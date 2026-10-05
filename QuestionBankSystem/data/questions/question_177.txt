@@ -1,0 +1,21 @@
+Question ID: 177
+Subject: Data Structures and Algorithms
+Topic: A* Search
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+In the A* search algorithm, how is the evaluation function f(n) defined for each candidate node n?
+
+Options:
+A. f(n) = g(n) + h(n), where g(n) is the exact cost from start to n, and h(n) is heuristic estimated cost from n to goal
+B. f(n) = g(n) - h(n)
+C. f(n) = g(n) * h(n)
+D. f(n) = max(g(n), h(n))
+
+Correct Answer: A
+
+Explanation:
+A* ranks nodes by f(n) = g(n) + h(n), balancing the known exact traversal cost from the origin g(n) with the estimated prospective cost to the objective h(n).
+
+Marks: 2

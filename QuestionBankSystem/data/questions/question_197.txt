@@ -1,0 +1,21 @@
+Question ID: 197
+Subject: Data Structures and Algorithms
+Topic: Dynamic Programming
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of the standard Matrix Chain Multiplication dynamic programming algorithm for n matrices?
+
+Options:
+A. O(n^3)
+B. O(n^2)
+C. O(2^n)
+D. O(n!)
+
+Correct Answer: A
+
+Explanation:
+Computing optimal parenthesization evaluates chain lengths from 2 to n. For each sub-chain (i, j), it tests all split points k between i and j, resulting in O(n^3) total operations.
+
+Marks: 5

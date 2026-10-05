@@ -1,0 +1,21 @@
+Question ID: 58
+Subject: Data Structures and Algorithms
+Topic: AVL Trees
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the minimum number of nodes in an AVL tree of height 4 (where a single-node tree has height 0)?
+
+Options:
+A. 12
+B. 15
+C. 7
+D. 31
+
+Correct Answer: A
+
+Explanation:
+Minimum nodes follows N(h) = N(h-1) + N(h-2) + 1. Base cases: N(0)=1, N(1)=2, N(2)=4, N(3)=7, N(4) = 7 + 4 + 1 = 12 nodes.
+
+Marks: 10

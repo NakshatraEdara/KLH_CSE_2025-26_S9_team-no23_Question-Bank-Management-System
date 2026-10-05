@@ -1,0 +1,21 @@
+Question ID: 10
+Subject: Data Structures and Algorithms
+Topic: Stacks
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+In the Monotonic Stack algorithm for finding the Next Greater Element for all elements in an array of size n, what is the total overall time complexity?
+
+Options:
+A. O(n^2)
+B. O(n log n)
+C. O(n)
+D. O(2^n)
+
+Correct Answer: C
+
+Explanation:
+Even though a nested while loop pops from the stack, each element is pushed and popped at most once across the entire iteration, resulting in O(n) total amortized time.
+
+Marks: 10

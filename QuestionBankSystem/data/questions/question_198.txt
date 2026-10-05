@@ -1,0 +1,21 @@
+Question ID: 198
+Subject: Data Structures and Algorithms
+Topic: Dynamic Programming
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How does the Knuth-Yao optimization reduce the time complexity of certain interval DP problems (like optimal BST) from O(n^3) to O(n^2)?
+
+Options:
+A. By utilizing the monotonicity of optimal split points: opt[i][j-1] <= opt[i][j] <= opt[i+1][j]
+B. By converting the problem to maximum flow
+C. By using bitsets to parallelize evaluations
+D. By running FFT on matrix entries
+
+Correct Answer: A
+
+Explanation:
+When cost functions satisfy the quadrangle inequality and monotonicity, the optimal split point opt[i][j] is bounded between opt[i][j-1] and opt[i+1][j], making the sum of split searches telescope to O(n^2).
+
+Marks: 10

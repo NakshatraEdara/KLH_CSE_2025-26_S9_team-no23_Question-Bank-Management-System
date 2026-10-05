@@ -1,0 +1,21 @@
+Question ID: 149
+Subject: Data Structures and Algorithms
+Topic: Minimum Spanning Tree
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How can one find the Second Minimum Spanning Tree of a graph?
+
+Options:
+A. Find the MST, then for each non-MST edge e=(u, v), find the heaviest edge on the MST path between u and v, and swap them with minimum weight difference
+B. Remove all MST edges and run Kruskal again
+C. Sort all spanning trees by brute force
+D. Negate all edge weights and run Prim
+
+Correct Answer: A
+
+Explanation:
+The second MST differs from the MST by swapping exactly one edge: adding a non-tree edge creates a cycle, and removing the maximum edge on that cycle (found via binary lifting in O(log V)) yields the candidate second MST.
+
+Marks: 5

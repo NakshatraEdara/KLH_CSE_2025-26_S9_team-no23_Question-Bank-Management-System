@@ -1,0 +1,21 @@
+Question ID: 209
+Subject: Data Structures and Algorithms
+Topic: Backtracking
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the defining mechanism of the Backtracking algorithmic paradigm?
+
+Options:
+A. Incrementally building candidates for solutions, and abandoning ('backtracking' from) a candidate as soon as it cannot possibly lead to a valid solution
+B. Evaluating every possible combination using nested while loops
+C. Always choosing the locally optimal choice without undoing decisions
+D. Sorting input data in reverse order
+
+Correct Answer: A
+
+Explanation:
+Backtracking prunes search trees by checking validity constraints at each step: if a partial candidate violates constraints, it is pruned immediately, saving exponential search work.
+
+Marks: 2

@@ -1,0 +1,21 @@
+Question ID: 154
+Subject: Data Structures and Algorithms
+Topic: Dijkstra's Algorithm
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+Why does Dijkstra's greedy algorithm potentially fail or loop infinitely on graphs with negative edge weights?
+
+Options:
+A. Once a vertex is marked visited (extracted from the priority queue), Dijkstra assumes its shortest path is permanently finalized and never relaxes it again
+B. Priority queues cannot store negative numbers
+C. The algorithm runs out of memory
+D. The adjacency list deletes negative edges automatically
+
+Correct Answer: A
+
+Explanation:
+Dijkstra assumes that adding edges to an existing path only increases distance. Negative edge weights invalidate this monotonicity invariant, potentially causing shorter paths to discovered vertices to be ignored.
+
+Marks: 5

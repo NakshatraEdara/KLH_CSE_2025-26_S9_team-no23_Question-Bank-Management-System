@@ -1,0 +1,21 @@
+Question ID: 147
+Subject: Data Structures and Algorithms
+Topic: Minimum Spanning Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Can Prim's or Kruskal's algorithm correctly compute an MST on a graph with negative edge weights?
+
+Options:
+A. Yes, both work correctly on graphs with negative edge weights as long as the graph is connected and undirected
+B. No, both fail if any edge weight is negative
+C. Only Prim's works; Kruskal's fails
+D. Only if all negative edges form a cycle
+
+Correct Answer: A
+
+Explanation:
+Unlike Dijkstra's shortest path algorithm, MST algorithms rely on the Cut and Cycle properties, which depend on relative order of weights rather than sign. Adding a constant to all weights preserves MST structure.
+
+Marks: 2

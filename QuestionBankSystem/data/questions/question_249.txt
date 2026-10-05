@@ -1,0 +1,21 @@
+Question ID: 249
+Subject: Data Structures and Algorithms
+Topic: LCP Array
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What does the Longest Common Prefix (LCP) array store alongside a Suffix Array SA?
+
+Options:
+A. LCP[i] stores the length of the longest common prefix between consecutive lexicographically sorted suffixes SA[i] and SA[i - 1]
+B. LCP[i] stores the number of vowels in suffix i
+C. LCP[i] stores the total count of duplicate words in the document
+D. LCP[i] stores the edit distance between string i and string i+1
+
+Correct Answer: A
+
+Explanation:
+The LCP array records the length of the longest common prefix shared by adjacent entries in the sorted suffix array: LCP[i] = length(lcp(Suffix(SA[i-1]), Suffix(SA[i]))).
+
+Marks: 2

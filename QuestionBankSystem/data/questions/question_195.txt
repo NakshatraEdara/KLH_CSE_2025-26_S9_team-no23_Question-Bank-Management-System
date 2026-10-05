@@ -1,0 +1,21 @@
+Question ID: 195
+Subject: Data Structures and Algorithms
+Topic: Greedy Algorithms
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+In the Activity Selection Problem (Interval Scheduling), which greedy strategy yields the maximum number of mutually compatible activities?
+
+Options:
+A. Always pick the compatible activity with the earliest finish time
+B. Pick the activity with the shortest duration
+C. Pick the activity with the earliest start time
+D. Pick the activity with the fewest conflicts
+
+Correct Answer: A
+
+Explanation:
+Sorting activities by finish time and greedily choosing the first finishing non-conflicting activity leaves the maximum remaining time available for subsequent activities.
+
+Marks: 2

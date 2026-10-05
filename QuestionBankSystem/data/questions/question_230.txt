@@ -1,0 +1,21 @@
+Question ID: 230
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the definition of the Z-array for a string S of length n?
+
+Options:
+A. Z[i] is the length of the longest substring starting from S[i] that is also a prefix of S (with Z[0] typically 0 or n)
+B. Z[i] is the number of vowels up to index i
+C. Z[i] is the ASCII sum of characters up to i
+D. Z[i] is the frequency of character S[i]
+
+Correct Answer: A
+
+Explanation:
+For any index i >= 1, Z[i] represents the length of the longest common prefix between S and the suffix of S starting at position i.
+
+Marks: 2

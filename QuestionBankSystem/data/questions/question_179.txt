@@ -1,0 +1,21 @@
+Question ID: 179
+Subject: Data Structures and Algorithms
+Topic: A* Search
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+If the heuristic function h(n) is admissible (and tree search is used, or h(n) is consistent for graph search), what guarantee does A* provide?
+
+Options:
+A. A* is guaranteed to return an optimal (shortest) path to the goal
+B. A* guarantees exploring zero non-goal nodes
+C. A* runs in O(1) time
+D. A* converts the graph into a tree
+
+Correct Answer: A
+
+Explanation:
+Admissibility ensures that A* never overlooks an optimal path because no node on the optimal path can have its f-score inflated above the optimal cost.
+
+Marks: 5

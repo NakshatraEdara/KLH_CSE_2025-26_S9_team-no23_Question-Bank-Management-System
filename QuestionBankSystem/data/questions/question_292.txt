@@ -1,0 +1,21 @@
+Question ID: 292
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How does Circulation with Demands and Edge Lower Bounds differ from standard maximum flow?
+
+Options:
+A. Each edge has both a lower bound l(e) and upper bound c(e) (l(e) <= f(e) <= c(e)), and intermediate vertices have net supplies or demands
+B. Edges can have negative capacities
+C. Vertices can destroy flow
+D. Flow cannot be represented by integers
+
+Correct Answer: A
+
+Explanation:
+Circulation problems enforce minimum throughput constraints l(u, v) on edges. Transformed networks route initial lower bound flows and use auxiliary source/sink vertices to satisfy residual balances.
+
+Marks: 10

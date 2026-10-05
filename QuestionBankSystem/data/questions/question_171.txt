@@ -1,0 +1,21 @@
+Question ID: 171
+Subject: Data Structures and Algorithms
+Topic: Floyd-Warshall Algorithm
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What type of shortest path problem does the Floyd-Warshall algorithm solve?
+
+Options:
+A. All-Pairs Shortest Path (APSP) problem
+B. Single-Source Shortest Path only
+C. Bipartite maximum matching
+D. Minimum cut capacity
+
+Correct Answer: A
+
+Explanation:
+The Floyd-Warshall algorithm computes shortest paths between every pair of vertices in a directed or undirected weighted graph in a single dynamic programming procedure.
+
+Marks: 2

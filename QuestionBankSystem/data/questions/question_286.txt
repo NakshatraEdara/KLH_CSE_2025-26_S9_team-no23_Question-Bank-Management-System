@@ -1,0 +1,21 @@
+Question ID: 286
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How can the Maximum Bipartite Matching problem be reduced to a Maximum Flow problem?
+
+Options:
+A. Add a super-source s connected to all set A vertices with capacity 1, direct all bipartite edges from A to B with capacity 1, and connect all set B vertices to a super-sink t with capacity 1
+B. Connect all vertices to each other with infinite capacity
+C. Negate all edge capacities and run Dijkstra
+D. Sort the bipartite sets by degree
+
+Correct Answer: A
+
+Explanation:
+By the integrality theorem, the maximum flow will be integral ({0, 1}). Edges carrying flow 1 between A and B form a valid maximum cardinality bipartite matching.
+
+Marks: 5

@@ -1,0 +1,21 @@
+Question ID: 72
+Subject: Data Structures and Algorithms
+Topic: Hashing
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+In Cuckoo Hashing with two independent hash functions h1 and h2, what happens when an insertion triggers a displacement cycle?
+
+Options:
+A. An infinite loop is detected and the entire table is rehashed with new hash functions and larger capacity
+B. The key is permanently discarded
+C. The table switches to linear search
+D. A third table is dynamically allocated
+
+Correct Answer: A
+
+Explanation:
+Cuckoo hashing guarantees O(1) worst-case lookup by checking at most two locations. If an insertion enters an infinite displacement loop, rehash with fresh random hash functions is triggered.
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 34
+Subject: Data Structures and Algorithms
+Topic: Searching Algorithms
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the expected time complexity of the QuickSelect algorithm (Hoare's selection algorithm) to find the k-th smallest element?
+
+Options:
+A. O(n)
+B. O(n log n)
+C. O(n^2)
+D. O(k log n)
+
+Correct Answer: A
+
+Explanation:
+QuickSelect only recurses into one partition containing the k-th element. The recurrence T(n) = T(n/2) + O(n) resolves to a geometric series yielding O(n) expected time.
+
+Marks: 10

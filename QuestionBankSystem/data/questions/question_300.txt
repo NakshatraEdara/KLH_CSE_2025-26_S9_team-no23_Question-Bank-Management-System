@@ -1,0 +1,21 @@
+Question ID: 300
+Subject: Data Structures and Algorithms
+Topic: Optimization Problems
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+In repeated phrase detection across a large question bank using Suffix Arrays and LCP, how are potential near-duplicate questions detected in O(N log N) time?
+
+Options:
+A. Concatenate all question texts with unique delimiters, construct the Suffix and LCP arrays, and identify LCP entries >= min_length between suffixes originating from different question IDs
+B. Compare every pair of questions character by character in O(N^2 * L^2)
+C. Run Dijkstra from question 1 to question 300
+D. Sort questions by marks
+
+Correct Answer: A
+
+Explanation:
+Concatenating questions into a generalized string and building the Suffix Array and LCP array allows detecting all shared substrings of length >= min_length in linear O(total_length) time, pinpointing plagiarized or duplicate questions.
+
+Marks: 10

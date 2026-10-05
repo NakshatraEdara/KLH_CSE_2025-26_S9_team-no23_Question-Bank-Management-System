@@ -1,0 +1,21 @@
+Question ID: 114
+Subject: Data Structures and Algorithms
+Topic: B+ Trees
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What happens when a leaf node splits in a B+ Tree upon insertion?
+
+Options:
+A. The leaf splits into two leaves, the first key of the right leaf is copied (retained) in the leaf and also copied into the parent
+B. The median key is removed from the leaves entirely
+C. Both leaves are discarded
+D. The tree height is tripled
+
+Correct Answer: A
+
+Explanation:
+Because leaves must store all data keys, the promoted key cannot be removed from the leaf level; it is retained in the right leaf and duplicated in the parent index node.
+
+Marks: 5

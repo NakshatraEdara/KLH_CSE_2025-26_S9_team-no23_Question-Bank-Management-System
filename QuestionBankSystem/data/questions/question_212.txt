@@ -1,0 +1,21 @@
+Question ID: 212
+Subject: Data Structures and Algorithms
+Topic: Backtracking
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is the state-space search strategy used in a standard Sudoku Solver?
+
+Options:
+A. Recursive depth-first backtracking: fill an empty cell with a valid candidate (1-9), recurse, and undo if no solution exists
+B. Greedy randomized placement
+C. Breadth-first search storing all 9^81 boards in a queue
+D. Sorting numbers row by row
+
+Correct Answer: A
+
+Explanation:
+A Sudoku solver finds an empty cell, tries numbers 1 through 9 that satisfy row, column, and 3x3 box constraints, recurses on the remaining cells, and backtracks upon encountering an impasse.
+
+Marks: 5

@@ -1,0 +1,21 @@
+Question ID: 243
+Subject: Data Structures and Algorithms
+Topic: String Matching
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How can the KMP algorithm be modified to find the longest palindromic prefix of a string S of length n in O(n) time?
+
+Options:
+A. Construct string T = S + '#' + reverse(S) and compute its KMP LPS array; lps[length(T) - 1] gives the result
+B. Run Floyd-Warshall on the characters
+C. Sort the characters and run binary search
+D. Use Dijkstra from index 0
+
+Correct Answer: A
+
+Explanation:
+The longest prefix of S that matches a suffix of reverse(S) is precisely the longest palindromic prefix of S. The last value of the LPS array of S + '#' + rev(S) gives this exact length in O(n) time.
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 287
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the Push-Relabel (Preflow-Push) algorithm by Goldberg and Tarjan, and how does its concept differ from augmenting path methods?
+
+Options:
+A. It relaxes flow conservation during execution by allowing vertices to hold excess flow (preflow) and pushes excess to lower-height neighbors via local height relabeling
+B. It always searches for global augmenting paths from s to t using BFS
+C. It operates strictly on minimum spanning trees
+D. It solves network flow using linear programming simplex steps
+
+Correct Answer: A
+
+Explanation:
+Push-relabel algorithms work locally: vertices maintain height labels and buffer excess flow. Excess is pushed down height gradients, and vertices are relabeled upwards when blocked, avoiding expensive global path searches.
+
+Marks: 10

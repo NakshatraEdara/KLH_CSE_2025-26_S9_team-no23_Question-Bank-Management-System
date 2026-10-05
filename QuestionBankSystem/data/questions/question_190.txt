@@ -1,0 +1,21 @@
+Question ID: 190
+Subject: Data Structures and Algorithms
+Topic: Dynamic Programming
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the difference between Memoization (Top-Down) and Tabulation (Bottom-Up) in Dynamic Programming?
+
+Options:
+A. Memoization uses recursion and caches subproblem answers as encountered; Tabulation iteratively fills a DP table in topological dependency order
+B. Memoization is always O(n!) while Tabulation is O(1)
+C. Tabulation uses recursion while Memoization uses loops
+D. Memoization only works for sorting algorithms
+
+Correct Answer: A
+
+Explanation:
+Top-down memoization adds a lookup cache to a recursive function. Bottom-up tabulation iteratively computes answers starting from base cases, avoiding call stack overhead.
+
+Marks: 2

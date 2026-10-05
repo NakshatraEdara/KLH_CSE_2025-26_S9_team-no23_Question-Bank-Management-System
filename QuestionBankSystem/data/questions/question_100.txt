@@ -1,0 +1,21 @@
+Question ID: 100
+Subject: Data Structures and Algorithms
+Topic: B-Trees
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+In a B-Tree of order m, what is the maximum number of children any internal node can have?
+
+Options:
+A. m
+B. m - 1
+C. 2 * m
+D. ceil(m / 2)
+
+Correct Answer: A
+
+Explanation:
+By definition, a B-tree of order m allows an internal node to have at most m children and at most m - 1 keys.
+
+Marks: 5

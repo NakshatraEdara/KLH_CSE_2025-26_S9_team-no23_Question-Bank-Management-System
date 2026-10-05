@@ -1,0 +1,21 @@
+Question ID: 30
+Subject: Data Structures and Algorithms
+Topic: Sorting Algorithms
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How does the IntroSort algorithm ensure O(n log n) worst-case time while retaining QuickSort's practical performance?
+
+Options:
+A. It begins with QuickSort and switches to HeapSort if recursion depth exceeds 2 * floor(log2 n)
+B. It runs Bubble Sort first and switches to Merge Sort
+C. It uses Radix Sort for odd elements and Selection Sort for even elements
+D. It switches to binary search after partitioning
+
+Correct Answer: A
+
+Explanation:
+IntroSort (used in C++ std::sort) starts with QuickSort, switches to HeapSort if recursion depth exceeds 2 * log2(n) to avoid O(n^2) degradation, and uses InsertionSort for small arrays.
+
+Marks: 10

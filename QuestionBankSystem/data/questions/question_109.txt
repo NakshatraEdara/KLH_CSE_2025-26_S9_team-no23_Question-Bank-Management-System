@@ -1,0 +1,21 @@
+Question ID: 109
+Subject: Data Structures and Algorithms
+Topic: B+ Trees
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+In a 3-level B+ Tree (root, one internal level, leaf level) with order 100 where each leaf holds 50 records, what is the maximum number of records the tree can index?
+
+Options:
+A. 100 * 100 * 50 = 500,000 records
+B. 5,000 records
+C. 50,000,000 records
+D. 1,000 records
+
+Correct Answer: A
+
+Explanation:
+Root can point to 100 children. Each of those 100 internal nodes can point to 100 leaves, making 10,000 leaves. With 50 records per leaf, 10,000 * 50 = 500,000 records.
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 294
+Subject: Data Structures and Algorithms
+Topic: Maximum Flow
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What does the Integrality Theorem for Maximum Flow guarantee?
+
+Options:
+A. If all edge capacities in the network are integers, there exists an optimal maximum flow where every edge carries an integer amount of flow
+B. The number of vertices must be an integer
+C. All paths must have integer lengths
+D. The minimum cut must be a prime number
+
+Correct Answer: A
+
+Explanation:
+Because augmentations in Ford-Fulkerson or Dinic add/subtract integer bottleneck capacities at each step, integer capacity networks always produce strictly integral maximum flows.
+
+Marks: 5

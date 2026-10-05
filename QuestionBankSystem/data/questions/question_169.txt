@@ -1,0 +1,21 @@
+Question ID: 169
+Subject: Data Structures and Algorithms
+Topic: Dijkstra's Algorithm
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+How does Bidirectional Dijkstra accelerate finding the shortest path between a specific start vertex s and target vertex t?
+
+Options:
+A. By running two simultaneous searches: forward from s and backward from t, stopping when frontiers meet
+B. By running Dijkstra twice from s
+C. By halving all edge weights
+D. By deleting non-shortest paths
+
+Correct Answer: A
+
+Explanation:
+Searching forward from s and backward from t explores two search balls of radius d/2 instead of one ball of radius d, reducing the total search space from pi*d^2 to 2*pi*(d/2)^2, roughly halving visited vertices.
+
+Marks: 5

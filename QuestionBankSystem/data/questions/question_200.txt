@@ -1,0 +1,21 @@
+Question ID: 200
+Subject: Data Structures and Algorithms
+Topic: Dynamic Programming
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+In the Coin Change Problem (minimum coins to make amount A with coin denominations C), what is the DP state recurrence?
+
+Options:
+A. dp[a] = min_{c in C}(dp[a - c] + 1) for a >= c, with dp[0] = 0
+B. dp[a] = dp[a - 1] + dp[a - 2]
+C. dp[a] = max_{c in C}(dp[a - c] - 1)
+D. dp[a] = a * min(C)
+
+Correct Answer: A
+
+Explanation:
+To make amount a, testing each coin c and adding 1 to the optimal solution for amount a - c gives the minimal coins: dp[a] = 1 + min_{c}(dp[a - c]).
+
+Marks: 5

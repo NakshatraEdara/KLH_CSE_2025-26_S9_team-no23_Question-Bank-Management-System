@@ -1,0 +1,21 @@
+Question ID: 183
+Subject: Data Structures and Algorithms
+Topic: A* Search
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is IDA* (Iterative Deepening A*), and what practical advantage does it offer over standard A*?
+
+Options:
+A. It performs depth-first searches bounded by f-cost cutoffs, reducing space complexity from exponential O(b^d) to linear O(d)
+B. It runs in constant O(1) time
+C. It eliminates the need for heuristics
+D. It solves non-Euclidean graphs only
+
+Correct Answer: A
+
+Explanation:
+Standard A* stores all generated nodes in open/closed sets (taking O(b^d) memory). IDA* uses DFS iterations with an f-limit cutoff, requiring only O(d) memory where d is search depth.
+
+Marks: 10

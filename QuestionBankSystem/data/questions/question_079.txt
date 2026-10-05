@@ -1,0 +1,21 @@
+Question ID: 79
+Subject: Data Structures and Algorithms
+Topic: Heaps
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the time complexity of finding the minimum element in a standard Min-Heap of size n?
+
+Options:
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n log n)
+
+Correct Answer: A
+
+Explanation:
+By definition of a min-heap, the global minimum element always resides at the root (index 0 in array representation), allowing instant O(1) access.
+
+Marks: 2

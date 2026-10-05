@@ -1,0 +1,21 @@
+Question ID: 146
+Subject: Data Structures and Algorithms
+Topic: Minimum Spanning Tree
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+What is Boruvka's algorithm for finding an MST?
+
+Options:
+A. In each step, every connected component simultaneously finds its cheapest outgoing edge and contracts them, running in O(E log V) time
+B. A randomized DFS that visits edges in random order
+C. An algorithm that only works on trees
+D. A dynamic programming algorithm running in O(V^3)
+
+Correct Answer: A
+
+Explanation:
+Boruvka's algorithm is parallelizable: in each phase, all components select their minimum-weight incident edges concurrently, halving the number of components each round in O(E log V) total time.
+
+Marks: 5

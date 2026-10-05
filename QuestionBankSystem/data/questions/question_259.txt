@@ -1,0 +1,21 @@
+Question ID: 259
+Subject: Data Structures and Algorithms
+Topic: LCP Array
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+For the string 'banana' with SA = [5, 3, 1, 0, 4, 2] corresponding to ('a', 'ana', 'anana', 'banana', 'na', 'nana'), what is the LCP array?
+
+Options:
+A. [0, 1, 3, 0, 0, 2]
+B. [0, 0, 0, 0, 0, 0]
+C. [1, 2, 3, 4, 5, 6]
+D. [0, 2, 4, 1, 3, 5]
+
+Correct Answer: A
+
+Explanation:
+LCP[0]=0. 'a' & 'ana' share 'a' (1). 'ana' & 'anana' share 'ana' (3). 'anana' & 'banana' share '' (0). 'banana' & 'na' share '' (0). 'na' & 'nana' share 'na' (2). Result: [0, 1, 3, 0, 0, 2].
+
+Marks: 5

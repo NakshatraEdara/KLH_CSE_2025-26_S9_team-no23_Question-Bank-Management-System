@@ -1,0 +1,21 @@
+Question ID: 41
+Subject: Data Structures and Algorithms
+Topic: Binary Search Tree
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the defining property of a Binary Search Tree (BST)?
+
+Options:
+A. Left subtree keys are less than the node key, and right subtree keys are greater
+B. Every node must have exactly two children
+C. All leaf nodes must be at the same depth
+D. The root node always holds the maximum key in the entire tree
+
+Correct Answer: A
+
+Explanation:
+In a BST, for every node X, all keys in X's left subtree are strictly smaller than X's key, and all keys in X's right subtree are strictly greater (assuming distinct keys).
+
+Marks: 2

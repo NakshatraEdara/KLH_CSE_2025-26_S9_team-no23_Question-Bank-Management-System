@@ -1,0 +1,21 @@
+Question ID: 245
+Subject: Data Structures and Algorithms
+Topic: Suffix Arrays
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is a Suffix Array for a string S of length n?
+
+Options:
+A. An array of integers representing the starting indices of all suffixes of S, sorted in lexicographical order
+B. An array containing all prefixes of S
+C. An array containing the ASCII values of reversed characters
+D. An array of lengths of palindromic substrings
+
+Correct Answer: A
+
+Explanation:
+A suffix array SA is an integer array of size n providing the starting positions of the n suffixes of string S arranged in lexicographical (alphabetical) order.
+
+Marks: 2

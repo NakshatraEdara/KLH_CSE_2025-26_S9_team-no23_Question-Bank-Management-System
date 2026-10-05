@@ -1,0 +1,21 @@
+Question ID: 157
+Subject: Data Structures and Algorithms
+Topic: Dijkstra's Algorithm
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+In a dense graph where E is proportional to V^2, which Dijkstra implementation performs best?
+
+Options:
+A. Simple array-based implementation with linear scans for minimum distance in O(V^2)
+B. Binary heap implementation taking O(V^2 log V)
+C. Bellman-Ford taking O(V^3)
+D. DFS traversal
+
+Correct Answer: A
+
+Explanation:
+For dense graphs (E ~ V^2), scanning a simple array of size V to find the minimum distance takes O(V^2) total without priority queue heap maintenance overhead.
+
+Marks: 5

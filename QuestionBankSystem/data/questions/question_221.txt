@@ -1,0 +1,21 @@
+Question ID: 221
+Subject: Data Structures and Algorithms
+Topic: Backtracking
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+In the Combination Sum problem (find all unique combinations of candidates that sum to target), how are duplicate combinations prevented if candidate elements are distinct?
+
+Options:
+A. By passing a starting index parameter to recursive calls so each branch only considers candidates at or after the current index
+B. By storing all combinations in a linked list
+C. By shuffling candidates randomly
+D. By dividing target by candidate size
+
+Correct Answer: A
+
+Explanation:
+Restricting choices to indices >= current_index enforces a non-decreasing index order across selections, preventing permutations of the same multiset from appearing as duplicate combinations.
+
+Marks: 5

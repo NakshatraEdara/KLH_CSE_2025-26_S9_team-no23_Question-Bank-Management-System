@@ -1,0 +1,21 @@
+Question ID: 268
+Subject: Data Structures and Algorithms
+Topic: Sequence Alignment
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+Which algorithm computes optimal Global Sequence Alignment between two biological sequences?
+
+Options:
+A. Needleman-Wunsch algorithm
+B. Smith-Waterman algorithm
+C. Kruskal's algorithm
+D. Tarjan's algorithm
+
+Correct Answer: A
+
+Explanation:
+The Needleman-Wunsch algorithm is a classic global sequence alignment algorithm that aligns every residue across both sequences from end to end using dynamic programming.
+
+Marks: 2

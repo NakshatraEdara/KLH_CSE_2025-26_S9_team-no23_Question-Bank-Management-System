@@ -1,0 +1,21 @@
+Question ID: 276
+Subject: Data Structures and Algorithms
+Topic: Edit Distance
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+According to the Strong Exponential Time Hypothesis (SETH), can Edit Distance between two strings of length n be solved in O(n^(2 - eps)) time for any eps > 0?
+
+Options:
+A. No, conditional hardness proofs (Backurs & Indyk, 2015) show that solving Edit Distance in O(n^(2-eps)) would refute SETH
+B. Yes, an O(n log n) algorithm has been proven to exist
+C. Yes, using quantum computers only
+D. Edit Distance is NP-hard
+
+Correct Answer: A
+
+Explanation:
+A celebrated 2015 result by Backurs and Indyk established that a truly sub-quadratic algorithm for Edit Distance would falsify the Strong Exponential Time Hypothesis (SETH).
+
+Marks: 10

@@ -1,0 +1,21 @@
+Question ID: 68
+Subject: Data Structures and Algorithms
+Topic: Hashing
+Difficulty: Medium
+Question Type: Multiple Choice
+
+Question:
+In Open Addressing, how does Quadratic Probing calculate the probe sequence for probe number i (0 <= i < m)?
+
+Options:
+A. (hash(key) + c1 * i + c2 * i^2) % m
+B. (hash(key) + i) % m
+C. (hash(key) * i^2) % m
+D. (hash(key) + 2^i) % m
+
+Correct Answer: A
+
+Explanation:
+Quadratic probing computes probe index as (h(k) + c1*i + c2*i^2) % m. This breaks up primary clusters, although identical initial hashes follow identical paths (secondary clustering).
+
+Marks: 5

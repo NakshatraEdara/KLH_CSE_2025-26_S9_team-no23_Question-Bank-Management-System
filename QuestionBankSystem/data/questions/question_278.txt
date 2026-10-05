@@ -1,0 +1,21 @@
+Question ID: 278
+Subject: Data Structures and Algorithms
+Topic: Edit Distance
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the Hamming distance, and how does it restrict the problem compared to Levenshtein distance?
+
+Options:
+A. It only measures substitutions between two strings of equal length
+B. It allows unbounded insertions but no deletions
+C. It measures character frequencies only
+D. It requires strings to be in reverse alphabetical order
+
+Correct Answer: A
+
+Explanation:
+Hamming distance is defined strictly for strings of identical length and counts the number of positions at which corresponding characters differ, considering only substitutions.
+
+Marks: 2

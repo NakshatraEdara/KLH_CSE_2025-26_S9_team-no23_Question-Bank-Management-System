@@ -1,0 +1,21 @@
+Question ID: 224
+Subject: Data Structures and Algorithms
+Topic: Backtracking
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the Difference Constraint System, and how can it be mapped to a graph algorithm instead of pure exponential backtracking?
+
+Options:
+A. Constraints x_j - x_i <= w_k can be mapped directly to directed edges from i to j with weight w_k and solved via Bellman-Ford in O(V * E) time
+B. It is mapped to Huffman coding
+C. It is mapped to QuickSort
+D. It is mapped to binary indexed trees
+
+Correct Answer: A
+
+Explanation:
+Systems of difference constraints match the triangle inequality of shortest paths: dist[j] <= dist[i] + w(i, j). Running Bellman-Ford detects feasibility or negative cycles in O(V * E) polynomial time.
+
+Marks: 10

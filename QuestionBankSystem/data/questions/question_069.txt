@@ -1,0 +1,21 @@
+Question ID: 69
+Subject: Data Structures and Algorithms
+Topic: Hashing
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+What is the purpose of Double Hashing, and what constraint must the secondary hash function h2(k) satisfy?
+
+Options:
+A. Probe formula is (h1(k) + i * h2(k)) % m, and h2(k) must be relatively prime to table size m
+B. h2(k) must always return zero
+C. h2(k) must be identical to h1(k)
+D. h2(k) must return a negative integer
+
+Correct Answer: A
+
+Explanation:
+Double hashing eliminates primary and secondary clustering. The step size h2(k) must be coprime with m (gcd(h2(k), m) = 1) so the probe sequence visits all m slots before repeating.
+
+Marks: 10

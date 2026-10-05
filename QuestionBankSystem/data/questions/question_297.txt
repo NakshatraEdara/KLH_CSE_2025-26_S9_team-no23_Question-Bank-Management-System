@@ -1,0 +1,21 @@
+Question ID: 297
+Subject: Data Structures and Algorithms
+Topic: Optimization Problems
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the primary objective of an automated exam generation system constrained by total marks M and difficulty breakdown (Easy, Medium, Hard)?
+
+Options:
+A. Select a subset of questions whose marks sum exactly to M while satisfying predefined percentage quotas for each difficulty tier
+B. Select questions in strictly alphabetical order
+C. Ensure every question has the same text length
+D. Maximize the number of options per question
+
+Correct Answer: A
+
+Explanation:
+Exam builders optimize multi-criteria constraints: total target marks, difficulty distribution (e.g. 30% Easy, 40% Medium, 30% Hard), and non-overlap across sets.
+
+Marks: 2

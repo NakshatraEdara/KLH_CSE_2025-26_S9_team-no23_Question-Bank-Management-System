@@ -1,0 +1,21 @@
+Question ID: 53
+Subject: Data Structures and Algorithms
+Topic: AVL Trees
+Difficulty: Easy
+Question Type: Multiple Choice
+
+Question:
+What is the balance factor of an AVL node whose left subtree has height 3 and right subtree has height 2?
+
+Options:
+A. +1
+B. -1
+C. +5
+D. 0
+
+Correct Answer: A
+
+Explanation:
+Using balance factor = height(left) - height(right), 3 - 2 = +1, which is within the allowed balanced range {-1, 0, +1}.
+
+Marks: 2

@@ -1,0 +1,21 @@
+Question ID: 166
+Subject: Data Structures and Algorithms
+Topic: Bellman-Ford Algorithm
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+How does Johnson's algorithm use Bellman-Ford to enable Dijkstra's algorithm for All-Pairs Shortest Paths in graphs with negative edges?
+
+Options:
+A. It runs Bellman-Ford from an artificial super-source to compute potential function h(v), reweights edges to w'(u,v) = w(u,v) + h(u) - h(v) >= 0, then runs Dijkstra V times
+B. It replaces negative edges with 0
+C. It removes all negative cycles by deleting nodes
+D. It runs Floyd-Warshall on the negative edges only
+
+Correct Answer: A
+
+Explanation:
+Reweighting with vertex potentials preserves shortest path equivalences while guaranteeing all transformed edge weights w'(u, v) >= 0, allowing V runs of Dijkstra in O(V * E + V^2 log V) time.
+
+Marks: 10

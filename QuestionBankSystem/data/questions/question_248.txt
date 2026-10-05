@@ -1,0 +1,21 @@
+Question ID: 248
+Subject: Data Structures and Algorithms
+Topic: Suffix Arrays
+Difficulty: Hard
+Question Type: Multiple Choice
+
+Question:
+Which algorithms construct the Suffix Array in guaranteed linear O(n) worst-case time?
+
+Options:
+A. SA-IS (Suffix Array by Induced Sorting) and DC3 (Karkkainen-Sanders / Skew algorithm)
+B. Manber-Myers and QuickSort
+C. KMP and Rabin-Karp
+D. Floyd-Warshall and Prim
+
+Correct Answer: A
+
+Explanation:
+Both DC3 (difference cover 3) and SA-IS (induced sorting) achieve optimal O(n) construction time. SA-IS is widely recognized as the most memory-efficient and practically fastest linear-time algorithm.
+
+Marks: 10
