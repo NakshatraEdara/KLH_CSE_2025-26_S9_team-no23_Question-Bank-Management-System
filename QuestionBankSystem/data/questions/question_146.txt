@@ -2,7 +2,7 @@ Question ID: 146
 Subject: Data Structures and Algorithms
 Topic: Minimum Spanning Tree
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is Boruvka's algorithm for finding an MST?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Boruvka's algorithm is parallelizable: in each phase, all components select their minimum-weight incident edges concurrently, halving the number of components each round in O(E log V) total time.
-
-Marks: 5

@@ -2,7 +2,7 @@ Question ID: 213
 Subject: Data Structures and Algorithms
 Topic: Backtracking
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is Donald Knuth's Algorithm X, and what data structure makes it exceptionally efficient for exact cover backtracking problems?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Dancing Links (DLX) represents a sparse matrix using circular 4-way linked nodes (left, right, up, down). Removing and restoring matrix columns and rows takes O(1) pointer operations without memory allocation.
-
-Marks: 10

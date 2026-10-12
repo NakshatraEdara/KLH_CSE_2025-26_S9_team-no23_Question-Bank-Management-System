@@ -2,7 +2,7 @@ Question ID: 50
 Subject: Data Structures and Algorithms
 Topic: AVL Trees
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 In the worst case, how many tree rotations are required to restore AVL balance after deleting a single node?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 While insertion rebalancing terminates after at most 1 single or double rotation, deletion can propagate height changes up the entire tree, requiring O(log n) rotations.
-
-Marks: 10

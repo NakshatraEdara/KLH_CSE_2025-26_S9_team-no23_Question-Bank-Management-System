@@ -2,7 +2,7 @@ Question ID: 284
 Subject: Data Structures and Algorithms
 Topic: Maximum Flow
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the time complexity of Dinic's (Dinitz's) algorithm for maximum flow on general networks?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Dinic's algorithm builds a level graph using BFS and pushes blocking flows along multiple augmenting paths using DFS. There are at most V - 1 phases, and each phase takes O(V * E) time, totaling O(V^2 * E).
-
-Marks: 10

@@ -2,7 +2,7 @@ Question ID: 76
 Subject: Data Structures and Algorithms
 Topic: Hashing
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 Why is a prime number commonly chosen as the table size m in hash tables with modular hashing?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A prime modulus ensures that common patterns or strides in input keys (such as multiples of powers of two) do not bias hash results toward a small subset of slots.
-
-Marks: 2

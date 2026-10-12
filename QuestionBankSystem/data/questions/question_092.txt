@@ -2,7 +2,7 @@ Question ID: 92
 Subject: Data Structures and Algorithms
 Topic: Segment Tree
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is a Persistent Segment Tree, and how does it retain access to previous versions of the tree after updates?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Persistent segment trees use node sharing: each update creates new nodes only along the modified root-to-leaf path (O(log n) nodes), preserving pointer access to previous tree roots.
-
-Marks: 10

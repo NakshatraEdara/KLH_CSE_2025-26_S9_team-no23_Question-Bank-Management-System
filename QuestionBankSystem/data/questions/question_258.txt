@@ -2,7 +2,7 @@ Question ID: 258
 Subject: Data Structures and Algorithms
 Topic: Suffix Arrays
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What sentinel character convention is commonly appended to a string when constructing its suffix array?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Appending a unique sentinel '$' that is smaller than all alphabet symbols ensures that no suffix is a proper prefix of any other suffix, simplifying suffix sorting.
-
-Marks: 2

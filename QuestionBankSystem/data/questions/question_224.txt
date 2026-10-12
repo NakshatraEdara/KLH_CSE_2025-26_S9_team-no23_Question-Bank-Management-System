@@ -2,7 +2,7 @@ Question ID: 224
 Subject: Data Structures and Algorithms
 Topic: Backtracking
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the Difference Constraint System, and how can it be mapped to a graph algorithm instead of pure exponential backtracking?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Systems of difference constraints match the triangle inequality of shortest paths: dist[j] <= dist[i] + w(i, j). Running Bellman-Ford detects feasibility or negative cycles in O(V * E) polynomial time.
-
-Marks: 10

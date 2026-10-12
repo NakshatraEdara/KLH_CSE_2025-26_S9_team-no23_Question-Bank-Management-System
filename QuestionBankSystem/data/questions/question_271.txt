@@ -2,7 +2,7 @@ Question ID: 271
 Subject: Data Structures and Algorithms
 Topic: Sequence Alignment
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 In sequence alignment, what is an Affine Gap Penalty, and why is it biologically realistic?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Biological insertions and deletions often occur in multi-nucleotide blocks. Penalizing gap opening more than gap extension (Gotoh's algorithm) mirrors natural evolutionary mutation patterns.
-
-Marks: 10

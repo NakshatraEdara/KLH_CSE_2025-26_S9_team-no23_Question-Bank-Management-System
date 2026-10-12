@@ -2,7 +2,7 @@ Question ID: 6
 Subject: Data Structures and Algorithms
 Topic: Linked Lists
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 In an XOR Linked List (memory-efficient doubly linked list), how is each node's single pointer field calculated?
@@ -17,5 +17,3 @@ Correct Answer: C
 
 Explanation:
 An XOR linked list stores address(prev) ^ address(next) in each node, allowing bidirectional traversal using previous address knowledge while using only one pointer field per node.
-
-Marks: 10

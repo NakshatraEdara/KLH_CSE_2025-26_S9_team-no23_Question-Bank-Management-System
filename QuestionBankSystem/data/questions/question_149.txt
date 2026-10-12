@@ -2,7 +2,7 @@ Question ID: 149
 Subject: Data Structures and Algorithms
 Topic: Minimum Spanning Tree
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How can one find the Second Minimum Spanning Tree of a graph?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The second MST differs from the MST by swapping exactly one edge: adding a non-tree edge creates a cycle, and removing the maximum edge on that cycle (found via binary lifting in O(log V)) yields the candidate second MST.
-
-Marks: 5

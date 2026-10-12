@@ -2,7 +2,7 @@ Question ID: 88
 Subject: Data Structures and Algorithms
 Topic: Segment Tree
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the time complexity of building a Segment Tree from an array of size n?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A segment tree contains fewer than 4n nodes. Building it bottom-up computes each node's value from its two children in O(1) time, totaling O(n) construction time.
-
-Marks: 5

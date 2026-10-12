@@ -2,7 +2,7 @@ Question ID: 65
 Subject: Data Structures and Algorithms
 Topic: Hashing
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is the primary objective of a good hash function?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A good hash function satisfies the uniform hashing assumption: each key is equally likely to hash into any of the available m slots, minimizing collisions.
-
-Marks: 2

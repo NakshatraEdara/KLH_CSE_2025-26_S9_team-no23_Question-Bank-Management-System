@@ -2,7 +2,7 @@ Question ID: 55
 Subject: Data Structures and Algorithms
 Topic: Binary Search Tree
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the optimal algorithm to convert an arbitrary Binary Search Tree of n nodes into a balanced BST in O(n) time and O(1) auxiliary space?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The Day-Stout-Warren algorithm first flattens the BST into a vine (linked list) via right rotations, then performs precise sequences of left rotations to build a complete balanced tree in O(n) time and O(1) space.
-
-Marks: 10

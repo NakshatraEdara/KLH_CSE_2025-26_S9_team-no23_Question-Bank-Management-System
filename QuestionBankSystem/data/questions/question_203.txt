@@ -2,7 +2,7 @@ Question ID: 203
 Subject: Data Structures and Algorithms
 Topic: Dynamic Programming
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 How does Convex Hull Trick (CHT) optimize dynamic programming transitions of the form dp[i] = min_{j < i}(dp[j] + m_j * x_i + c_j)?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Each past state j represents a linear equation. Maintaining lines in a monotonic deque or Li Chao Tree allows finding the optimal line for query x_i via binary search in O(log n) time, reducing O(n^2) DP to O(n log n).
-
-Marks: 10

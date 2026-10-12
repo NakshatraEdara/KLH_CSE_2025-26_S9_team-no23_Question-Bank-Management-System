@@ -2,7 +2,7 @@ Question ID: 189
 Subject: Data Structures and Algorithms
 Topic: Dynamic Programming
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What are the two essential characteristics a problem must exhibit for Dynamic Programming to be applicable?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Dynamic Programming applies when an optimal solution contains within it optimal solutions to subproblems (optimal substructure) and the same subproblems are solved repeatedly (overlapping subproblems).
-
-Marks: 2

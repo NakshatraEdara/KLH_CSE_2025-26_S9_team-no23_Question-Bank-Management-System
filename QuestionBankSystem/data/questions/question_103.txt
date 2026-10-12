@@ -2,7 +2,7 @@ Question ID: 103
 Subject: Data Structures and Algorithms
 Topic: B+ Trees
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 Why are B+ Trees substantially superior to standard B-Trees for database range queries (e.g., SELECT WHERE key BETWEEN x AND y)?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Once the start key is located via root-to-leaf search, the range query simply iterates through the linked list of leaf pages without traversing back up internal nodes.
-
-Marks: 5

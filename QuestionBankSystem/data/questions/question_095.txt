@@ -2,7 +2,7 @@ Question ID: 95
 Subject: Data Structures and Algorithms
 Topic: Segment Tree
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 How does Segment Tree Beats (developed by Ji Driver) maintain range modulo or range min updates?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Segment Tree Beats tracks the maximum, second maximum, and frequency of maximum values. When an update affects only the maximum values, lazy tags update them efficiently in amortized O(log n) time.
-
-Marks: 10

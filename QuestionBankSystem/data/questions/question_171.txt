@@ -2,7 +2,7 @@ Question ID: 171
 Subject: Data Structures and Algorithms
 Topic: Floyd-Warshall Algorithm
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What type of shortest path problem does the Floyd-Warshall algorithm solve?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The Floyd-Warshall algorithm computes shortest paths between every pair of vertices in a directed or undirected weighted graph in a single dynamic programming procedure.
-
-Marks: 2

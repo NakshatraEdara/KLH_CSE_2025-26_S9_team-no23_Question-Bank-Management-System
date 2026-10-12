@@ -48,17 +48,21 @@ public class SuffixTools {
         return lcp;
     }
 
-    private static class Hit {
-        int len, idA, idB; String phrase;
-        Hit(int len, int idA, int idB, String phrase) { this.len = len; this.idA = idA; this.idB = idB; this.phrase = phrase; }
+    public static class PhraseHit {
+        public final int len;
+        public final int idA;
+        public final int idB;
+        public final String phrase;
+        public PhraseHit(int len, int idA, int idB, String phrase) {
+            this.len = len; this.idA = idA; this.idB = idB; this.phrase = phrase;
+        }
     }
 
     /**
      * Joins all question texts (lower-case, separated by SEP) into one string, builds suffix array + LCP,
-     * and reports the longest phrases shared by two different questions.
-     * Adjacent suffixes in sorted order share the longest prefixes, so only adjacent pairs are checked.
+     * and reports the longest phrases shared by two different questions as structured hits.
      */
-    public static List<String> repeatedPhrases(List<Question> qs, int minLen, int top) {
+    public static List<PhraseHit> detectPhrases(List<Question> qs, int minLen, int top) {
         StringBuilder sb = new StringBuilder();
         for (Question q : qs) sb.append(q.getText().toLowerCase()).append(SEP);
         String s = sb.toString();
@@ -75,7 +79,7 @@ public class SuffixTools {
         int[] sa = buildSuffixArray(s);
         int[] lcp = kasai(s, sa);
 
-        List<Hit> hits = new ArrayList<>();
+        List<PhraseHit> hits = new ArrayList<>();
         for (int i = 1; i < n; i++) {
             int a = sa[i - 1], b = sa[i];
             if (owner[a] == owner[b]) continue;       // must come from different questions
@@ -91,18 +95,27 @@ public class SuffixTools {
             }
             String phrase = s.substring(start, end).trim();
             if (phrase.length() >= minLen) {
-                hits.add(new Hit(phrase.length(), qs.get(owner[a]).getId(), qs.get(owner[b]).getId(), phrase));
+                hits.add(new PhraseHit(phrase.length(), qs.get(owner[a]).getId(), qs.get(owner[b]).getId(), phrase));
             }
         }
         hits.sort((x, y) -> Integer.compare(y.len, x.len));
 
-        List<String> out = new ArrayList<>();
+        List<PhraseHit> out = new ArrayList<>();
         Set<String> seenPairs = new HashSet<>();
-        for (Hit h : hits) {
+        for (PhraseHit h : hits) {
             String key = Math.min(h.idA, h.idB) + "-" + Math.max(h.idA, h.idB);
             if (!seenPairs.add(key)) continue;        // keep only the longest phrase per pair
-            out.add("Q" + h.idA + " & Q" + h.idB + "  (" + h.len + " chars): \"" + h.phrase + "\"");
+            out.add(h);
             if (out.size() == top) break;
+        }
+        return out;
+    }
+
+    public static List<String> repeatedPhrases(List<Question> qs, int minLen, int top) {
+        List<PhraseHit> hits = detectPhrases(qs, minLen, top);
+        List<String> out = new ArrayList<>();
+        for (PhraseHit h : hits) {
+            out.add("Q" + h.idA + " & Q" + h.idB + "  (" + h.len + " chars): \"" + h.phrase + "\"");
         }
         return out;
     }

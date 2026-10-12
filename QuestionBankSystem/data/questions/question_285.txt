@@ -2,7 +2,7 @@ Question ID: 285
 Subject: Data Structures and Algorithms
 Topic: Maximum Flow
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the time complexity of Dinic's algorithm when applied to unit networks (where all capacities are 1, such as standard bipartite matching reductions)?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 On unit networks, the number of Dinic phases is bounded by O(sqrt(V)), and each phase takes O(E) time, resulting in O(E * sqrt(V)) time, which directly matches Hopcroft-Karp matching.
-
-Marks: 10

@@ -2,7 +2,7 @@ Question ID: 15
 Subject: Data Structures and Algorithms
 Topic: Arrays
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 In row-major order storage for a 2D array A[R][C] with base address B and element size S, what is the address of A[i][j] (0-indexed)?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Row-major order lays out rows sequentially. There are C columns per row, so row i is preceded by i * C elements, plus j elements in the current row.
-
-Marks: 2

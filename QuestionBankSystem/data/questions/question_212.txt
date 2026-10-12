@@ -2,7 +2,7 @@ Question ID: 212
 Subject: Data Structures and Algorithms
 Topic: Backtracking
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the state-space search strategy used in a standard Sudoku Solver?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A Sudoku solver finds an empty cell, tries numbers 1 through 9 that satisfy row, column, and 3x3 box constraints, recurses on the remaining cells, and backtracks upon encountering an impasse.
-
-Marks: 5

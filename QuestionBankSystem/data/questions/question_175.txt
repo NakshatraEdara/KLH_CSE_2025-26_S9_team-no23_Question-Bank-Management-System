@@ -2,7 +2,7 @@ Question ID: 175
 Subject: Data Structures and Algorithms
 Topic: Floyd-Warshall Algorithm
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How does the Floyd-Warshall algorithm detect the presence of a negative cycle in the graph?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The distance from any vertex i to itself starts at 0. If dist[i][i] becomes strictly negative, a cycle from i back to i has negative total weight.
-
-Marks: 5

@@ -2,7 +2,7 @@ Question ID: 294
 Subject: Data Structures and Algorithms
 Topic: Maximum Flow
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What does the Integrality Theorem for Maximum Flow guarantee?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Because augmentations in Ford-Fulkerson or Dinic add/subtract integer bottleneck capacities at each step, integer capacity networks always produce strictly integral maximum flows.
-
-Marks: 5

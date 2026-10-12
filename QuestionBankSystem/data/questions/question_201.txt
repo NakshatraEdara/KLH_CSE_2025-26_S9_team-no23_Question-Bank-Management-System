@@ -2,7 +2,7 @@ Question ID: 201
 Subject: Data Structures and Algorithms
 Topic: Dynamic Programming
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is the time and space complexity of computing the n-th Fibonacci number using simple bottom-up DP with two variables?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Because F(n) depends only on F(n-1) and F(n-2), tracking only the previous two values in a loop from 2 to n achieves linear time and constant auxiliary memory.
-
-Marks: 2

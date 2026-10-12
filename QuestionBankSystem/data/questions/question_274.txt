@@ -2,7 +2,7 @@ Question ID: 274
 Subject: Data Structures and Algorithms
 Topic: Edit Distance
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is the Edit Distance between any string S of length n and the empty string ''?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Converting an empty string to string S requires inserting all n characters; converting S to empty requires deleting all n characters. Hence, distance is n.
-
-Marks: 2

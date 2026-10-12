@@ -2,7 +2,7 @@ Question ID: 299
 Subject: Data Structures and Algorithms
 Topic: Optimization Problems
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 When generating multiple balanced exam papers from a question bank, what does the Min-Cost Multi-Commodity Flow or Ford-Fulkerson variant optimize?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Modeling question allocation as network flow ensures each question is used at most once (unit edge capacities) while satisfying per-exam quotas; costs penalize deviation from target difficulty profiles.
-
-Marks: 10

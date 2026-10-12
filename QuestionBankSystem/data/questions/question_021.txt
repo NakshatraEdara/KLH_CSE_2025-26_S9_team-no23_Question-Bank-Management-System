@@ -2,7 +2,7 @@ Question ID: 21
 Subject: Data Structures and Algorithms
 Topic: Searching Algorithms
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is the worst-case time complexity of standard Binary Search on a sorted array of size n?
@@ -17,5 +17,3 @@ Correct Answer: B
 
 Explanation:
 Binary search divides the search interval in half with each comparison, taking at most floor(log2 n) + 1 steps, which is O(log n).
-
-Marks: 2

@@ -2,7 +2,7 @@ Question ID: 14
 Subject: Data Structures and Algorithms
 Topic: Queues
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 In the sliding window maximum problem for an array of size n with window size k, what data structure yields an optimal O(n) total time complexity?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A monotonic deque maintaining elements in decreasing order allows each index to be inserted and removed at most once, achieving O(n) overall time.
-
-Marks: 10

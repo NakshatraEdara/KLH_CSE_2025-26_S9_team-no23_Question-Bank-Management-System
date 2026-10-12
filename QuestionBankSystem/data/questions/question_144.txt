@@ -2,7 +2,7 @@ Question ID: 144
 Subject: Data Structures and Algorithms
 Topic: Minimum Spanning Tree
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What does the Cut Property of Minimum Spanning Trees state?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The Cut Property states that for any partition of vertices into sets S and V\S, the edge with the strictly minimum weight crossing between S and V\S is part of the MST.
-
-Marks: 10

@@ -2,7 +2,7 @@ Question ID: 254
 Subject: Data Structures and Algorithms
 Topic: LCP Array
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 How can the LCP of any two arbitrary suffixes SA[i] and SA[j] (i < j) be calculated efficiently?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The common prefix shared by two suffixes in the sorted order is limited by the minimum common prefix between any intermediate adjacent pair, reducing arbitrary LCP queries to RMQ on the LCP array.
-
-Marks: 10

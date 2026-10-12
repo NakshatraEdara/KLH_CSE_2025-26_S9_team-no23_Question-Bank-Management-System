@@ -2,7 +2,7 @@ Question ID: 64
 Subject: Data Structures and Algorithms
 Topic: Heaps
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 Which advanced heap data structure supports decrease-key in O(1) amortized time and extract-min in O(log n) amortized time?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Fibonacci heaps use lazy structural updates and cascading cuts, enabling O(1) amortized insertion, union, and decrease-key, which optimizes Dijkstra's algorithm to O(E + V log V).
-
-Marks: 10

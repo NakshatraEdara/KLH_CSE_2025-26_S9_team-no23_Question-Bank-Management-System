@@ -2,7 +2,7 @@ Question ID: 219
 Subject: Data Structures and Algorithms
 Topic: Backtracking
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 In solving the Word Search puzzle on a 2D character grid, why is it critical to mark the current cell as visited before recursing and unmark it when returning?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Setting grid[r][c] = '#' prevents self-intersection during the current path exploration. Restoring the character on backtrack leaves the board pristine for exploring alternative candidate words.
-
-Marks: 5

@@ -2,7 +2,7 @@ Question ID: 27
 Subject: Data Structures and Algorithms
 Topic: Sorting Algorithms
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the lower bound on the number of comparisons required to sort n items in the comparison-based sorting model in the worst case?
@@ -17,5 +17,3 @@ Correct Answer: C
 
 Explanation:
 A decision tree sorting n elements must have at least n! leaves. The height of the binary decision tree is at least ceil(log2(n!)) = Omega(n log n) by Stirling's approximation.
-
-Marks: 10

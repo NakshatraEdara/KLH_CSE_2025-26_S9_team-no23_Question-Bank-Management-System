@@ -2,7 +2,7 @@ Question ID: 174
 Subject: Data Structures and Algorithms
 Topic: Floyd-Warshall Algorithm
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 Why MUST the intermediate vertex loop k be the outermost loop in the Floyd-Warshall implementation?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The DP state definition relies on k being incremented level by level. Placing k as the inner loop fails to consider paths where an intermediate vertex requires previously updated combinations.
-
-Marks: 5

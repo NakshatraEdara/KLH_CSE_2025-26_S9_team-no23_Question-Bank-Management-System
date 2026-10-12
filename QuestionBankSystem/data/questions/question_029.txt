@@ -2,7 +2,7 @@ Question ID: 29
 Subject: Data Structures and Algorithms
 Topic: Sorting Algorithms
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the time complexity of Radix Sort when sorting n integers with d digits in base b?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Radix sort performs d passes of a stable sub-sort (such as Counting Sort). Each pass processes n elements with range b in O(n + b) time, total O(d * (n + b)).
-
-Marks: 5

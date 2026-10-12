@@ -2,7 +2,7 @@ Question ID: 157
 Subject: Data Structures and Algorithms
 Topic: Dijkstra's Algorithm
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 In a dense graph where E is proportional to V^2, which Dijkstra implementation performs best?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 For dense graphs (E ~ V^2), scanning a simple array of size V to find the minimum distance takes O(V^2) total without priority queue heap maintenance overhead.
-
-Marks: 5

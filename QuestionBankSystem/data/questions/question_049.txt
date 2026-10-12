@@ -2,7 +2,7 @@ Question ID: 49
 Subject: Data Structures and Algorithms
 Topic: Binary Search Tree
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 How does Morris In-Order Traversal traverse an n-node BST in O(n) time and O(1) auxiliary space without recursion or an explicit stack?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Morris traversal finds each node's in-order predecessor and sets its right pointer to the current node. On revisiting, it breaks the thread, achieving O(1) extra space.
-
-Marks: 10

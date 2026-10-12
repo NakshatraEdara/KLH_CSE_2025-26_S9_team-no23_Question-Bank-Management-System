@@ -2,7 +2,7 @@ Question ID: 74
 Subject: Data Structures and Algorithms
 Topic: Hashing
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What mathematical property defines a Universal Hash Function Family H?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A hash family is universal if the collision probability for any two distinct keys chosen independently of the hash function is at most 1/m, guaranteeing O(1) expected time for all operations.
-
-Marks: 10

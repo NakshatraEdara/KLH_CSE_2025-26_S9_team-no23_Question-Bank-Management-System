@@ -2,7 +2,7 @@ Question ID: 2
 Subject: Data Structures and Algorithms
 Topic: Arrays
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 When dynamic arrays (such as Java's ArrayList) double their capacity upon becoming full, what is the amortized time complexity of an append operation?
@@ -17,5 +17,3 @@ Correct Answer: B
 
 Explanation:
 Although doubling takes O(n) time, resizing occurs infrequently enough that the total cost over n insertions averages out to O(1) amortized time per insertion.
-
-Marks: 5

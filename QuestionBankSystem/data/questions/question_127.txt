@@ -2,7 +2,7 @@ Question ID: 127
 Subject: Data Structures and Algorithms
 Topic: Graphs
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 How can an algorithm check if an undirected graph is bipartite?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A graph is bipartite if and only if it contains no odd-length cycles. BFS/DFS can attempt to alternate two colors on adjacent vertices; a conflict indicates an odd cycle.
-
-Marks: 2

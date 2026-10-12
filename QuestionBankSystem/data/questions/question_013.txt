@@ -2,7 +2,7 @@ Question ID: 13
 Subject: Data Structures and Algorithms
 Topic: Queues
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How many standard FIFO queues are required to implement a LIFO Stack where push or pop is O(1)?
@@ -17,5 +17,3 @@ Correct Answer: B
 
 Explanation:
 Two queues can simulate a stack: one acts as the main storage, and the second is used during push (or pop) to reverse element order.
-
-Marks: 5

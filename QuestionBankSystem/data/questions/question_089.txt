@@ -2,7 +2,7 @@ Question ID: 89
 Subject: Data Structures and Algorithms
 Topic: Segment Tree
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What technique allows a Segment Tree to perform range updates (e.g. add v to all elements in [L, R]) in O(log n) time instead of O(n)?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Lazy propagation postpones updating descendant nodes until they are visited by subsequent queries or updates, storing pending modifications in a lazy array and achieving O(log n) range updates.
-
-Marks: 10

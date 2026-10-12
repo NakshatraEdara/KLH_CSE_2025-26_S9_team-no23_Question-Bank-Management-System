@@ -2,7 +2,7 @@ Question ID: 128
 Subject: Data Structures and Algorithms
 Topic: Graphs
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is an Euler Path in a graph?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 An Euler path (Eulerian trail) is a walk in a finite graph that visits every edge exactly once. An Euler circuit is an Euler path that starts and ends on the same vertex.
-
-Marks: 5

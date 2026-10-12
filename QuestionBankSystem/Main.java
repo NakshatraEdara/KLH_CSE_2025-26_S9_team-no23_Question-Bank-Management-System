@@ -532,8 +532,8 @@ public class Main {
 
     static void saveNow() {
         try {
-            bank.save(questionsFile);
-            System.out.println("Saved " + bank.size() + " questions to " + questionsFile);
+            bank.save(questionsDir);
+            System.out.println("Saved " + bank.size() + " questions to " + questionsDir);
         } catch (IOException e) {
             System.out.println("Save failed: " + e.getMessage());
         }

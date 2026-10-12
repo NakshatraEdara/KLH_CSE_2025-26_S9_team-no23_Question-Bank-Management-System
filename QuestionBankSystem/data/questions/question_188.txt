@@ -2,7 +2,7 @@ Question ID: 188
 Subject: Data Structures and Algorithms
 Topic: Floyd-Warshall Algorithm
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 Can Floyd-Warshall be used on undirected graphs with negative edge weights?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 In an undirected graph, an edge (u, v) with negative weight w can be traversed back and forth indefinitely: u -> v -> u costs 2w < 0, creating a negative weight cycle.
-
-Marks: 5

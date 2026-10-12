@@ -2,7 +2,7 @@ Question ID: 112
 Subject: Data Structures and Algorithms
 Topic: B+ Trees
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 In a B+ Tree, if a search key appears in an internal node, does the actual data record reside in that internal node?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 In B+ trees, internal nodes contain routing separator keys only. All records and values reside exclusively in the leaf nodes.
-
-Marks: 2

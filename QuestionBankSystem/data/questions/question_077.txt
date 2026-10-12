@@ -2,7 +2,7 @@ Question ID: 77
 Subject: Data Structures and Algorithms
 Topic: Heaps
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 In a d-ary heap where each node has d children, how does increasing d affect the time complexities of insert and extract-min?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Tree height decreases to log_d(n), making sift-up faster (fewer parent comparisons). However, sift-down must inspect d children per level, taking d * log_d(n) comparisons.
-
-Marks: 10

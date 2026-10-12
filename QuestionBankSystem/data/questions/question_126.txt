@@ -2,7 +2,7 @@ Question ID: 126
 Subject: Data Structures and Algorithms
 Topic: Graphs
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 Under what condition is a non-root vertex u an articulation point (cut-vertex) in a DFS tree of an undirected graph?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A non-root vertex u is an articulation point if it has a child v with no back-edge to any strict ancestor of u (i.e. low[v] >= disc[u]). If u is the root of the DFS tree, it is an articulation point iff it has >= 2 children.
-
-Marks: 5

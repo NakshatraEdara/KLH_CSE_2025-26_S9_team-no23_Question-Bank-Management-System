@@ -2,7 +2,7 @@ Question ID: 87
 Subject: Data Structures and Algorithms
 Topic: Segment Tree
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the standard array capacity allocated to safely represent a Segment Tree for an input array of size n?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The maximum number of nodes in a segment tree for an array of size n is 2 * 2^(ceil(log2 n)) - 1, which is strictly less than 4 * n.
-
-Marks: 5

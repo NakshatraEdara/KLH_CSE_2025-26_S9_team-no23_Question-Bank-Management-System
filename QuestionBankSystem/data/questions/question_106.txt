@@ -2,7 +2,7 @@ Question ID: 106
 Subject: Data Structures and Algorithms
 Topic: B+ Trees
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 Why can an internal node of a B+ Tree typically achieve a higher fanout (branching factor) than an internal node of a B-Tree of the same page size?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Freeing internal nodes from holding actual data records or record pointers means a disk page can store many more (key, child_pointer) pairs, vastly increasing the branching factor.
-
-Marks: 5

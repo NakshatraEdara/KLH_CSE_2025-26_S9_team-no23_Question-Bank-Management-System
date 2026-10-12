@@ -2,7 +2,7 @@ Question ID: 22
 Subject: Data Structures and Algorithms
 Topic: Searching Algorithms
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 Under what condition does Interpolation Search achieve an average-case time complexity of O(log(log n))?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Interpolation search estimates position using linear interpolation. If keys are uniformly distributed, the remaining search space decreases exponentially to O(log(log n)).
-
-Marks: 5

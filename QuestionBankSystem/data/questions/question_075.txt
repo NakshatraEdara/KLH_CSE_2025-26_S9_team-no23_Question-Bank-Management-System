@@ -2,7 +2,7 @@ Question ID: 75
 Subject: Data Structures and Algorithms
 Topic: Heaps
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is a Binomial Heap, and what is its primary structural property?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A binomial heap consists of a set of binomial trees of unique degrees B_k, allowing two binomial heaps of size n to be merged (unioned) in O(log n) worst-case time.
-
-Marks: 5

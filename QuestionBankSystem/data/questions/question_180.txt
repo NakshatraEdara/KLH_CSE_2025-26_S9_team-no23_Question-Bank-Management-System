@@ -2,7 +2,7 @@ Question ID: 180
 Subject: Data Structures and Algorithms
 Topic: A* Search
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the condition for a heuristic h(n) to be consistent (monotonic)?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Consistency is the triangle inequality for heuristics: the estimated cost to goal from n cannot exceed the step cost to n' plus estimated cost from n' to goal. Consistency implies admissibility.
-
-Marks: 5

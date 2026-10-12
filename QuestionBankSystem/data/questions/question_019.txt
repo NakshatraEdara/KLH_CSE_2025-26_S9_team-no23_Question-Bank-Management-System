@@ -2,7 +2,7 @@ Question ID: 19
 Subject: Data Structures and Algorithms
 Topic: Linked Lists
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the worst-case time complexity of merging k sorted singly linked lists having a total of N nodes using a min-heap priority queue?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Maintaining a min-heap of size k containing the head of each list takes O(log k) per step. For N total nodes extracted, the overall time complexity is O(N log k).
-
-Marks: 10

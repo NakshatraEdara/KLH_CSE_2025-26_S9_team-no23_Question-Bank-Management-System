@@ -2,7 +2,7 @@ Question ID: 140
 Subject: Data Structures and Algorithms
 Topic: Prim's Algorithm
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 How does Prim's algorithm build the Minimum Spanning Tree?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Prim's algorithm is a vertex-growing greedy algorithm: starting from a root vertex, it continuously extracts the lowest-weight cut-crossing edge.
-
-Marks: 2

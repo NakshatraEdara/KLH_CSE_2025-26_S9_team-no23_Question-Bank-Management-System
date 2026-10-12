@@ -2,7 +2,7 @@ Question ID: 118
 Subject: Data Structures and Algorithms
 Topic: Graphs
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 Which data structure is fundamentally used to implement Breadth-First Search (BFS)?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 BFS explores vertices in order of increasing distance from the source using a FIFO Queue to buffer discovered vertices level by level.
-
-Marks: 2

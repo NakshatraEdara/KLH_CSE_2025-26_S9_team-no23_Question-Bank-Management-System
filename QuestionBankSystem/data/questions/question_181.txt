@@ -2,7 +2,7 @@ Question ID: 181
 Subject: Data Structures and Algorithms
 Topic: A* Search
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What algorithm does A* degenerate into when the heuristic function h(n) is identically 0 for all nodes?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 When h(n) = 0 for all n, f(n) = g(n) + 0 = g(n), which selects nodes strictly by lowest cost from source, identical to Dijkstra's algorithm.
-
-Marks: 5

@@ -2,7 +2,7 @@ Question ID: 185
 Subject: Data Structures and Algorithms
 Topic: A* Search
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 For an 8-directional grid where diagonal movements cost 1 (or sqrt(2)), which heuristic is preferred?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Octile distance accounts for diagonal moves (costing sqrt(2) or 1) combined with remaining straight moves, providing a tight admissible heuristic for 8-connected grid navigation.
-
-Marks: 5

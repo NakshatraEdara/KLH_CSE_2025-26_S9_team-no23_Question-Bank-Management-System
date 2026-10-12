@@ -2,7 +2,7 @@ Question ID: 113
 Subject: Data Structures and Algorithms
 Topic: B-Trees
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 In preemptive (top-down) insertion into a B-Tree, how are node splits handled during the descent?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Top-down B-Tree insertion splits any full node encountered during the root-to-leaf descent. This guarantees the parent always has room to receive a promoted key, avoiding recursive cascading splits.
-
-Marks: 10

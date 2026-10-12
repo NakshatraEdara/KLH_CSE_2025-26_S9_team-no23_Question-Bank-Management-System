@@ -2,7 +2,7 @@ Question ID: 139
 Subject: Data Structures and Algorithms
 Topic: Kruskal's Algorithm
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What two optimization heuristics ensure that Disjoint Set Union operations run in nearly linear O(alpha(n)) amortized time?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Path compression flattens tree paths during find operations, and union by rank attaches smaller trees under larger roots, bounding m operations to O(m * alpha(n)) where alpha is the inverse Ackermann function.
-
-Marks: 5

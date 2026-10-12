@@ -2,7 +2,7 @@ Question ID: 253
 Subject: Data Structures and Algorithms
 Topic: LCP Array
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How is the Longest Repeated Substring in a text found using its LCP array?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Any substring that appears at least twice is a common prefix of at least two suffixes. In a sorted suffix array, the longest such common prefix must occur between adjacent suffixes, represented by max(LCP).
-
-Marks: 5

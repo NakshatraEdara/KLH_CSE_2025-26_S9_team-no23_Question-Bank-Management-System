@@ -2,7 +2,7 @@ Question ID: 115
 Subject: Data Structures and Algorithms
 Topic: B-Trees
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 If a B-Tree node has k children, exactly how many keys does it contain?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The keys act as dividing boundaries between child pointers. Thus, a node with k children contains exactly k - 1 keys.
-
-Marks: 2

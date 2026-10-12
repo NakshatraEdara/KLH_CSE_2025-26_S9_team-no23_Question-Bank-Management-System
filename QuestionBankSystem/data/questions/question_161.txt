@@ -2,7 +2,7 @@ Question ID: 161
 Subject: Data Structures and Algorithms
 Topic: Bellman-Ford Algorithm
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the time complexity of the standard Bellman-Ford algorithm on a graph with V vertices and E edges?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Bellman-Ford relaxes all E edges V - 1 times, resulting in a worst-case time complexity of O(V * E).
-
-Marks: 5

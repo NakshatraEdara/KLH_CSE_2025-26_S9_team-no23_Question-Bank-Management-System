@@ -18,6 +18,9 @@ public class ExamBuilder {
         public Requirement(String key, String difficulty, int count) {
             this.key = key; this.difficulty = difficulty; this.count = count;
         }
+        public String getKey() { return key; }
+        public String getDifficulty() { return difficulty; }
+        public int getCount() { return count; }
         boolean matches(Question q) {
             return q.getDifficulty().equalsIgnoreCase(difficulty)
                     && (q.getSubject().equalsIgnoreCase(key) || q.getTopic().equalsIgnoreCase(key));
@@ -25,7 +28,65 @@ public class ExamBuilder {
         @Override public String toString() { return key + " / " + difficulty + " x" + count; }
     }
 
-    public static void build(List<Question> qs, List<Requirement> reqs, int sets) {
+    public static class AssignedQuestion {
+        public final Question question;
+        public final Requirement requirement;
+        public AssignedQuestion(Question question, Requirement requirement) {
+            this.question = question;
+            this.requirement = requirement;
+        }
+    }
+
+    public static class ExamSet {
+        public final int setNumber;
+        public final int totalMarks;
+        public final List<AssignedQuestion> questions;
+        public ExamSet(int setNumber, int totalMarks, List<AssignedQuestion> questions) {
+            this.setNumber = setNumber;
+            this.totalMarks = totalMarks;
+            this.questions = questions;
+        }
+    }
+
+    public static class RequirementReport {
+        public final String requirement;
+        public final int assigned;
+        public final int wanted;
+        public final int pool;
+        public final String status;
+        public RequirementReport(String requirement, int assigned, int wanted, int pool, String status) {
+            this.requirement = requirement;
+            this.assigned = assigned;
+            this.wanted = wanted;
+            this.pool = pool;
+            this.status = status;
+        }
+    }
+
+    public static class BuildResult {
+        public final boolean success;
+        public final int totalNodes;
+        public final int totalNeeded;
+        public final int maxFlow;
+        public final int cutCapacity;
+        public final List<ExamSet> sets;
+        public final List<Integer> bottleneckQuestionIds;
+        public final List<RequirementReport> requirementReports;
+
+        public BuildResult(boolean success, int totalNodes, int totalNeeded, int maxFlow, int cutCapacity,
+                           List<ExamSet> sets, List<Integer> bottleneckQuestionIds, List<RequirementReport> requirementReports) {
+            this.success = success;
+            this.totalNodes = totalNodes;
+            this.totalNeeded = totalNeeded;
+            this.maxFlow = maxFlow;
+            this.cutCapacity = cutCapacity;
+            this.sets = sets;
+            this.bottleneckQuestionIds = bottleneckQuestionIds;
+            this.requirementReports = requirementReports;
+        }
+    }
+
+    public static BuildResult compute(List<Question> qs, List<Requirement> reqs, int sets) {
         int R = reqs.size(), Q = qs.size(), slots = sets * R;
         int src = 0, slotBase = 1, qBase = 1 + slots, sink = qBase + Q, N = sink + 1;
         MaxFlow mf = new MaxFlow(N);
@@ -48,49 +109,73 @@ public class ExamBuilder {
         for (int j = 0; j < Q; j++) mf.addEdge(qBase + j, sink, 1);
 
         int flow = mf.maxFlow(src, sink);
-        System.out.println("Graph: " + N + " nodes.  Total questions needed = " + need + ",  max-flow = " + flow);
 
         if (flow == need) {
-            System.out.println("SUCCESS: a valid paper exists for every set, no question repeated.\n");
+            List<ExamSet> examSets = new ArrayList<>();
             for (int s = 0; s < sets; s++) {
-                System.out.println("=== Set " + (s + 1) + " ===");
                 int marks = 0;
+                List<AssignedQuestion> assigned = new ArrayList<>();
                 for (int r = 0; r < R; r++) {
                     for (int[] e : qEdges) {
                         if (e[1] == s * R + r && mf.flowOn(e[0]) == 1) {
                             Question q = qs.get(e[2]);
-                            System.out.println("  [" + reqs.get(r) + "]  " + q);
+                            assigned.add(new AssignedQuestion(q, reqs.get(r)));
                             marks += q.getMarks();
                         }
                     }
                 }
-                System.out.println("  Total marks: " + marks + "\n");
+                examSets.add(new ExamSet(s + 1, marks, assigned));
             }
-            return;
+            return new BuildResult(true, N, need, flow, 0, examSets, Collections.emptyList(), Collections.emptyList());
         }
 
-        // ---------- not enough questions: use the min-cut to explain why ----------
-        System.out.println("FAILED: only " + flow + " of " + need + " questions can be assigned.\n");
+        // Failure - calculate min-cut
         boolean[] reach = mf.reachableFromSource(src);
         List<int[]> cut = mf.minCutEdges(reach);
         int cutSum = 0;
         for (int[] c : cut) cutSum += c[2];
-        System.out.println("Min-cut capacity = " + cutSum + " (equals max-flow, as the theorem says).");
 
         List<Integer> stuck = new ArrayList<>();
         for (int j = 0; j < Q; j++) if (reach[qBase + j]) stuck.add(qs.get(j).getId());
-        System.out.println("Bottleneck: the " + stuck.size() + " question(s) on the source side of the cut are ALL already used up: " + stuck);
 
-        System.out.println("\nShortage per requirement (summed over all sets):");
+        List<RequirementReport> reports = new ArrayList<>();
         for (int r = 0; r < R; r++) {
             int got = 0;
             for (int s = 0; s < sets; s++) got += mf.flowOn(srcEdge[s * R + r]);
             int wanted = reqs.get(r).count * sets;
             int pool = 0;
             for (Question q : qs) if (reqs.get(r).matches(q)) pool++;
-            System.out.println("  " + reqs.get(r) + ":  assigned " + got + " of " + wanted
-                    + "   (matching questions in bank: " + pool + ")"
-                    + (got < wanted ? (pool < wanted ? "   <-- bank simply has too few" : "   <-- competes with other requirements for the same questions") : ""));
+            String status = got < wanted ? (pool < wanted ? "Bank has too few" : "Competes with other requirements") : "Satisfied";
+            reports.add(new RequirementReport(reqs.get(r).toString(), got, wanted, pool, status));
+        }
+
+        return new BuildResult(false, N, need, flow, cutSum, Collections.emptyList(), stuck, reports);
+    }
+
+    public static void build(List<Question> qs, List<Requirement> reqs, int sets) {
+        BuildResult res = compute(qs, reqs, sets);
+        System.out.println("Graph: " + res.totalNodes + " nodes.  Total questions needed = " + res.totalNeeded + ",  max-flow = " + res.maxFlow);
+
+        if (res.success) {
+            System.out.println("SUCCESS: a valid paper exists for every set, no question repeated.\n");
+            for (ExamSet set : res.sets) {
+                System.out.println("=== Set " + set.setNumber + " ===");
+                for (AssignedQuestion aq : set.questions) {
+                    System.out.println("  [" + aq.requirement + "]  " + aq.question);
+                }
+                System.out.println("  Total marks: " + set.totalMarks + "\n");
+            }
+            return;
+        }
+
+        System.out.println("FAILED: only " + res.maxFlow + " of " + res.totalNeeded + " questions can be assigned.\n");
+        System.out.println("Min-cut capacity = " + res.cutCapacity + " (equals max-flow, as the theorem says).");
+        System.out.println("Bottleneck: the " + res.bottleneckQuestionIds.size() + " question(s) on the source side of the cut are ALL already used up: " + res.bottleneckQuestionIds);
+        System.out.println("\nShortage per requirement (summed over all sets):");
+        for (RequirementReport rep : res.requirementReports) {
+            System.out.println("  " + rep.requirement + ":  assigned " + rep.assigned + " of " + rep.wanted
+                    + "   (matching questions in bank: " + rep.pool + ")"
+                    + (!rep.status.equals("Satisfied") ? "   <-- " + rep.status : ""));
         }
         System.out.println("\nFix: add more matching questions to the dataset, lower the counts, or reduce the number of sets.");
     }

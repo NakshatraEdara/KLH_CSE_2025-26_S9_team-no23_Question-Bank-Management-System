@@ -2,7 +2,7 @@ Question ID: 164
 Subject: Data Structures and Algorithms
 Topic: Bellman-Ford Algorithm
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the Shortest Path Faster Algorithm (SPFA), and what is its relationship to Bellman-Ford?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 SPFA maintains a FIFO queue of candidate vertices whose distances were recently reduced. It runs in O(E) average time on random graphs, but retains Bellman-Ford's O(V * E) worst-case time.
-
-Marks: 10

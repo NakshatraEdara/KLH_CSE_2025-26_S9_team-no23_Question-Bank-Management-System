@@ -2,7 +2,7 @@ Question ID: 23
 Subject: Data Structures and Algorithms
 Topic: Searching Algorithms
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 How does Exponential Search locate a target key in an unbounded (infinite) sorted array?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Exponential search finds the search range [2^(i-1), 2^i] in O(log i) steps and then runs binary search within that range, taking O(log i) time where i is target index.
-
-Marks: 10

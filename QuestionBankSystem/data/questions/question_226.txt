@@ -2,7 +2,7 @@ Question ID: 226
 Subject: Data Structures and Algorithms
 Topic: String Matching
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What does the Longest Prefix Suffix (LPS) array (also called the pi table) store in the KMP algorithm?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 By definition, lps[i] holds the length of the longest proper prefix of P[0..i] that matches a suffix of P[0..i]. This determines where to resume matching when a mismatch occurs.
-
-Marks: 5

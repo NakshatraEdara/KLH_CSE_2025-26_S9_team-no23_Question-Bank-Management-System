@@ -2,7 +2,7 @@ Question ID: 221
 Subject: Data Structures and Algorithms
 Topic: Backtracking
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 In the Combination Sum problem (find all unique combinations of candidates that sum to target), how are duplicate combinations prevented if candidate elements are distinct?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Restricting choices to indices >= current_index enforces a non-decreasing index order across selections, preventing permutations of the same multiset from appearing as duplicate combinations.
-
-Marks: 5

@@ -2,7 +2,7 @@ Question ID: 176
 Subject: Data Structures and Algorithms
 Topic: Floyd-Warshall Algorithm
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is Warshall's Transitive Closure algorithm, and how does it relate to Floyd-Warshall?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Warshall's algorithm is the boolean precursor to Floyd-Warshall: replacing min with OR and addition with AND computes whether a directed path exists between any two vertices.
-
-Marks: 10

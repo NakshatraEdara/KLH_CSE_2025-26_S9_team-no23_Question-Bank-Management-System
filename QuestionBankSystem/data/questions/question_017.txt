@@ -2,7 +2,7 @@ Question ID: 17
 Subject: Data Structures and Algorithms
 Topic: Stacks
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 Which of the following problems is most naturally solved using a stack?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Checking balanced parentheses requires matching the most recent opening bracket with the current closing bracket, which is a textbook LIFO application.
-
-Marks: 2

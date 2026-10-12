@@ -2,7 +2,7 @@ Question ID: 62
 Subject: Data Structures and Algorithms
 Topic: Heaps
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 For a zero-indexed array representation of a binary heap, what are the indices of the left and right children of the element at index i?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 In 0-indexed complete binary tree mapping, node i has left child at 2*i + 1, right child at 2*i + 2, and parent at floor((i - 1) / 2).
-
-Marks: 5

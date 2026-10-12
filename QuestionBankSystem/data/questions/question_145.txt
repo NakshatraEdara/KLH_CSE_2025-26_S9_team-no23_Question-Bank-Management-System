@@ -2,7 +2,7 @@ Question ID: 145
 Subject: Data Structures and Algorithms
 Topic: Minimum Spanning Tree
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What does the Cycle Property of Minimum Spanning Trees state?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 If an edge e is the strictly heaviest edge in a cycle C, removing e and replacing it with any other edge of C reconnects the components with smaller total weight, proving e cannot be in any MST.
-
-Marks: 10

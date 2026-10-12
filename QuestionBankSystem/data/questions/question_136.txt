@@ -2,7 +2,7 @@ Question ID: 136
 Subject: Data Structures and Algorithms
 Topic: Minimum Spanning Tree
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 If all edge weights in a connected undirected graph are strictly unique, how many distinct Minimum Spanning Trees can the graph have?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A fundamental theorem of graph theory states that if all edge weights in a connected graph are distinct, the Minimum Spanning Tree is strictly unique.
-
-Marks: 2

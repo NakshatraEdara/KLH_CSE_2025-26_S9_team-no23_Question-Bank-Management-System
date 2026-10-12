@@ -2,7 +2,7 @@ Question ID: 94
 Subject: Data Structures and Algorithms
 Topic: Fenwick Tree
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the update loop step for index i in a 1-indexed Fenwick tree of size n?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 In point updates, adding (i & -i) propagates changes to all responsible ancestor intervals up to the array bound n.
-
-Marks: 10

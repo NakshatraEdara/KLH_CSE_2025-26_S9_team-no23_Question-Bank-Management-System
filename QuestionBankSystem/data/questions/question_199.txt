@@ -2,7 +2,7 @@ Question ID: 199
 Subject: Data Structures and Algorithms
 Topic: Dynamic Programming
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 In the Travelling Salesperson Problem (TSP) on n vertices, what is the time complexity of the Held-Karp dynamic programming algorithm using bitmask DP?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Held-Karp defines dp(mask, u) as the min cost path visiting subset 'mask' ending at vertex u. There are 2^n subsets, n choices for u, and n transitions to extend the path, totaling O(n^2 * 2^n).
-
-Marks: 10

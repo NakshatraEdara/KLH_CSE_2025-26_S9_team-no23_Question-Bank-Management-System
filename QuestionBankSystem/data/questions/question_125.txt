@@ -2,7 +2,7 @@ Question ID: 125
 Subject: Data Structures and Algorithms
 Topic: Graphs
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 In an undirected graph, how does Tarjan's bridge-finding algorithm determine that an edge (u, v) is a bridge (cut-edge)?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 If the lowest discovery time reachable from v's subtree (low[v]) is strictly greater than disc[u], there is no back-edge from v's subtree to u or its ancestors, meaning (u, v) is a bridge.
-
-Marks: 5

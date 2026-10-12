@@ -2,7 +2,7 @@ Question ID: 239
 Subject: Data Structures and Algorithms
 Topic: String Matching
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 For which of the following scenarios is Rabin-Karp particularly superior to KMP?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Rabin-Karp can insert the hashes of all k patterns into a hash set; checking if the current text window hash matches any of the k patterns still takes O(1) average time.
-
-Marks: 5

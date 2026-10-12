@@ -2,7 +2,7 @@ Question ID: 298
 Subject: Data Structures and Algorithms
 Topic: Optimization Problems
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 In the Subset Sum formulation of building a balanced exam totaling exactly 100 marks from a bank of questions with varied marks, what is the time complexity using 1D dynamic programming?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A boolean DP array dp[m] of size M + 1 (101) updated in reverse for each question takes O(N * M) operations, which executes in microseconds for N=300 and M=100.
-
-Marks: 5

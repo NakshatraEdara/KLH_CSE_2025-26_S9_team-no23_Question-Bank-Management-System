@@ -2,7 +2,7 @@ Question ID: 120
 Subject: Data Structures and Algorithms
 Topic: Graphs
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How can BFS find the shortest path from a start vertex S to all other vertices?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Because BFS explores frontier vertices level by level (edge by edge), the first time an unvisited vertex is reached, the path length (edge count) is guaranteed to be minimal.
-
-Marks: 5

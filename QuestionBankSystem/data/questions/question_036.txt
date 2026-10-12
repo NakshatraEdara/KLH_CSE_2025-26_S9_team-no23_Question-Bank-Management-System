@@ -2,7 +2,7 @@ Question ID: 36
 Subject: Data Structures and Algorithms
 Topic: Sorting Algorithms
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 Which sorting algorithm repeatedly finds the minimum element from the unsorted sublist and swaps it with the first unsorted element?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Selection sort divides the list into sorted and unsorted regions, repeatedly identifying the minimum element from the unsorted region to place at the boundary.
-
-Marks: 2

@@ -2,7 +2,7 @@ Question ID: 142
 Subject: Data Structures and Algorithms
 Topic: Prim's Algorithm
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the theoretical time complexity of Prim's algorithm when using a Fibonacci Heap?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Fibonacci heaps support decrease-key in O(1) amortized time and extract-min in O(log V) amortized time, leading to O(V log V + E) overall time, which is optimal for dense graphs.
-
-Marks: 10

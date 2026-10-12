@@ -2,7 +2,7 @@ Question ID: 257
 Subject: Data Structures and Algorithms
 Topic: Suffix Arrays
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the Burrows-Wheeler Transform (BWT), and how can it be constructed directly from a Suffix Array SA of text T of length n?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The BWT is the last column of the sorted matrix of cyclic rotations of T. This corresponds exactly to the character preceding each suffix in the suffix array: T[(SA[i] - 1 + n) % n].
-
-Marks: 10

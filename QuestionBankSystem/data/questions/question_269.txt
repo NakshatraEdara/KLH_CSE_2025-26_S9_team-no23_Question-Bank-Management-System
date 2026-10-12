@@ -2,7 +2,7 @@ Question ID: 269
 Subject: Data Structures and Algorithms
 Topic: Sequence Alignment
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 Which algorithm computes optimal Local Sequence Alignment to identify highly similar matching regions between two sequences?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The Smith-Waterman algorithm computes local alignments. It sets negative scores in the DP recurrence to 0, allowing alignments to start and end at arbitrary high-scoring internal positions.
-
-Marks: 5

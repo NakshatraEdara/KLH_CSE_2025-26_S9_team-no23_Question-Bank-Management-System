@@ -2,7 +2,7 @@ Question ID: 270
 Subject: Data Structures and Algorithms
 Topic: Sequence Alignment
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is Hirschberg's algorithm, and what remarkable efficiency does it achieve for sequence alignment?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Hirschberg's algorithm splits the problem at row m/2, computes forward and backward score vectors in linear space, identifies the midpoint column intersection, and recurses, achieving full alignment in O(min(m, n)) space.
-
-Marks: 10

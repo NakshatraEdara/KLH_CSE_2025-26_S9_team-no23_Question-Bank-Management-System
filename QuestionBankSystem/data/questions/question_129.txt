@@ -2,7 +2,7 @@ Question ID: 129
 Subject: Data Structures and Algorithms
 Topic: Graphs
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the necessary and sufficient condition for a connected undirected graph to contain an Euler Circuit?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 According to Euler's theorem, a connected undirected graph has an Euler circuit if and only if every vertex has an even degree.
-
-Marks: 5

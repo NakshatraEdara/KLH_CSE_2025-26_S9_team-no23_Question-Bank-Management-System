@@ -2,7 +2,7 @@ Question ID: 234
 Subject: Data Structures and Algorithms
 Topic: String Matching
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 During Z-algorithm execution, if current index i falls inside the current Z-box [L, R], and k = i - L, what are the two main cases?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 If the prefix match at k fits strictly inside the remaining interval (Z[k] < R - i + 1), it cannot match beyond R, so Z[i] = Z[k]. If it touches or exceeds R, further characters past R must be checked.
-
-Marks: 10

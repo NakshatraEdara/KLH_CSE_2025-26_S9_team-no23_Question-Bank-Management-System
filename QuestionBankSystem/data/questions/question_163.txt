@@ -2,7 +2,7 @@ Question ID: 163
 Subject: Data Structures and Algorithms
 Topic: Bellman-Ford Algorithm
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How does Bellman-Ford detect if the graph contains a negative weight cycle reachable from the source?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Shortest paths stabilize after V - 1 passes. If any edge (u, v) satisfies dist[u] + weight(u, v) < dist[v] on the V-th pass, a negative cycle exists because distances can be reduced indefinitely.
-
-Marks: 5

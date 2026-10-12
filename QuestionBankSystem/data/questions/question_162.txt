@@ -2,7 +2,7 @@ Question ID: 162
 Subject: Data Structures and Algorithms
 Topic: Bellman-Ford Algorithm
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 Why does Bellman-Ford perform exactly V - 1 relaxation passes over all edges?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Without negative cycles, a shortest path visits each vertex at most once and thus has at most V - 1 edges. The k-th relaxation pass guarantees correct shortest paths for all paths using <= k edges.
-
-Marks: 5

@@ -2,7 +2,7 @@ Question ID: 280
 Subject: Data Structures and Algorithms
 Topic: Maximum Flow
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What does the Max-Flow Min-Cut Theorem state?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The fundamental theorem of network flows proves that the maximum flow achievable from source s to sink t equals the minimum capacity among all valid cuts separating s and t.
-
-Marks: 2

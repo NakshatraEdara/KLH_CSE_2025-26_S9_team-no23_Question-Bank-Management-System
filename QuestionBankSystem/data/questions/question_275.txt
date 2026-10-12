@@ -2,7 +2,7 @@ Question ID: 275
 Subject: Data Structures and Algorithms
 Topic: Sequence Alignment
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What are PAM and BLOSUM matrices in sequence alignment?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 PAM (Point Accepted Mutation) and BLOSUM (Blocks Substitution Matrix) quantify the biological likelihood of replacing one amino acid with another based on observed evolutionary conservation.
-
-Marks: 5

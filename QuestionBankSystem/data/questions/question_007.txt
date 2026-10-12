@@ -2,7 +2,7 @@ Question ID: 7
 Subject: Data Structures and Algorithms
 Topic: Stacks
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 Which principle governs the order of insertion and removal in a standard stack data structure?
@@ -17,5 +17,3 @@ Correct Answer: B
 
 Explanation:
 A stack operates strictly on the Last In First Out (LIFO) principle, where the most recently added element is the first one removed.
-
-Marks: 2

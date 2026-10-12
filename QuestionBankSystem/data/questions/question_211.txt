@@ -2,7 +2,7 @@ Question ID: 211
 Subject: Data Structures and Algorithms
 Topic: Backtracking
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How can conflicts on the two diagonals be checked in O(1) time during N-Queens backtracking?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 On an N x N board, all squares on the same major diagonal have constant (row - col), and all squares on the same minor diagonal have constant (row + col). Boolean arrays allow O(1) conflict validation.
-
-Marks: 5

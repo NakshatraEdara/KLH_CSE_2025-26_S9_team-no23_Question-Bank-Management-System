@@ -2,7 +2,7 @@ Question ID: 278
 Subject: Data Structures and Algorithms
 Topic: Edit Distance
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is the Hamming distance, and how does it restrict the problem compared to Levenshtein distance?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Hamming distance is defined strictly for strings of identical length and counts the number of positions at which corresponding characters differ, considering only substitutions.
-
-Marks: 2

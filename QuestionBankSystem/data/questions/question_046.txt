@@ -2,7 +2,7 @@ Question ID: 46
 Subject: Data Structures and Algorithms
 Topic: AVL Trees
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 Which rotation is required to rebalance an AVL tree when an insertion causes a Left-Right (LR) imbalance at a node?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 An LR imbalance occurs when a key is inserted into the right subtree of the left child. Rebalancing requires a double rotation: Left rotate on child, then Right rotate on parent.
-
-Marks: 5

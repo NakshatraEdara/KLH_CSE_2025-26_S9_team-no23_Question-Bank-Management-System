@@ -2,7 +2,7 @@ Question ID: 170
 Subject: Data Structures and Algorithms
 Topic: Bellman-Ford Algorithm
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 In distributed networking, which routing protocol directly implements the Bellman-Ford algorithm?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 RIP is a classic distance-vector routing protocol that uses the distributed Bellman-Ford algorithm to iteratively calculate shortest hop paths across routers.
-
-Marks: 2

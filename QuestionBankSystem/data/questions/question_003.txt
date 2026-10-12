@@ -2,7 +2,7 @@ Question ID: 3
 Subject: Data Structures and Algorithms
 Topic: Arrays
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 In Kadane's algorithm for finding the maximum subarray sum in an array containing both positive and negative integers, what is the optimal time and auxiliary space complexity?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Kadane's algorithm computes the maximum subarray sum in a single linear pass using two running scalar variables, achieving O(n) time and O(1) auxiliary space.
-
-Marks: 10

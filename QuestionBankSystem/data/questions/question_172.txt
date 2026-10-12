@@ -2,7 +2,7 @@ Question ID: 172
 Subject: Data Structures and Algorithms
 Topic: Floyd-Warshall Algorithm
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is the time complexity and space complexity of the Floyd-Warshall algorithm on a graph with V vertices?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Floyd-Warshall uses three nested loops over vertices (k, i, j) each running V times, taking O(V^3) time and maintaining a V x V distance matrix (O(V^2) space).
-
-Marks: 2

@@ -2,7 +2,7 @@ Question ID: 57
 Subject: Data Structures and Algorithms
 Topic: Binary Search Tree
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How can one verify if a given binary tree of n nodes is a valid Binary Search Tree in O(n) time?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Checking only immediate children is insufficient. Passing (min, max) bounds downwards ensures that every node in the entire subtree strictly respects ancestral BST constraints in O(n) time.
-
-Marks: 5

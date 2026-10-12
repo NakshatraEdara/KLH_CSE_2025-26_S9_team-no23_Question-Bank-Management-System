@@ -2,7 +2,7 @@ Question ID: 268
 Subject: Data Structures and Algorithms
 Topic: Sequence Alignment
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 Which algorithm computes optimal Global Sequence Alignment between two biological sequences?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The Needleman-Wunsch algorithm is a classic global sequence alignment algorithm that aligns every residue across both sequences from end to end using dynamic programming.
-
-Marks: 2

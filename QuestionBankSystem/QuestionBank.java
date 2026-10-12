@@ -124,6 +124,19 @@ public class QuestionBank {
         return true;
     }
 
+    /** Replaces the question with updated attributes. */
+    public boolean replace(int id, Question newQ) {
+        if (!map.containsKey(id)) return false;
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).getId() == id) {
+                list.set(i, newQ);
+                break;
+            }
+        }
+        map.put(id, newQ);
+        return true;
+    }
+
     /** DELETE. Must remove from BOTH structures so they never disagree. */
     public boolean delete(int id) {
         Question q = map.remove(id);       // O(1) average, also gives us the object

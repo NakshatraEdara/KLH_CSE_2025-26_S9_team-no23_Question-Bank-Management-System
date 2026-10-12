@@ -2,7 +2,7 @@ Question ID: 296
 Subject: Data Structures and Algorithms
 Topic: Optimization Problems
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 In exam question paper generation with bitmask DP, how is topic coverage represented for an exam targeting k required topics?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 With k topics (e.g. k <= 20), an integer mask from 0 to 2^k - 1 represents the exact subset of topics covered. Transitions compute mask | question_topics_mask in O(1) bitwise operations.
-
-Marks: 10

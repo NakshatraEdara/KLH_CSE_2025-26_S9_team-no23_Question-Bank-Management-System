@@ -2,7 +2,7 @@ Question ID: 227
 Subject: Data Structures and Algorithms
 Topic: String Matching
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 For the pattern string 'ABABCABAB', what is its corresponding KMP LPS array?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Tracing prefixes: 'A'->0, 'AB'->0, 'ABA'->1 ('A'), 'ABAB'->2 ('AB'), 'ABABC'->0, 'ABABCA'->1 ('A'), 'ABABCAB'->2 ('AB'), 'ABABCABA'->3 ('ABA'), 'ABABCABAB'->4 ('ABAB').
-
-Marks: 5

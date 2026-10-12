@@ -2,7 +2,7 @@ Question ID: 37
 Subject: Data Structures and Algorithms
 Topic: Searching Algorithms
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is the average number of comparisons made by Linear Search on an array of size n when the target element is equally likely to be anywhere in the array?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The average number of comparisons is the sum from i=1 to n of i / n, which equals (n(n+1)/2)/n = (n + 1) / 2.
-
-Marks: 2

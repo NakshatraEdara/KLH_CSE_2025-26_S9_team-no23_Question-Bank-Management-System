@@ -2,7 +2,7 @@ Question ID: 236
 Subject: Data Structures and Algorithms
 Topic: String Matching
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the average-case and worst-case time complexity of the Rabin-Karp algorithm for text length n and pattern length m?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 With a good hash function, hash collisions are rare, yielding O(n + m) average time. If pathological collisions occur for every window, full character verification takes O(n * m) worst case.
-
-Marks: 5

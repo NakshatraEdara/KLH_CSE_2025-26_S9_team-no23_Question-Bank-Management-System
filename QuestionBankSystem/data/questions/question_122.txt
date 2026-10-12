@@ -2,7 +2,7 @@ Question ID: 122
 Subject: Data Structures and Algorithms
 Topic: Graphs
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is Kahn's algorithm for Topological Sorting of a Directed Acyclic Graph (DAG)?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Kahn's algorithm calculates in-degrees for all vertices, initializes a queue with all in-degree 0 vertices, and repeatedly decrements neighbor in-degrees as vertices are dequeued.
-
-Marks: 5

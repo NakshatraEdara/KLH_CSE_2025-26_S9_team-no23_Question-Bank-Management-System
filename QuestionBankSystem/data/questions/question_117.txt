@@ -2,7 +2,7 @@ Question ID: 117
 Subject: Data Structures and Algorithms
 Topic: Graphs
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is the time complexity of Breadth-First Search (BFS) on a graph with V vertices and E edges represented using adjacency lists?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 BFS visits every vertex at most once and inspects every incident edge across all adjacency lists once (or twice for undirected graphs), resulting in O(V + E) time.
-
-Marks: 2

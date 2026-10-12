@@ -2,7 +2,7 @@ Question ID: 238
 Subject: Data Structures and Algorithms
 Topic: String Matching
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What technique eliminates spurious hash collisions and makes Rabin-Karp virtually immune to worst-case adversarial inputs?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Using two large primes (e.g. 10^9 + 7 and 10^9 + 9) reduces collision probability to ~1 / (10^18), making accidental false matches virtually zero.
-
-Marks: 10

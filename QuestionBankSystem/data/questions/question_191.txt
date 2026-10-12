@@ -2,7 +2,7 @@ Question ID: 191
 Subject: Data Structures and Algorithms
 Topic: Dynamic Programming
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the time complexity of solving the 0/1 Knapsack problem with n items and maximum weight capacity W using Dynamic Programming?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The standard DP table has dimensions (n + 1) x (W + 1), with each cell computed in O(1) time. Since W depends on numeric magnitude rather than bit-length, the complexity is pseudo-polynomial O(n * W).
-
-Marks: 5

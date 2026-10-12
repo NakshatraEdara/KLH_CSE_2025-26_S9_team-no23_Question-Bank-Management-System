@@ -2,7 +2,7 @@ Question ID: 121
 Subject: Data Structures and Algorithms
 Topic: Graphs
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How can Depth-First Search detect a cycle in a directed graph?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Using 3-color vertex marking (white = unvisited, gray = currently visiting, black = fully explored), encountering an edge to a gray vertex indicates a back-edge to an ancestor, confirming a directed cycle.
-
-Marks: 5

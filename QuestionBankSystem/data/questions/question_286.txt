@@ -2,7 +2,7 @@ Question ID: 286
 Subject: Data Structures and Algorithms
 Topic: Maximum Flow
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How can the Maximum Bipartite Matching problem be reduced to a Maximum Flow problem?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 By the integrality theorem, the maximum flow will be integral ({0, 1}). Edges carrying flow 1 between A and B form a valid maximum cardinality bipartite matching.
-
-Marks: 5

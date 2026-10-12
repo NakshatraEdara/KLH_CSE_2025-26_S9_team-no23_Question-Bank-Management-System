@@ -2,7 +2,7 @@ Question ID: 67
 Subject: Data Structures and Algorithms
 Topic: Hashing
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What problem does Linear Probing suffer from in open addressing hash tables?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Linear probing checks (hash(k) + i) % m. Long contiguous runs of occupied slots tend to grow longer as collisions occur, causing primary clustering and degrading lookup performance.
-
-Marks: 5

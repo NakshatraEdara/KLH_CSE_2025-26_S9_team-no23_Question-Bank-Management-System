@@ -2,7 +2,7 @@ Question ID: 182
 Subject: Data Structures and Algorithms
 Topic: A* Search
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What happens if a heuristic h(n) is admissible but NOT consistent when using A* Graph Search without reopening closed nodes?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Without consistency, f(n) values are not monotonically non-decreasing along paths. A node can be expanded and placed in the closed set before its true optimal path is discovered; without reopening closed nodes, optimality is lost.
-
-Marks: 10

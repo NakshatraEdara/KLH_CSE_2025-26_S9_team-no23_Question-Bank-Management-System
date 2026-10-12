@@ -2,7 +2,7 @@ Question ID: 98
 Subject: Data Structures and Algorithms
 Topic: Segment Tree
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the primary advantage of a Segment Tree over a Fenwick Tree?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A Fenwick tree requires the operation to have an inverse (like subtraction for addition) to compute range queries [L, R] = prefix(R) - prefix(L-1). Segment trees handle non-invertible operations like min and max natively.
-
-Marks: 5

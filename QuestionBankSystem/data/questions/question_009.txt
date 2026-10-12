@@ -2,7 +2,7 @@ Question ID: 9
 Subject: Data Structures and Algorithms
 Topic: Stacks
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How can a Min-Stack support push, pop, and getMin all in O(1) worst-case time?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 By maintaining a parallel auxiliary stack (or storing pairs of value and current min), each push and pop updates the minimum in O(1) time without scanning.
-
-Marks: 5

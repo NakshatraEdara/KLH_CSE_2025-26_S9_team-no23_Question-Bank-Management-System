@@ -2,7 +2,7 @@ Question ID: 210
 Subject: Data Structures and Algorithms
 Topic: Backtracking
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 In the classic N-Queens puzzle, what is the objective?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The N-Queens puzzle requires positioning N queens on an N x N board such that no two queens share the same row, column, or diagonal.
-
-Marks: 2

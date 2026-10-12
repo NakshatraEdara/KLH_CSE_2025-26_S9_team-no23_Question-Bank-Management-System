@@ -2,7 +2,7 @@ Question ID: 28
 Subject: Data Structures and Algorithms
 Topic: Sorting Algorithms
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is the primary operational mechanism of Counting Sort?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Counting sort tallies the occurrences of each distinct integer key in an auxiliary array, then computes prefix sums to place elements directly into sorted position.
-
-Marks: 2

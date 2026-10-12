@@ -2,7 +2,7 @@ Question ID: 214
 Subject: Data Structures and Algorithms
 Topic: Backtracking
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 In generating all permutations of an array of n distinct elements via backtracking, what is the total number of leaves in the recursion tree?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The first position has n choices, the second n-1, ..., down to 1. The total number of valid full-length permutations generated at the leaves is n!.
-
-Marks: 5

@@ -2,7 +2,7 @@ Question ID: 105
 Subject: Data Structures and Algorithms
 Topic: B-Trees
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the worst-case search time complexity in a B-Tree containing n keys with order m?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The maximum height of a B-tree of order m is bounded by O(log_(m/2) n) = O(log_m n). With binary search within each node taking O(log m), total time is O(log n), but disk page accesses are O(log_m n).
-
-Marks: 10

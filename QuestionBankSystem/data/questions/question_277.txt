@@ -2,7 +2,7 @@ Question ID: 277
 Subject: Data Structures and Algorithms
 Topic: Sequence Alignment
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 In the traceback step of the Needleman-Wunsch algorithm, which matrix move corresponds to an insertion in the first sequence (or deletion in the second)?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A vertical move decrements i while leaving j unchanged, aligning character s1[i] with a gap '-'. A horizontal move aligns a gap '-' with s2[j].
-
-Marks: 5

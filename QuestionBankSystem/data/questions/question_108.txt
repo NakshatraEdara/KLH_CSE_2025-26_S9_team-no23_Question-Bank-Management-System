@@ -2,7 +2,7 @@ Question ID: 108
 Subject: Data Structures and Algorithms
 Topic: B-Trees
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is true about the depth of all leaf nodes in any valid B-Tree?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A defining structural invariant of B-Trees is that all leaf nodes reside at the exact same depth, ensuring uniform search path lengths.
-
-Marks: 2

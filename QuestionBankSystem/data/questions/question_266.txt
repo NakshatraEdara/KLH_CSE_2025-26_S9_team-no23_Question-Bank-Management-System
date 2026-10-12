@@ -2,7 +2,7 @@ Question ID: 266
 Subject: Data Structures and Algorithms
 Topic: Edit Distance
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the time complexity and standard space complexity of the Wagner-Fischer algorithm for Edit Distance between strings of length m and n?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Wagner-Fischer computes an (m+1) x (n+1) table where each cell takes O(1) time, yielding O(m * n) time and O(m * n) full table space.
-
-Marks: 5

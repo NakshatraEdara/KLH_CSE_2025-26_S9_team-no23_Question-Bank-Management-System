@@ -2,7 +2,7 @@ Question ID: 93
 Subject: Data Structures and Algorithms
 Topic: Segment Tree
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What mathematical property must an operation satisfy to be maintained across segments in a Segment Tree?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Associativity (op(op(a, b), c) = op(a, op(b, c))) is strictly required so that results computed over sub-intervals can be combined correctly in arbitrary tree hierarchical groupings.
-
-Marks: 5

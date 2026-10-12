@@ -2,7 +2,7 @@ Question ID: 52
 Subject: Data Structures and Algorithms
 Topic: Binary Search Tree
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How can one find the Lowest Common Ancestor (LCA) of two distinct keys u and v (where u < v) in a BST?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Because of the BST ordering property, if both u and v are smaller than current node, LCA is in left subtree; if both are greater, in right subtree. The first node between u and v splits them and is the LCA.
-
-Marks: 5

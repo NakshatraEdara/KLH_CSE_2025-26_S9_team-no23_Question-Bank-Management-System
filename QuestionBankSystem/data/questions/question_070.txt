@@ -2,7 +2,7 @@ Question ID: 70
 Subject: Data Structures and Algorithms
 Topic: Hashing
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the load factor alpha of a hash table with n stored entries and m total slots?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 The load factor alpha is defined as n / m. When alpha exceeds a designated threshold (such as 0.75 in Java's HashMap), the table is dynamically resized and rehashed.
-
-Marks: 5

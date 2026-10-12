@@ -2,7 +2,7 @@ Question ID: 225
 Subject: Data Structures and Algorithms
 Topic: String Matching
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is the worst-case time complexity of the Knuth-Morris-Pratt (KMP) string matching algorithm for a text of length n and pattern of length m?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 KMP preprocesses the pattern in O(m) time and scans the text without ever rolling back the text pointer, matching all occurrences in O(n) time for total O(n + m).
-
-Marks: 2

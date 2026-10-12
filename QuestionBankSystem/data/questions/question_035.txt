@@ -2,7 +2,7 @@ Question ID: 35
 Subject: Data Structures and Algorithms
 Topic: Sorting Algorithms
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the purpose of using 3-way partitioning (Dutch National Flag partitioning) in QuickSort?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 3-way partitioning splits the array into < pivot, == pivot, and > pivot. When many duplicate keys exist, elements equal to pivot are excluded from further recursion, achieving O(n) time.
-
-Marks: 5

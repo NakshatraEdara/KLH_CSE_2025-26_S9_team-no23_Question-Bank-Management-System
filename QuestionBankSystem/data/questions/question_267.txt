@@ -2,7 +2,7 @@ Question ID: 267
 Subject: Data Structures and Algorithms
 Topic: Edit Distance
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 How can the space complexity of Edit Distance calculation be reduced if only the distance score (not the alignment path) is needed?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Because computing row i only requires values from row i - 1 and the current row, maintaining two alternating rows achieves O(min(m, n)) space.
-
-Marks: 5

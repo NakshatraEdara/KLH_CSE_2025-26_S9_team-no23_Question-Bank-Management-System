@@ -2,7 +2,7 @@ Question ID: 215
 Subject: Data Structures and Algorithms
 Topic: Backtracking
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 How many total subsets (power set) exist for a set of size n, and what is the height of the backtracking decision tree?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 At each level i from 1 to n, the algorithm branches into two decisions: include element i or exclude element i. This binary tree of depth n produces 2^n leaves.
-
-Marks: 2

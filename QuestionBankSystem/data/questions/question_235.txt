@@ -2,7 +2,7 @@ Question ID: 235
 Subject: Data Structures and Algorithms
 Topic: String Matching
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What core algorithmic technique does the Rabin-Karp string search algorithm utilize?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Rabin-Karp computes a polynomial rolling hash for pattern and text windows. By updating the hash in O(1) as the window slides, it avoids comparing full strings unless hashes match.
-
-Marks: 2

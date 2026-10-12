@@ -2,7 +2,7 @@ Question ID: 192
 Subject: Data Structures and Algorithms
 Topic: Greedy Algorithms
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 Can the Fractional Knapsack problem be solved optimally using a Greedy approach?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Because items can be divided into fractions, taking as much of the item with the highest value-per-unit-weight as possible is guaranteed to yield the optimal knapsack value.
-
-Marks: 2

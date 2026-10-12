@@ -2,7 +2,7 @@ Question ID: 69
 Subject: Data Structures and Algorithms
 Topic: Hashing
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the purpose of Double Hashing, and what constraint must the secondary hash function h2(k) satisfy?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Double hashing eliminates primary and secondary clustering. The step size h2(k) must be coprime with m (gcd(h2(k), m) = 1) so the probe sequence visits all m slots before repeating.
-
-Marks: 10

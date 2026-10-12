@@ -2,7 +2,7 @@ Question ID: 241
 Subject: Data Structures and Algorithms
 Topic: String Matching
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is the Aho-Corasick string matching algorithm, and what is its time complexity to find all occurrences of a dictionary of patterns of total length M in a text of length N?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Aho-Corasick constructs a finite-state automaton (Trie with BFS failure links resembling KMP). It processes the text in a single pass of O(N) time regardless of the number of dictionary patterns.
-
-Marks: 10

@@ -2,7 +2,7 @@ Question ID: 173
 Subject: Data Structures and Algorithms
 Topic: Floyd-Warshall Algorithm
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 What is the core dynamic programming recurrence relation in the Floyd-Warshall algorithm?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 At iteration k, dist[i][j] represents the shortest path from i to j using only intermediate vertices from {1, ..., k}. The path either avoids k (dist[i][j]) or passes through k (dist[i][k] + dist[k][j]).
-
-Marks: 5

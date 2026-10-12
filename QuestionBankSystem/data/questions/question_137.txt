@@ -2,7 +2,7 @@ Question ID: 137
 Subject: Data Structures and Algorithms
 Topic: Kruskal's Algorithm
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 Which data structure is fundamentally used in Kruskal's algorithm to efficiently detect and prevent cycles?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Kruskal's algorithm sorts edges by weight and uses a Disjoint Set Union (DSU) structure to check whether the endpoints of an edge belong to the same connected component in near O(1) time.
-
-Marks: 2

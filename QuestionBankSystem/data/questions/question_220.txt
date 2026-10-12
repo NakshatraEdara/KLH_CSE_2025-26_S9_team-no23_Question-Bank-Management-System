@@ -2,7 +2,7 @@ Question ID: 220
 Subject: Data Structures and Algorithms
 Topic: Backtracking
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 In constraint satisfaction problems (CSP), what is the Forward Checking heuristic?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Forward checking maintains remaining valid domains for all unassigned variables. If assigning a value to the current variable reduces any remaining variable's domain to empty, the assignment is rejected immediately.
-
-Marks: 10

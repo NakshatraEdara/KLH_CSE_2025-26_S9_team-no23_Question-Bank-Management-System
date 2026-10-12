@@ -2,7 +2,7 @@ Question ID: 178
 Subject: Data Structures and Algorithms
 Topic: A* Search
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What does it mean for a heuristic function h(n) in A* search to be admissible?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 An admissible heuristic is optimistic: it never estimates a cost greater than the true minimal cost to reach the destination.
-
-Marks: 2

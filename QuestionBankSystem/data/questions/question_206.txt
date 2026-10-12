@@ -2,7 +2,7 @@ Question ID: 206
 Subject: Data Structures and Algorithms
 Topic: Dynamic Programming
 Difficulty: Hard
-Question Type: Multiple Choice
+Marks: 10
 
 Question:
 What is Digit DP, and what state variables are typically used in its memoization table?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Digit DP counts numbers in a range [A, B] satisfying digit properties by building digits from most to least significant, tracking whether the prefix matches the strict upper bound (tight flag).
-
-Marks: 10

@@ -2,7 +2,7 @@ Question ID: 81
 Subject: Data Structures and Algorithms
 Topic: Fenwick Tree
 Difficulty: Easy
-Question Type: Multiple Choice
+Marks: 2
 
 Question:
 What is another common name for a Fenwick Tree?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 A Fenwick Tree is widely known as a Binary Indexed Tree (BIT), introduced by Peter Fenwick in 1994 for efficient cumulative frequency calculations.
-
-Marks: 2

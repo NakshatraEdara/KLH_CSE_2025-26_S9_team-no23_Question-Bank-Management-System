@@ -2,7 +2,7 @@ Question ID: 150
 Subject: Data Structures and Algorithms
 Topic: Minimum Spanning Tree
 Difficulty: Medium
-Question Type: Multiple Choice
+Marks: 5
 
 Question:
 If an existing MST has been computed for a graph, and the weight of one non-MST edge e=(u, v) is decreased, how fast can the new MST be updated?
@@ -17,5 +17,3 @@ Correct Answer: A
 
 Explanation:
 Adding edge e creates a unique fundamental cycle in the MST. Finding the max edge on the tree path between u and v in O(V) and replacing it if it is heavier than e's new weight updates the MST.
-
-Marks: 5
